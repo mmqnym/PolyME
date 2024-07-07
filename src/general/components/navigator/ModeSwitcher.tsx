@@ -23,9 +23,9 @@ function ModeSwitcher() {
   return (
     <button onClick={toggleDarkMode}>
       {isDarkMode ? (
-        <NormalModeLogo className="mr-1 w-8 fill-gray-500 dark:fill-white/70" />
+        <NormalModeLogo className="mr-1 w-8 fill-gray-500 transition-colors duration-300 hover:fill-amber-600 dark:fill-white/70 hover:dark:fill-purple-200" />
       ) : (
-        <DarkModeLogo className="mr-1 w-8 fill-gray-500 dark:fill-white/70" />
+        <DarkModeLogo className="mr-1 w-8 fill-gray-500 transition-colors duration-300 hover:fill-amber-600 dark:fill-white/70 hover:dark:fill-purple-200" />
       )}
     </button>
   );
