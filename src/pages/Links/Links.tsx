@@ -56,17 +56,17 @@ function Links() {
       handle: "mmqnym",
       url: "https://www.linkedin.com/in/mmqnym/",
     },
-    { Logo: MailLogo, HoverLogo: MailLogo, title: "Mail", handle: "mmqnym", url: "mailto:mail@mmq.dev" },
+    { Logo: MailLogo, HoverLogo: MailLogo, title: "Mail", handle: "mail@mmq.dev", url: "mailto:mail@mmq.dev" },
   ];
 
   return (
     <Container>
-      <div className="mt-52 grid grid-cols-1 gap-x-5 gap-y-10 sm:grid-cols-2 sm:gap-x-10 sm:gap-y-24 lg:grid-cols-4 lg:gap-x-16">
+      <div className="mt-52 grid grid-cols-1 gap-x-5 gap-y-10 sm:grid-cols-2 sm:gap-x-10 sm:gap-y-24 xl:grid-cols-4 xl:gap-x-16">
         {LinkCardList.map(({ Logo, HoverLogo, title, handle, url }, index) => (
           <LinkCard key={index} Logo={Logo} HoverLogo={HoverLogo} title={title} handle={handle} url={url} />
         ))}
       </div>
-      <div className="mt-32 sm:mt-64 lg:mt-[28rem] xl:mt-[17rem]"></div>
+      <div className="mt-32 sm:mt-64 lg:mt-[18rem] xl:mt-[17rem]"></div>
       <Footer />
     </Container>
   );
