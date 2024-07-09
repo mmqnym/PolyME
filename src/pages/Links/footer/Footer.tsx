@@ -2,12 +2,12 @@ import BottomWave from "./BottomWave";
 
 function Footer() {
   return (
-    <footer className="group flex h-60 w-full select-none flex-col items-center justify-center gap-4 border-t-2 border-amber-900/30 transition-colors duration-500 hover:border-amber-900/70 dark:border-purple-400/30 dark:hover:border-purple-400/70 sm:h-40 sm:flex-row">
-      <div className="mr-12 flex w-full flex-col items-center justify-center sm:w-1/4">
+    <footer className="group flex h-60 w-full select-none flex-col items-center justify-center gap-4 bg-orange-100 transition-colors duration-500 dark:border-t-2 dark:border-purple-400/30 dark:bg-stone-900/80 dark:hover:border-purple-400/70 sm:h-40 sm:flex-row">
+      <div className="mr-12 flex w-full flex-col items-center justify-center sm:w-1/4 lg:items-start lg:pl-24">
         <p className="font-orbitron flex flex-row items-center justify-center text-3xl text-amber-900/60 transition-colors duration-500 group-hover:text-amber-900 dark:text-purple-400/60 dark:group-hover:text-purple-400">
           PolyME
         </p>
-        <p className="font-ubuntu flex items-center justify-center pl-36 pt-1 text-sm text-gray-400/80">
+        <p className="font-ubuntu flex items-center justify-center pl-36 pt-1 text-sm text-gray-400/80 lg:pl-16">
           Produced by 0xmmq
         </p>
       </div>
