@@ -17,7 +17,7 @@ export default {
         },
         lowerBounce: {
           "0%, 100%": { transform: "translateY(-8%); opacity: 1" },
-          "50%": { transform: "translateY(0%); opacity: .7" },
+          "50%": { transform: "translateY(-2%); opacity: .7" },
         },
       },
       fontFamily: {
