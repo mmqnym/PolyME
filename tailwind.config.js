@@ -8,7 +8,7 @@ export default {
         wave: "wave 3s linear infinite",
         "wave-slow": "wave 5s linear infinite",
         "wave-slower": "wave 8s linear infinite",
-        "lower-bounce": "lowerBounce 2s ease-in-out infinite",
+        "lower-bounce": "lowerBounce 1s ease-in-out infinite",
       },
       keyframes: {
         wave: {
@@ -16,8 +16,14 @@ export default {
           "100%": { transform: "translateX(-50%)" },
         },
         lowerBounce: {
-          "0%, 100%": { transform: "translateY(-8%); opacity: 1" },
-          "50%": { transform: "translateY(-2%); opacity: .7" },
+          "0%, 100%": {
+            transform: "translateY(-10%); opacity: 1",
+            animationTimingFunction: "cubic-bezier(0.8, 0, 1, 1)",
+          },
+          "50%": {
+            transform: "none; opacity: .8",
+            animationTimingFunction: "cubic-bezier(0, 0, 0.2, 1)",
+          },
         },
       },
       fontFamily: {
