@@ -61,7 +61,7 @@ function Links() {
 
   return (
     <Container>
-      <div className="mt-52 grid grid-cols-1 gap-x-5 gap-y-10 sm:grid-cols-2 sm:gap-x-10 sm:gap-y-24 xl:grid-cols-4 xl:gap-x-16">
+      <div className="mt-12 grid grid-cols-1 gap-x-5 gap-y-10 sm:grid-cols-2 sm:gap-x-10 sm:gap-y-24 xl:mt-52 xl:grid-cols-4 xl:gap-x-16">
         {LinkCardList.map(({ Logo, HoverLogo, title, handle, url }, index) => (
           <LinkCard key={index} Logo={Logo} HoverLogo={HoverLogo} title={title} handle={handle} url={url} />
         ))}
