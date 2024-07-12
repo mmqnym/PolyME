@@ -9,10 +9,8 @@ function ModeSwitcher() {
   useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add("dark");
-      console.log("dark");
     } else {
       document.documentElement.classList.remove("dark");
-      console.log("normal");
     }
   }, [isDarkMode]);
 
@@ -21,7 +19,7 @@ function ModeSwitcher() {
   };
 
   return (
-    <button onClick={toggleDarkMode}>
+    <button className="hidden xl:block" onClick={toggleDarkMode}>
       {isDarkMode ? (
         <NormalModeLogo className="mr-1 w-8 fill-gray-500 transition-colors duration-300 hover:fill-amber-600 dark:fill-white/70 hover:dark:fill-purple-200" />
       ) : (
