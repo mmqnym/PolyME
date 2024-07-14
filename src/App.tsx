@@ -10,10 +10,13 @@ import { useState } from "react";
 
 function App() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   const contextValue = {
     showMobileMenu,
     setShowMobileMenu,
+    isDarkMode,
+    setIsDarkMode,
   };
 
   return (
