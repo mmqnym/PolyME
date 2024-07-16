@@ -58,7 +58,7 @@ import PhotoShopLogo from "../../general/assets/stacks/photoshop.svg?react";
 function Stack() {
   return (
     <Container>
-      <div className="flex w-3/4 flex-col pb-64 xl:w-1/2">
+      <div className="flex w-3/4 flex-col pb-24 xl:w-1/2 xl:pb-64">
         <SkillList
           category="Languages"
           child={
@@ -75,7 +75,7 @@ function Stack() {
           category="Backend"
           child={
             <>
-              <SkillLabel logo={GinLogo} label="Gin" width="w-12" height="h-16" />
+              <SkillLabel logo={GinLogo} label="Gin" width="w-8 sm:w-12" height="h-12 sm:h-16" />
               <SkillLabel logo={FastAPILogo} label="FastAPI" />
               <SkillLabel logo={NodejsLogo} label="NodeJS" />
               <SkillLabel logo={RedisLogo} label="Redis" />
