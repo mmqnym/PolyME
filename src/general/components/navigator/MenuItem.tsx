@@ -41,7 +41,7 @@ function MenuItem({ Logo, label, route }: Props) {
                   : "fill-gray-500 group-hover:fill-amber-600 dark:fill-white/70 dark:group-hover:fill-purple-200"
               }`}
             />
-            <span className="transition-colors duration-300">{label}</span>
+            <span className="tracking-wider transition-colors duration-300">{label}</span>
           </>
         )}
       </NavLink>
