@@ -1,4 +1,3 @@
-import Logo from "../../assets/logo.svg?react";
 import ModeSwitcher from "./ModeSwitcher";
 import Menu from "./Menu";
 import Title from "./Title";
@@ -14,16 +13,15 @@ function Navigator() {
   }
 
   const closeMenu = () => {
-    navigatorContext?.setShowMobileMenu(false);
+    navigatorContext.setShowMobileMenu(false);
   };
 
   return (
     <nav
       id="navigator"
-      className="top-0 flex h-16 w-full flex-row items-center justify-between bg-orange-100 p-4 transition-colors duration-500 dark:bg-black xl:sticky"
+      className="top-0 z-50 flex h-16 w-full flex-row items-center justify-between bg-orange-100 p-4 transition-colors duration-500 dark:bg-black xl:sticky"
     >
       <div className="flex flex-row items-center" onClick={closeMenu}>
-        <Logo className="mr-2 w-8" />
         <Title />
         <Menu />
       </div>

@@ -1,26 +1,31 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect } from "react";
 
 import DarkModeLogo from "../../assets/dark-mode.svg?react";
 import NormalModeLogo from "../../assets/normal-mode.svg?react";
+import { NavigatorContext } from "../../../context/navigatorContext";
 
 function ModeSwitcher() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const navigatorContext = useContext(NavigatorContext);
+
+  if (!navigatorContext) {
+    throw new Error("NavigatorContext must be used within a NavigatorProvider");
+  }
 
   useEffect(() => {
-    if (isDarkMode) {
+    if (navigatorContext.isDarkMode) {
       document.documentElement.classList.add("dark");
     } else {
       document.documentElement.classList.remove("dark");
     }
-  }, [isDarkMode]);
+  }, [navigatorContext.isDarkMode]);
 
   const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
+    navigatorContext.setIsDarkMode((prev) => !prev);
   };
 
   return (
     <button className="hidden xl:block" onClick={toggleDarkMode}>
-      {isDarkMode ? (
+      {!navigatorContext.isDarkMode ? (
         <NormalModeLogo className="mr-1 w-8 fill-gray-500 transition-colors duration-300 hover:fill-amber-600 dark:fill-white/70 hover:dark:fill-purple-200" />
       ) : (
         <DarkModeLogo className="mr-1 w-8 fill-gray-500 transition-colors duration-300 hover:fill-amber-600 dark:fill-white/70 hover:dark:fill-purple-200" />

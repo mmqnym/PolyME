@@ -9,7 +9,7 @@ function Container({ children }: { children: React.ReactNode }) {
   }
 
   const closeMenu = () => {
-    navigatorContext?.setShowMobileMenu(false);
+    navigatorContext.setShowMobileMenu(false);
   };
 
   return (

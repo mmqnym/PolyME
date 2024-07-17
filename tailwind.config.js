@@ -9,6 +9,7 @@ export default {
         "wave-slow": "wave 5s linear infinite",
         "wave-slower": "wave 8s linear infinite",
         "lower-bounce": "lowerBounce 1s ease-in-out infinite",
+        ripple: "ripple 1.5s cubic-bezier(0, 0.2, 0.8, 1) infinite",
       },
       keyframes: {
         wave: {
@@ -24,6 +25,10 @@ export default {
             transform: "none; opacity: .8",
             animationTimingFunction: "cubic-bezier(0, 0, 0.2, 1)",
           },
+        },
+        ripple: {
+          "0%": { transform: "scale(0.8)", opacity: 1 },
+          "100%": { transform: "scale(2.4)", opacity: 0 },
         },
       },
       fontFamily: {
