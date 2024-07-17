@@ -1,0 +1,25 @@
+{
+  "version": 3,
+  "routes": [
+    {
+      "src": "/profile",
+      "dest": "/profile"
+    },
+    {
+      "src": "/stack",
+      "dest": "/stack"
+    },
+    {
+      "src": "/experience",
+      "dest": "/experience"
+    },
+    {
+      "src": "/portfolio",
+      "dest": "/portfolio"
+    },
+    {
+      "src": "/links",
+      "dest": "/links"
+    }
+  ]
+}
