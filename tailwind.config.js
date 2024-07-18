@@ -5,9 +5,7 @@ export default {
   theme: {
     extend: {
       animation: {
-        wave: "wave 3s linear infinite",
-        "wave-slow": "wave 5s linear infinite",
-        "wave-slower": "wave 8s linear infinite",
+        wave: "wave 8s linear infinite",
         "lower-bounce": "lowerBounce 1s ease-in-out infinite",
         ripple: "ripple 1.5s cubic-bezier(0, 0.2, 0.8, 1) infinite",
       },
