@@ -26,7 +26,7 @@ function MobileMenu() {
     <>
       <button id="mobile-menu-btn" type="button" className="block xl:hidden" onClick={toggleMenu}>
         <MobileMenuLogo
-          className={`${navigatorContext?.showMobileMenu ? "hidden" : "block"} h-10 w-10 fill-gray-700 dark:fill-gray-300`}
+          className={`${navigatorContext?.showMobileMenu ? "hidden" : "block"} h-10 w-10 stroke-gray-700 dark:stroke-gray-300`}
         />
       </button>
       <ul
