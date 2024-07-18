@@ -33,7 +33,7 @@ function Experience() {
         Experience:\n\
         1. Developed and maintained an AI-based multimedia product that, after obtaining patents, generated at least 4 million $NTD in profit for the company within half a year. This product was also used in at least 5 new projects within the company.\n\
         2. Supported the coding of backend systems and AI-related application for multiple projects.\n\
-        3. Planned and developed the backend system and related EVM contracts for a gamefi project, as well as integrated Discord and X Oauth to prevent Sybil attacks.\n\
+        3. Planned and developed the high concurrency backend system and related EVM contracts for a gamefi project, as well as integrated Discord and X Oauth to prevent Sybil attacks.\n\
         4. Developed and deployed a product key verification server on GCP for the company, which saved approximately 1,000 $NTD in hardware key costs for each product sold.\n\
         5. Assisted the NCDR(National Science & Technology Center for Disaster Reduction)'s project by setting up GCB (GPO), saving the company approximately 600,000 $NTD in outsourcing fees.\n\
         6. Developed AI face-swapping for the 2024 Tainan Lantern Festival, saving the company 100,000 $NTD in outsourcing fees.\n",
