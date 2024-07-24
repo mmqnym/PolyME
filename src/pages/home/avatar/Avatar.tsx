@@ -1,4 +1,4 @@
-import avatar from "../../../general/assets/new_mmqpfp_rb.webp";
+import avatar from "../../../general/assets/avatar.webp";
 
 function Avatar() {
   return (
@@ -6,7 +6,7 @@ function Avatar() {
       src={avatar}
       alt="avatar"
       draggable="false"
-      className="animate-slow-jump absolute right-[5%] top-0 z-10 w-1/2"
+      className="sm:animate-slow-jump absolute right-4 w-[30%] rounded-full bg-gray-700/10 p-2 dark:bg-gray-300/10 sm:-right-[12%] sm:bottom-4 sm:w-2/3 sm:rounded-none sm:bg-transparent sm:dark:bg-transparent xl:relative xl:-right-[5%] xl:w-[40%]"
     />
   );
 }

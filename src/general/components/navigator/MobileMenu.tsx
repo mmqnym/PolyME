@@ -31,7 +31,7 @@ function MobileMenu() {
       </button>
       <ul
         id="mobile-menu"
-        className={`dark:via-dark fixed right-0 top-0 z-10 flex min-h-screen w-[45vw] flex-col overflow-hidden border-l border-gray-700/30 bg-gradient-to-tl from-orange-100 via-orange-100 to-orange-200 transition-transform duration-300 dark:border-gray-500/70 dark:from-stone-950/90 dark:to-stone-950 sm:w-[35vw] xl:hidden ${
+        className={`dark:via-dark fixed right-0 top-0 z-50 flex min-h-screen w-[45vw] flex-col overflow-hidden border-l border-gray-700/30 bg-gradient-to-tl from-orange-100 via-orange-100 to-orange-200 transition-transform duration-300 dark:border-gray-500/70 dark:from-stone-950/90 dark:to-stone-950 sm:w-[35vw] xl:hidden ${
           navigatorContext?.showMobileMenu ? "translate-x-0" : "translate-x-full"
         }`}
       >
