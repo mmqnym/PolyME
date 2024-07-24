@@ -8,6 +8,7 @@ export default {
         wave: "wave 8s linear infinite",
         "lower-bounce": "lowerBounce 1s ease-in-out infinite",
         ripple: "ripple 1.5s cubic-bezier(0, 0.2, 0.8, 1) infinite",
+        "slow-jump": "slowJump 5s ease-in-out infinite",
       },
       keyframes: {
         wave: {
@@ -27,6 +28,11 @@ export default {
         ripple: {
           "0%": { transform: "scale(0.8)", opacity: 1 },
           "100%": { transform: "scale(2.4)", opacity: 0 },
+        },
+        slowJump: {
+          "0%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-1%)" },
+          "100%": { transform: "translateY(0)" },
         },
       },
       fontFamily: {
