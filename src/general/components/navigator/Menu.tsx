@@ -8,7 +8,7 @@ import LinksLogo from "../../assets/labels/links.svg?react";
 
 function Menu() {
   return (
-    <ul id="menu" className="font-ubuntu hidden select-none flex-row items-center space-x-10 tracking-wider xl:flex">
+    <ul id="menu" className="hidden select-none flex-row items-center space-x-10 font-ubuntu tracking-wider xl:flex">
       <MenuItem Logo={ProfileLogo} label="Profile" route="/" />
       <MenuItem Logo={StackLogo} label="Stack" route="/stack" />
       <MenuItem Logo={ExperienceLogo} label="Experience" route="/experience" />
