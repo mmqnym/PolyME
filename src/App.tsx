@@ -1,12 +1,16 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/home/Home";
-import Stack from "./pages/stack/Stack";
-import Experience from "./pages/experience/Experience";
-import Portfolio from "./pages/portfolio/Portfolio";
-import Links from "./pages/Links/Links";
 import Navigator from "./general/components/navigator/Navigator";
 import { NavigatorContext } from "./context/navigatorContext";
-import { useState } from "react";
+import { lazy, useState } from "react";
+
+import LoadingPage from "./pages/loading/LoadingPage";
+import LazyLoader from "./general/components/lazyLoader/LazyLoader";
+
+const Home = lazy(() => import("./pages/home/Home"));
+const Stack = lazy(() => import("./pages/stack/Stack"));
+const Experience = lazy(() => import("./pages/experience/Experience"));
+const Portfolio = lazy(() => import("./pages/portfolio/Portfolio"));
+const Links = lazy(() => import("./pages/Links/Links"));
 
 function App() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -23,13 +27,16 @@ function App() {
     <NavigatorContext.Provider value={contextValue}>
       <BrowserRouter>
         <Navigator />
-        <Routes>
-          <Route index element={<Home />} />
-          <Route path="/stack" element={<Stack />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/links" element={<Links />} />
-        </Routes>
+        <LazyLoader fallback={<LoadingPage needTime={800} />}>
+          <Routes>
+            <Route index element={<Home />} />
+            <Route path="/stack" element={<Stack />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/links" element={<Links />} />
+            <Route path="/test" element={<LoadingPage needTime={800} />} />
+          </Routes>
+        </LazyLoader>
       </BrowserRouter>
     </NavigatorContext.Provider>
   );
