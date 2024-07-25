@@ -1,8 +1,9 @@
 import avatar from "../../../general/assets/avatar.webp";
+import SuspenseImage from "../../../general/components/lazyLoader/SuspenseImage";
 
 function Avatar() {
   return (
-    <img
+    <SuspenseImage
       src={avatar}
       alt="avatar"
       draggable="false"

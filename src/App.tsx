@@ -14,7 +14,10 @@ const Links = lazy(() => import("./pages/Links/Links"));
 
 function App() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    const savedTheme = localStorage.getItem("theme");
+    return savedTheme === "dark";
+  });
 
   const contextValue = {
     showMobileMenu,
@@ -26,8 +29,8 @@ function App() {
   return (
     <NavigatorContext.Provider value={contextValue}>
       <BrowserRouter>
-        <Navigator />
         <LazyLoader minDelay={800} fallback={<LoadingPage needTime={800} />}>
+          <Navigator />
           <Routes>
             <Route index element={<Home />} />
             <Route path="/stack" element={<Stack />} />

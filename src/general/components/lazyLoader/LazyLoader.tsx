@@ -7,12 +7,13 @@ interface Props {
   children: React.ReactNode;
 }
 
-function LazyLoader({ fallback, minDelay = 800, children }: Props) {
+function LazyLoader({ fallback, minDelay = 500, children }: Props) {
   const [isDelayPassed, setIsDelayPassed] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
     setIsDelayPassed(false);
+
     const timer = setTimeout(() => {
       setIsDelayPassed(true);
     }, minDelay);

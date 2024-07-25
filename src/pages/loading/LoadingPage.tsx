@@ -25,7 +25,7 @@ function LoadingPage({ needTime }: Props) {
   }, []);
 
   return (
-    <div className="flex h-[calc(100vh-4rem)] w-full flex-col items-center justify-center bg-orange-50 dark:bg-black">
+    <div className="flex h-screen w-full flex-col items-center justify-center bg-orange-50 dark:bg-black">
       <div className="flex w-1/3 flex-col items-center justify-center sm:w-1/4 xl:w-[10%]">
         <img src={logo} alt="logo" className="w-[80%]" style={{ opacity: progress / 100 }} />
 
