@@ -27,7 +27,7 @@ function App() {
     <NavigatorContext.Provider value={contextValue}>
       <BrowserRouter>
         <Navigator />
-        <LazyLoader fallback={<LoadingPage needTime={800} />}>
+        <LazyLoader minDelay={800} fallback={<LoadingPage needTime={800} />}>
           <Routes>
             <Route index element={<Home />} />
             <Route path="/stack" element={<Stack />} />
