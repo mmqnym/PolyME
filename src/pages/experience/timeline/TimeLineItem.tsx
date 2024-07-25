@@ -3,7 +3,6 @@ import TimeLineDot from "./TimeLineDot";
 import TimeLineLine from "./TimeLineLine";
 
 interface Props {
-  key: number;
   title: string;
   organization: string;
   location: string;
@@ -15,19 +14,8 @@ interface Props {
   isLast: boolean;
 }
 
-const TimeLineItem = ({
-  key,
-  title,
-  organization,
-  location,
-  logo,
-  time,
-  content,
-  isCurrent,
-  isFirst,
-  isLast,
-}: Props) => (
-  <li key={key} className="relative pb-12">
+const TimeLineItem = ({ title, organization, location, logo, time, content, isCurrent, isFirst, isLast }: Props) => (
+  <li className="relative pb-12">
     {!isLast && <TimeLineLine isFirst={isFirst} isCurrent={isCurrent} />}
     <div className="relative flex items-start">
       <TimeLineDot isFirst={isFirst} isCurrent={isCurrent} />

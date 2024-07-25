@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 function MobileInfoCardContent() {
   return (
-    <div className="mt-8 flex w-3/4 flex-col">
+    <div className="mt-10 flex w-3/4 flex-col">
       <p className="mt-5 font-ubuntu text-lg leading-8 text-gray-600 transition-colors duration-500 dark:text-gray-300">
         I am a backend engineer passionate about development and technology research, specializing in blockchain and
         fintech domains with 3 years of relevant work experience.
