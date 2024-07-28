@@ -29,7 +29,7 @@ function App() {
   return (
     <NavigatorContext.Provider value={contextValue}>
       <BrowserRouter>
-        <LazyLoader minDelay={800} fallback={<LoadingPage needTime={800} />}>
+        <LazyLoader minDelay={600} fallback={<LoadingPage needTime={600} />}>
           <Navigator />
           <Routes>
             <Route index element={<Home />} />

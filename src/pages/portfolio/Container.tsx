@@ -14,7 +14,7 @@ function Container({ children }: { children: React.ReactNode }) {
 
   return (
     <div
-      className="flex min-h-[calc(100vh-4rem)] w-full flex-col items-center bg-orange-50 font-ubuntu dark:bg-black"
+      className="relative flex h-[calc(100vh-4rem)] w-full flex-col items-center bg-orange-50 pt-24 font-ubuntu transition-colors duration-300 dark:bg-black"
       onClick={closeMenu}
     >
       {children}

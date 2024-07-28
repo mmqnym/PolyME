@@ -6,7 +6,7 @@ interface SuspenseImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
 
 function SuspenseImage({ src, ...props }: SuspenseImageProps) {
   imageLoader.loadImage(src);
-  return <img src={src} {...props} />;
+  return <img src={src} draggable="false" {...props} />;
 }
 
 export default SuspenseImage;

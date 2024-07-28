@@ -1,9 +1,10 @@
 import Container from "./Container";
+import WorkCardList from "./WorkCardList/WorkCardList";
 
 function Portfolio() {
   return (
     <Container>
-      <h1 className="text-3xl text-white">Portfolio</h1>
+      <WorkCardList />
     </Container>
   );
 }

@@ -16,9 +16,10 @@ import ENSHoverLogo from "../../general/assets/socials/cEns.svg?react";
 
 import LinkCard, { LinkCardProps } from "./linkCard/LinkCard";
 import Footer from "./footer/Footer";
+import { Fragment } from "react";
 
 function Links() {
-  const LinkCardList: LinkCardProps[] = [
+  const linkCardList: LinkCardProps[] = [
     { Logo: XLogo, HoverLogo: XLogo, title: "X", handle: "@mmqnym", url: "https://x.com/mmqnym" },
     { Logo: GitHubLogo, HoverLogo: GitHubLogo, title: "GitHub", handle: "mmqnym", url: "https://github.com/mmqnym" },
     {
@@ -62,8 +63,10 @@ function Links() {
   return (
     <Container>
       <div className="mt-24 grid grid-cols-1 gap-x-5 gap-y-10 sm:mt-36 sm:grid-cols-2 sm:gap-x-10 sm:gap-y-20 xl:mt-56 xl:grid-cols-4 xl:gap-x-16">
-        {LinkCardList.map(({ Logo, HoverLogo, title, handle, url }, index) => (
-          <LinkCard key={index} Logo={Logo} HoverLogo={HoverLogo} title={title} handle={handle} url={url} />
+        {linkCardList.map(({ Logo, HoverLogo, title, handle, url }, index) => (
+          <Fragment key={index}>
+            <LinkCard Logo={Logo} HoverLogo={HoverLogo} title={title} handle={handle} url={url} />
+          </Fragment>
         ))}
       </div>
       <div className="mt-32 sm:mt-64 lg:mt-[18rem] xl:mt-[17rem]"></div>
