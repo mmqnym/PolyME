@@ -13,7 +13,7 @@ function Display() {
     },
     indicators: {
       active: {
-        off: "bg-white/50 hover:bg-white dark:bg-gray-800/50 dark:hover:bg-gray-800",
+        off: "bg-white/50 hover:bg-white dark:bg-gray-500/50 dark:hover:bg-gray-800",
         on: "bg-white dark:bg-purple-300 w-10",
       },
       base: "h-1.5 w-6 rounded-full transition-all duration-300",
