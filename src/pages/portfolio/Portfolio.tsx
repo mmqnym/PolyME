@@ -1,10 +1,16 @@
 import Container from "./Container";
-import WorkCardList from "./WorkCardList/WorkCardList";
+import WorkCard from "./workCrad/WorkCard";
+import WorkCardDock from "./workCardDock/WorkCardDock";
+
+import WorkCardConsumer from "./workCardConsumer/WorkCardConsumer";
 
 function Portfolio() {
   return (
     <Container>
-      <WorkCardList />
+      <WorkCardConsumer>
+        <WorkCard />
+        <WorkCardDock />
+      </WorkCardConsumer>
     </Container>
   );
 }

@@ -1,9 +1,13 @@
 import { Carousel } from "flowbite-react";
-import quickcerts1 from "../../../general/assets/works/content/quickcerts/quickerts-1.webp";
-import quickcerts2 from "../../../general/assets/works/content/quickcerts/quickerts-2.webp";
+import { useContext } from "react";
+import { WorkCardContext } from "../../../context/workCardContext";
 
 function Display() {
-  const images = [quickcerts1, quickcerts2];
+  const workCardContext = useContext(WorkCardContext);
+
+  if (!workCardContext) {
+    throw new Error("workCardContext must be used within a WorkCardContextProvider");
+  }
 
   const carouselTheme = {
     root: {
@@ -39,12 +43,12 @@ function Display() {
   return (
     <div className="col-span-3 col-start-1 row-span-8 row-start-2 h-full w-full rounded-2xl border border-gray-700 bg-gray-700/30">
       <Carousel slideInterval={5000} pauseOnHover={true} draggable={false} theme={carouselTheme}>
-        {images.map((src, index) => (
+        {workCardContext.workCardData.display.imgs.map((item, index) => (
           <div key={index} className="flex h-full w-full items-center justify-center">
             <img
-              src={src}
-              alt={`display-${index + 1}`}
-              className="h-auto max-h-full w-[99.9%] max-w-full object-contain"
+              src={item.src}
+              alt={item.alt}
+              className={`h-auto max-h-full w-[99.9%] max-w-full ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} cursor-pointer object-contain`}
             />
           </div>
         ))}
