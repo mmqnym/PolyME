@@ -29,7 +29,7 @@ const pwdPortData: WorkCardProps = {
         color: "bg-sky-400",
       },
     ],
-    skills: ["React", "TailwindCSS"],
+    skills: ["React", "Tailwind CSS", "Vercel"],
   },
   detail: `By using this password generation tool, it can help people who are used to using the same password to have higher security, and it can also provide a better password generation tool for people who are more aware of information security.`,
 };

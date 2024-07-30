@@ -3,6 +3,11 @@ import { workCardDataMap } from "../workCardDataMap";
 
 export const dock: WorkCardDockProjectProps[] = [
   {
+    title: workCardDataMap["PolyME"].title,
+    icon: workCardDataMap["PolyME"].dockIcon.src,
+    alt: workCardDataMap["PolyME"].dockIcon.alt,
+  },
+  {
     title: workCardDataMap["QuickCerts"].title,
     icon: workCardDataMap["QuickCerts"].dockIcon.src,
     alt: workCardDataMap["QuickCerts"].dockIcon.alt,
@@ -13,35 +18,24 @@ export const dock: WorkCardDockProjectProps[] = [
     alt: workCardDataMap["JumpCross"].dockIcon.alt,
   },
   {
+    title: workCardDataMap["VisHybrid"].title,
+    icon: workCardDataMap["VisHybrid"].dockIcon.src,
+    alt: workCardDataMap["VisHybrid"].dockIcon.alt,
+  },
+  {
     title: workCardDataMap["PwdPort"].title,
     icon: workCardDataMap["PwdPort"].dockIcon.src,
     alt: workCardDataMap["PwdPort"].dockIcon.alt,
+  },
+  {
+    title: workCardDataMap["Discord Member Verification System"].title,
+    icon: workCardDataMap["Discord Member Verification System"].dockIcon.src,
+    alt: workCardDataMap["Discord Member Verification System"].dockIcon.alt,
   },
   // {
   //   target: "GoINK",
   //   src: goinkProjectLogo,
   //   alt: "quickcerts-project-logo",
-  //   setCurrentChosenCard: setCurrentChosenCard,
-  //   currentChosenCard: currentChosenCard,
-  // },
-  // {
-  //   target: "JumpCross",
-  //   src: jumpcrossProjectLogo,
-  //   alt: "quickcerts-project-logo",
-  //   setCurrentChosenCard: setCurrentChosenCard,
-  //   currentChosenCard: currentChosenCard,
-  // },
-  // {
-  //   target: "VisHybrid",
-  //   src: tauriProjectLogo,
-  //   alt: "tauri-project-logo",
-  //   setCurrentChosenCard: setCurrentChosenCard,
-  //   currentChosenCard: currentChosenCard,
-  // },
-  // {
-  //   target: "PwdPort",
-  //   src: pwdportProjectLogo,
-  //   alt: "pwdport-project-logo",
   //   setCurrentChosenCard: setCurrentChosenCard,
   //   currentChosenCard: currentChosenCard,
   // },
@@ -60,7 +54,7 @@ export const dock: WorkCardDockProjectProps[] = [
   //   currentChosenCard: currentChosenCard,
   // },
   // {
-  //   target: "Discord Member Verification Bot",
+  //   target: "Discord Member Verification System",
   //   src: kaijuOfCronosProjectLogo,
   //   alt: "kaiju-of-cronos-project-logo",
   //   setCurrentChosenCard: setCurrentChosenCard,

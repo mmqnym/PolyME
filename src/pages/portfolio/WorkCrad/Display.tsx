@@ -41,14 +41,14 @@ function Display() {
   };
 
   return (
-    <div className="col-span-3 col-start-1 row-span-8 row-start-2 h-full w-full rounded-2xl border border-gray-700 bg-gray-700/30">
-      <Carousel slideInterval={5000} pauseOnHover={true} draggable={false} theme={carouselTheme}>
+    <div className="col-span-4 col-start-1 row-span-11 row-start-2 h-full w-full rounded-2xl border border-gray-700 bg-gray-700/30">
+      <Carousel slide={true} slideInterval={5000} pauseOnHover={true} draggable={true} theme={carouselTheme}>
         {workCardContext.workCardData.display.imgs.map((item, index) => (
           <div key={index} className="flex h-full w-full items-center justify-center">
             <img
               src={item.src}
               alt={item.alt}
-              className={`h-auto max-h-full w-[99.9%] max-w-full ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} cursor-pointer object-contain`}
+              className={`h-auto max-h-full w-[99.9%] max-w-full ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} object-contain`}
             />
           </div>
         ))}

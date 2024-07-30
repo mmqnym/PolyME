@@ -1,8 +1,7 @@
-import Description from "./Description";
+import About from "./About";
 import Stack from "./Stack";
 import Title from "./Title";
 import Detail from "./Detail";
-import Links from "./Links";
 import Display from "./Display";
 import WorkCardContainer from "./WorkCardContainer";
 
@@ -11,8 +10,7 @@ function WorkCard() {
     <WorkCardContainer>
       <Title />
       <Display />
-      <Links />
-      <Description />
+      <About />
       <Stack />
       <Detail />
     </WorkCardContainer>

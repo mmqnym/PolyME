@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 import { workCardDataMap } from "./workCardDataMap";
 
 function WorkCardConsumer({ children }: { children: React.ReactNode }) {
-  const [workCardData, setWorkCardData] = useState<WorkCardProps>(workCardDataMap["QuickCerts"]);
-  const [currentChosenCard, setCurrentChosenCard] = useState<string>("QuickCerts");
+  const [workCardData, setWorkCardData] = useState<WorkCardProps>(workCardDataMap["PolyME"]);
+  const [currentChosenCard, setCurrentChosenCard] = useState<string>("PolyME");
   const [isSwitchingCard, setIsSwitchingCard] = useState<boolean>(false);
 
   useEffect(() => {
