@@ -9,6 +9,7 @@ import SolLogo from "../../../../general/assets/blockchains/solana.webp";
 import BSCLogo from "../../../../general/assets/blockchains/bsc.webp";
 import ARBLogo from "../../../../general/assets/blockchains/arbitrum.webp";
 import BaseLogo from "../../../../general/assets/blockchains/base.webp";
+import BuyMeACofeLogo from "../../../../general/assets/works/linkIcon/buy-me-a-coffee.webp";
 
 function DonateButtonGroup() {
   const workCardContext = useContext(WorkCardContext);
@@ -53,6 +54,11 @@ function DonateButtonGroup() {
         src={BaseLogo}
         alt={`${workCardContext.workCardData.title}-donation-base`}
         url={"https://basescan.org/address/0x03762c4478518fbf036ed6062fe9035d2e6d0670"}
+      />
+      <DonateButton
+        src={BuyMeACofeLogo}
+        alt={`${workCardContext.workCardData.title}-donation-buymeacoffee`}
+        url={"https://buymeacoffee.com/mmqnym"}
       />
     </>
   );

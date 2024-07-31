@@ -19,7 +19,7 @@ const pwdPortData: WorkCardProps = {
   },
   links: [
     { icon: pwdportProjectLogo, alt: "pwdport-project-link", url: "https://pwdport.mmq.dev" },
-    { icon: githubLinkIcon, alt: "pwdport-github-link", url: "https://github.com/Pwdport" },
+    { icon: githubLinkIcon, alt: "pwdport-github-link", url: "https://github.com/mmqnym/Pwdport" },
   ],
   description: "This app helps people to generate secure passwords without having to remember too much information.",
   stack: {
@@ -28,8 +28,20 @@ const pwdPortData: WorkCardProps = {
         name: "TypeScript",
         color: "bg-sky-400",
       },
+      {
+        name: "JavaScript",
+        color: "bg-yellow-300",
+      },
+      {
+        name: "HTML",
+        color: "bg-orange-400",
+      },
+      {
+        name: "CSS",
+        color: "bg-purple-400",
+      },
     ],
-    skills: ["React", "Tailwind CSS", "Vercel"],
+    skills: ["React", "Tailwind CSS", "NPM", "Vercel", "Prettier"],
   },
   detail: `By using this password generation tool, it can help people who are used to using the same password to have higher security, and it can also provide a better password generation tool for people who are more aware of information security.`,
 };

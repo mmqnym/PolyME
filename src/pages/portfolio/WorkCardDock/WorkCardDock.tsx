@@ -20,13 +20,13 @@ function WorkCardDock() {
       >
         {currentHoveredProject}
       </p>
-      <div className="absolute bottom-0 flex h-[8%] w-full flex-row items-center justify-center border-t-2 border-purple-400/30 bg-stone-900/80 transition-all duration-500 xl:hover:h-[9%] xl:hover:border-purple-400/70">
+      <section className="absolute bottom-0 flex h-[8%] w-full flex-row items-center justify-center border-t-2 border-purple-400/30 bg-stone-900/80 transition-all duration-500 xl:hover:h-[9%] xl:hover:border-purple-400/70">
         {dock.map((project) => (
           <Fragment key={`dock-${project.title}`}>
             <Chooser {...project} setCurrentHoveredProject={setCurrentHoveredProject} />
           </Fragment>
         ))}
-      </div>
+      </section>
     </>
   );
 }

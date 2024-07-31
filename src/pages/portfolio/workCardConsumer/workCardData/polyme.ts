@@ -28,12 +28,12 @@ const polymeData: WorkCardProps = {
   stack: {
     languages: [
       {
-        name: "JavaScript",
-        color: "bg-yellow-300",
-      },
-      {
         name: "TypeScript",
         color: "bg-sky-400",
+      },
+      {
+        name: "JavaScript",
+        color: "bg-yellow-300",
       },
       {
         name: "HTML",

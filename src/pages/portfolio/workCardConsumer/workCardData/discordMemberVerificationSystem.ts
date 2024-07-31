@@ -41,7 +41,7 @@ const discordMemberVerificationSystemData: WorkCardProps = {
         color: "bg-sky-400",
       },
     ],
-    skills: ["ExpressJS", "DiscordJS", "MongoDB", "React", "TailwindCSS", "Moralis"],
+    skills: ["ExpressJS", "DiscordJS", "MongoDB", "React", "Tailwind CSS", "Moralis"],
   },
   detail: `此系統的功能為驗證 Discord 帳戶擁有者的 Web3 錢包是否持有指定的 Token，同時也能檢查數量來達到區分會員階級的目的。
 
