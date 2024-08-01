@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import Web3List from "../web3list/Web3List";
+import SocialList from "../web3list/SocialList";
 
 interface Props {
   showHideMsg: boolean;
@@ -23,7 +23,7 @@ function InfoCardFooter({ showHideMsg, toggleShowHideMsg }: Props) {
       >
         Contact
       </NavLink>
-      <Web3List />
+      <SocialList />
     </section>
   );
 }

@@ -1,5 +1,5 @@
 import MobileNameSwitcher from "../nameSwitcher/MobileNameSwitcher";
-import MobileWeb3List from "../web3list/MobildWeb3List";
+import MobildSocialList from "../web3list/MobildSocialList";
 
 function MobileInfoCardProfile() {
   return (
@@ -8,7 +8,7 @@ function MobileInfoCardProfile() {
       <p className="font-ubuntu text-xl tracking-wide text-amber-900/70 transition-colors duration-500 dark:text-purple-400/70">
         Backend Engineer |
       </p>
-      <MobileWeb3List />
+      <MobildSocialList />
     </div>
   );
 }

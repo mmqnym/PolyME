@@ -44,73 +44,73 @@ function SocialButtonGroup() {
     <>
       <TelegramShareButton
         className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-9 w-9 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
-        title={"PolyME | project - PolyME"}
-        url={"https://github.com/nygardk/react-share"}
+        title={`PolyME | project - ${workCardContext.workCardData.title}`}
+        url={window.location.href}
       >
         <SuspenseImage src={telegramIcon} alt={`${workCardContext.workCardData.title}-share-telegram`} />
       </TelegramShareButton>
       <TwitterShareButton
         className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-9 w-9 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
-        title={"PolyME | project - PolyME"}
-        url={"https://github.com/nygardk/react-share"}
-        hashtags={["react", "share"]}
+        title={`PolyME | project - ${workCardContext.workCardData.title}`}
+        url={window.location.href}
+        hashtags={["0xmmq", "project"]}
         related={["@mmqnym"]}
       >
         <SuspenseImage src={xIcon} alt={`${workCardContext.workCardData.title}-share-x`} />
       </TwitterShareButton>
       <LineShareButton
         className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-9 w-9 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
-        title="PolyME | project - PolyME"
-        url={"https://github.com/nygardk/react-share"}
+        title={`PolyME | project - ${workCardContext.workCardData.title}`}
+        url={window.location.href}
       >
-        <SuspenseImage src={lineIcon} alt={`${workCardContext.workCardData.title}-share-x`} />
+        <SuspenseImage src={lineIcon} alt={`${workCardContext.workCardData.title}-share-line`} />
       </LineShareButton>
       <LinkedinShareButton
         className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-9 w-9 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
-        title="PolyME | project - PolyME"
-        summary="0xmmq's portfolio"
+        title={`PolyME | project - ${workCardContext.workCardData.title}`}
+        summary="Hi! Here's the link to 0xmmq's project. Check it out!"
         source="PolyME"
-        url={"https://github.com/nygardk/react-share"}
+        url={window.location.href}
       >
-        <SuspenseImage src={linkedinIcon} alt={`${workCardContext.workCardData.title}-share-x`} />
+        <SuspenseImage src={linkedinIcon} alt={`${workCardContext.workCardData.title}-share-linkedin`} />
       </LinkedinShareButton>
       <PinterestShareButton
         className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-9 w-9 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
-        title="PolyME | project - PolyME"
-        description="0xmmq's portfolio"
-        url={"https://cdn.pixabay.com/photo/2024/05/15/01/13/cat-8762411_1280.png"}
-        media="https://cdn.pixabay.com/photo/2024/05/15/01/13/cat-8762411_1280.png"
+        title={`PolyME | project - ${workCardContext.workCardData.title}`}
+        description="0xmmq's project"
+        url={window.location.href}
+        media={`https://mmq.dev/projects/${workCardContext.workCardData.title}.png`}
       >
-        <SuspenseImage src={pinterestIcon} alt={`${workCardContext.workCardData.title}-share-x`} />
+        <SuspenseImage src={pinterestIcon} alt={`${workCardContext.workCardData.title}-share-pinterest`} />
       </PinterestShareButton>
       <FacebookShareButton
         className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-9 w-9 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
-        url={"https://github.com/nygardk/react-share"}
-        hashtag="#0xmmq #PolyME #Portfolio"
+        url={window.location.href}
+        hashtag={`PolyME | project - ${workCardContext.workCardData.title}`}
       >
-        <SuspenseImage src={facebookIcon} alt={`${workCardContext.workCardData.title}-share-x`} />
+        <SuspenseImage src={facebookIcon} alt={`${workCardContext.workCardData.title}-share-facebook`} />
       </FacebookShareButton>
       <RedditShareButton
         className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-9 w-9 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
-        url={"https://github.com/nygardk/react-share"}
-        title="PolyME | project - PolyME"
+        url={window.location.href}
+        title={`PolyME | project - ${workCardContext.workCardData.title}`}
       >
-        <SuspenseImage src={redditIcon} alt={`${workCardContext.workCardData.title}-share-x`} />
+        <SuspenseImage src={redditIcon} alt={`${workCardContext.workCardData.title}-share-reddit`} />
       </RedditShareButton>
       <WhatsappShareButton
         className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-9 w-9 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
-        url={"https://github.com/nygardk/react-share"}
-        title="PolyME | project - PolyME"
+        url={window.location.href}
+        title={`PolyME | project - ${workCardContext.workCardData.title}`}
       >
-        <SuspenseImage src={whatsappIcon} alt={`${workCardContext.workCardData.title}-share-x`} />
+        <SuspenseImage src={whatsappIcon} alt={`${workCardContext.workCardData.title}-share-whatsapp`} />
       </WhatsappShareButton>
       <EmailShareButton
         className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-9 w-9 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
-        url={"https://github.com/nygardk/react-share"}
-        subject="PolyME | project - PolyME"
-        body="Hi! Here's the link to 0xmmq's portfolio. Check it out!"
+        url={window.location.href}
+        subject={`PolyME | project - ${workCardContext.workCardData.title}`}
+        body="Hi! Here's the link to 0xmmq's project. Check it out!"
       >
-        <SuspenseImage src={mailIcon} alt={`${workCardContext.workCardData.title}-share-x`} />
+        <SuspenseImage src={mailIcon} alt={`${workCardContext.workCardData.title}-share-mail`} />
       </EmailShareButton>
     </>
   );
