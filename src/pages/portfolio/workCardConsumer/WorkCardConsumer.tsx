@@ -35,7 +35,6 @@ function WorkCardConsumer({ children }: { children: React.ReactNode }) {
         const newUrl = new URL(window.location.href);
         newUrl.searchParams.set("project", currentChosenCard);
         window.history.replaceState({}, "", newUrl);
-
         setWorkCardData(workCardDataMap[currentChosenCard]);
         setIsSwitchingCard(false);
       }, 300);

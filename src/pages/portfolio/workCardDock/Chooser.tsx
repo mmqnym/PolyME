@@ -34,7 +34,7 @@ function Chooser({ title, icon, alt, setCurrentHoveredProject }: chooserProps) {
       onClick={toggleOnClick}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className={`${workCardContext.currentChosenCard === title ? "bg-gray-300" : "bg-gray-600/50 xl:hover:scale-95 xl:hover:bg-gray-300/30"} group ml-5 flex aspect-square h-2/3 flex-row rounded-md transition-all duration-100`}
+      className={`${workCardContext.currentChosenCard === title ? "-translate-y-2 bg-gray-400" : "bg-gray-600/50 xl:translate-y-0 xl:hover:-translate-y-2 xl:hover:scale-95 xl:hover:bg-gray-300/30"} group ml-5 flex aspect-square h-2/3 flex-row rounded-md transition-all duration-100`}
     >
       <SuspenseImage
         src={icon}

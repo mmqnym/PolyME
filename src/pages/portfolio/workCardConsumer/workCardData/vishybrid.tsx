@@ -50,7 +50,7 @@ const vishybridData: WorkCardProps = {
         color: "bg-orange-300",
       },
     ],
-    skills: ["React", "Tailwind CSS", "Vite", "Tauri", "FastAPI", "OpenCV", "PyInstaller", "FFmpeg", "NDI"],
+    skills: ["React", "Tailwind CSS", "Vite", "Tauri", "FastAPI", "OpenCV", "CUDA", "PyInstaller", "FFmpeg", "NDI"],
   },
   detail: `此工具使用 Tauri + React + Tailwind 構建介面，後端使用 OpenCV 對視訊畫面進行即時處理（即時去除背景、動作補捉），再透過 FFmpeg 與 media server 和 NDI SDK 進行廣播，然後以 Python 建立 API 提供介面使用。本軟體支援多種輸入源（RTSP, NDI, Raw video）與輸出協議（RTSP-Opus, NDI-Opus, WebRTC-H264-Opus, WebRTC-VP8-Opus, CTP-AAC），以滿足各種多媒體傳輸需求。`,
 };

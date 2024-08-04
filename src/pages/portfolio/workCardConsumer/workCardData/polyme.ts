@@ -44,7 +44,19 @@ const polymeData: WorkCardProps = {
         color: "bg-purple-400",
       },
     ],
-    skills: ["React", "Tailwind CSS", "Vite", "Bun", "Vercel", "OpenGraph", "Google Analytics", "SWC", "Biome"],
+    skills: [
+      "React",
+      "Tailwind CSS",
+      "Vite",
+      "Bun",
+      "Caddy 2",
+      "http3",
+      "Cloudflare",
+      "OpenGraph",
+      "Google Analytics",
+      "SWC",
+      "Biome",
+    ],
   },
   detail: `PolyMe 是我的個人網站，用於展示我的個人資訊與開發經歷。應用名稱象徵著多面向的我，同時網站形象 Logo 使用了具有多色塊的烏鴉，其中烏鴉表示低調在廣大的天空中翱翔之意、多色塊表達不同面向的我，結合起來即為一個默默在資訊領域努力的且具多個面向的我的意思。
 
