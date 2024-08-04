@@ -1,21 +1,21 @@
-import WorkCardLinksConsumer from "../workCardLinksConsumer/WorkCardLinksConsumer";
+import ControlButtonGroup from "../links/ControlButtonGroup";
+import DonateButtonGroup from "../links/DonateButtonGroup";
+import LinksContainer from "../links/LinksContainer";
 import ReferenceButtonGroup from "../links/ReferenceButtonGroup";
 import SocialButtonGroup from "../links/SocialButtonGroup";
-import DonateButtonGroup from "../links/DonateButtonGroup";
-import ControlButtonGroup from "../links/ControlButtonGroup";
-import LinksContainer from "../links/LinksContainer";
+import WorkCardLinksConsumer from "../workCardLinksConsumer/WorkCardLinksConsumer";
 
 function Links() {
-  return (
-    <LinksContainer>
-      <WorkCardLinksConsumer>
-        <ReferenceButtonGroup />
-        <SocialButtonGroup />
-        <DonateButtonGroup />
-        <ControlButtonGroup />
-      </WorkCardLinksConsumer>
-    </LinksContainer>
-  );
+	return (
+		<LinksContainer>
+			<WorkCardLinksConsumer>
+				<ReferenceButtonGroup />
+				<SocialButtonGroup />
+				<DonateButtonGroup />
+				<ControlButtonGroup />
+			</WorkCardLinksConsumer>
+		</LinksContainer>
+	);
 }
 
 export default Links;
