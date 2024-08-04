@@ -45,7 +45,7 @@ function Display() {
 	};
 
 	return (
-		<div className="col-span-4 col-start-1 row-span-11 row-start-2 h-full w-full rounded-2xl border border-gray-700 bg-gray-700/30">
+		<div className="w-full h-full col-span-4 col-start-1 row-start-2 border border-gray-700 row-span-11 rounded-2xl bg-gray-700/30">
 			<Carousel
 				slide={true}
 				slideInterval={5000}
@@ -57,7 +57,7 @@ function Display() {
 					<div
 						// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 						key={index}
-						className="flex h-full w-full items-center justify-center"
+						className="flex items-center justify-center w-full h-full"
 					>
 						<img
 							src={item.src}

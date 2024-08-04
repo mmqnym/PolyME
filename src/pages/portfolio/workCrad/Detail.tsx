@@ -11,8 +11,8 @@ function Detail() {
 	}
 
 	return (
-		<div className="col-span-2 col-start-5 row-span-5 row-start-8 h-full w-full rounded-2xl border border-gray-700 bg-gray-700/30">
-			<p className="m-2 h-fit w-fit select-none rounded-xl bg-purple-400/50 px-4 py-1 font-ubuntu text-xl tracking-wide text-gray-200">
+		<div className="w-full h-full col-span-2 col-start-5 row-span-5 border border-gray-700 row-start-8 rounded-2xl bg-gray-700/30">
+			<p className="px-4 py-1 m-2 text-xl tracking-wide text-gray-200 select-none h-fit w-fit rounded-xl bg-purple-400/50 font-ubuntu">
 				Detail
 			</p>
 			<p

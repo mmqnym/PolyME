@@ -14,7 +14,7 @@ interface Props {
 }
 
 const TimeLine = ({ items }: Props) => (
-	<div className="pb-24 pt-20 xl:pb-64">
+	<div className="pt-20 pb-24 xl:pb-64">
 		<ul>
 			{items.map((item, index) => (
 				// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>

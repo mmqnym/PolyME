@@ -80,7 +80,7 @@ function Links() {
 
 	return (
 		<Container>
-			<div className="mt-24 grid grid-cols-1 gap-x-5 gap-y-10 sm:mt-36 sm:grid-cols-2 sm:gap-x-10 sm:gap-y-20 xl:mt-56 xl:grid-cols-4 xl:gap-x-16">
+			<div className="grid grid-cols-1 mt-24 gap-x-5 gap-y-10 sm:mt-36 sm:grid-cols-2 sm:gap-x-10 sm:gap-y-20 xl:mt-56 xl:grid-cols-4 xl:gap-x-16">
 				{linkCardList.map(({ Logo, HoverLogo, title, handle, url }, index) => (
 					// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 					<Fragment key={index}>

@@ -8,15 +8,15 @@ function InfoCardContent({ showHideMsg }: Props) {
 	return (
 		<>
 			<div className="flex flex-row items-center gap-2 xl:gap-4">
-				<p className="font-ubuntu text-2xl text-gray-600 transition-colors duration-500 dark:text-gray-300 xl:text-4xl">
+				<p className="text-2xl text-gray-600 transition-colors duration-500 font-ubuntu dark:text-gray-300 xl:text-4xl">
 					Hi! I am
 				</p>
 				<NameSwitcher />
 			</div>
-			<p className="mt-4 font-ubuntu text-base tracking-wide text-amber-900/70 transition-colors duration-500 dark:text-purple-400/70 sm:text-2xl xl:text-3xl">
+			<p className="mt-4 text-base tracking-wide transition-colors duration-500 font-ubuntu text-amber-900/70 dark:text-purple-400/70 sm:text-2xl xl:text-3xl">
 				Backend Software Engineer |
 			</p>
-			<p className="mt-5 font-ubuntu text-lg leading-8 text-gray-600 transition-colors duration-500 dark:text-gray-300">
+			<p className="mt-5 text-lg leading-8 text-gray-600 transition-colors duration-500 font-ubuntu dark:text-gray-300">
 				I am a backend engineer passionate about development and technology
 				research, specializing in blockchain and fintech domains with 3 years of
 				relevant work experience.

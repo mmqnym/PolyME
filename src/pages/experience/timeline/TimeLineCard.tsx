@@ -19,23 +19,23 @@ function TimeLineCard({
 	content,
 }: Props) {
 	return (
-		<div className="flex min-w-0 flex-1 flex-row pl-10 sm:pl-20">
+		<div className="flex flex-row flex-1 min-w-0 pl-10 sm:pl-20">
 			<SuspenseImage
-				className="mt-1 h-14 w-14 rounded-md sm:h-20 sm:w-20 xl:h-24 xl:w-24"
+				className="mt-1 rounded-md h-14 w-14 sm:h-20 sm:w-20 xl:h-24 xl:w-24"
 				src={logo}
 			/>
 			<div className="ml-4">
-				<div className="font-ubuntu text-xl tracking-wide text-gray-700 transition-colors duration-500 dark:text-gray-300 sm:text-3xl xl:text-4xl">
+				<div className="text-xl tracking-wide text-gray-700 transition-colors duration-500 font-ubuntu dark:text-gray-300 sm:text-3xl xl:text-4xl">
 					{title}
 				</div>
-				<div className="mt-1 font-ubuntu text-base tracking-wider text-amber-900 transition-colors duration-500 dark:text-purple-400 sm:text-xl">
+				<div className="mt-1 text-base tracking-wider transition-colors duration-500 font-ubuntu text-amber-900 dark:text-purple-400 sm:text-xl">
 					{organization}
 				</div>
-				<p className="mt-1 font-ubuntu text-sm tracking-wide text-gray-700 transition-colors duration-500 dark:text-gray-300">
+				<p className="mt-1 text-sm tracking-wide text-gray-700 transition-colors duration-500 font-ubuntu dark:text-gray-300">
 					{time}
 				</p>
-				<p className="mt-1 flex flex-row items-center gap-1 font-ubuntu tracking-wide text-gray-700 transition-colors duration-500 dark:text-gray-300">
-					<img className="h-5 w-5" src={LocationLogo} alt="location-logo" />
+				<p className="flex flex-row items-center gap-1 mt-1 tracking-wide text-gray-700 transition-colors duration-500 font-ubuntu dark:text-gray-300">
+					<img className="w-5 h-5" src={LocationLogo} alt="location-logo" />
 					{location}
 				</p>
 				<div className="mt-4 space-y-4">

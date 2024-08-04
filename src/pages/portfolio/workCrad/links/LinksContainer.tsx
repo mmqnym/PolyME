@@ -1,6 +1,6 @@
 function LinksContainer({ children }: { children: React.ReactNode }) {
 	return (
-		<section className="flex h-fit w-full flex-row items-center gap-3 px-5 py-2">
+		<section className="flex flex-row items-center w-full gap-3 px-5 py-2 h-fit">
 			{children}
 		</section>
 	);

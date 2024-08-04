@@ -7,8 +7,8 @@ import xLogo from "../../../general/assets/socials/x.png";
 
 function MobileSocialList() {
 	return (
-		<div className="mt-4 flex h-fit w-fit flex-col gap-2 rounded-full bg-orange-900/10 px-4 py-2 dark:bg-violet-200/10">
-			<div className="flex h-fit w-fit flex-row gap-4">
+		<div className="flex flex-col gap-2 px-4 py-2 mt-4 rounded-full h-fit w-fit bg-orange-900/10 dark:bg-violet-200/10">
+			<div className="flex flex-row gap-4 h-fit w-fit">
 				<SocialLink logo={githubLogo} link="https://github.com/mmqnym" />
 				<SocialLink logo={xLogo} link="https://x.com/mmqnym" />
 				<SocialLink

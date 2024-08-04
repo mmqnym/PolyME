@@ -58,7 +58,7 @@ import PhotoShopLogo from "../../general/assets/stacks/photoshop.svg?react";
 function Stack() {
 	return (
 		<Container>
-			<div className="flex w-3/4 flex-col pb-24 pt-4 xl:w-1/2 xl:pb-64">
+			<div className="flex flex-col w-3/4 pt-4 pb-24 xl:w-1/2 xl:pb-64">
 				<SkillList
 					category="Languages"
 					child={
