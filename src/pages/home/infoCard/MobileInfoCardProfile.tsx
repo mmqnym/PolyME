@@ -1,5 +1,5 @@
 import MobileNameSwitcher from "../nameSwitcher/MobileNameSwitcher";
-import MobildSocialList from "../web3list/MobildSocialList";
+import MobildSocialList from "../socialList/MobildSocialList";
 
 function MobileInfoCardProfile() {
 	return (

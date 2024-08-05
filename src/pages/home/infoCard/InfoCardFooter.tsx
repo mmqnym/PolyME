@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import SocialList from "../web3list/SocialList";
+import SocialList from "../socialList/SocialList";
 
 interface Props {
 	showHideMsg: boolean;
