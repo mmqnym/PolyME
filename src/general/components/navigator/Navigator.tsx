@@ -19,7 +19,7 @@ function Navigator() {
 	return (
 		<nav
 			id="navigator"
-			className="top-0 z-50 flex flex-row items-center justify-between w-full h-16 p-4 transition-colors duration-500 bg-orange-100 dark:bg-black xl:sticky"
+			className="fixed top-0 z-50 flex flex-row items-center justify-between w-full h-16 p-4 transition-colors duration-500 bg-orange-100 dark:bg-black"
 		>
 			{/* biome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
 			<div className="flex flex-row items-center" onClick={closeMenu}>

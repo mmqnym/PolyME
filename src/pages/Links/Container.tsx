@@ -15,7 +15,7 @@ function Container({ children }: { children: React.ReactNode }) {
 	return (
 		// biome-ignore lint/a11y/useKeyWithClickEvents: <explanation>
 		<div
-			className="relative flex min-h-[calc(100vh-4rem)] w-full flex-col items-center justify-between bg-orange-50 transition-colors duration-500 dark:bg-black"
+			className="relative flex min-h-[calc(100vh-4rem)] top-16 w-full flex-col items-center justify-between bg-orange-50 transition-colors duration-500 dark:bg-black"
 			onClick={closeMenu}
 		>
 			{children}
