@@ -21,8 +21,8 @@ function Display() {
 		},
 		indicators: {
 			active: {
-				off: "bg-white/50 hover:bg-white dark:bg-gray-500/50 dark:hover:bg-gray-800",
-				on: "bg-white dark:bg-purple-300 w-10",
+				off: "bg-gray-500/50 hover:bg-white/50 dark:bg-gray-500/50 dark:hover:bg-gray-800",
+				on: "bg-amber-900 dark:bg-purple-300 w-10",
 			},
 			base: "h-1.5 w-6 rounded-full transition-all duration-300",
 			wrapper: "absolute bottom-5 left-1/2 flex -translate-x-1/2 space-x-2",
@@ -35,8 +35,8 @@ function Display() {
 			},
 		},
 		control: {
-			base: "opacity-0 rounded-full group-hover:opacity-100 inline-flex h-16 w-16 items-center justify-center transition-all duration-300 hover:bg-white/50 hover:scale-90 dark:hover:bg-gray-300/50 dark:active:bg-gray-300/70",
-			icon: "h-4/5 w-4/5 text-gray-500 dark:text-gray-500/70 dark:hover:text-gray-900",
+			base: "opacity-0 rounded-full group-hover:opacity-100 inline-flex h-16 w-16 items-center justify-center transition-all duration-300 hover:bg-gray-900/50 hover:scale-90 dark:hover:bg-gray-200/50 dark:active:bg-gray-300/70",
+			icon: "h-4/5 w-4/5 text-gray-400 dark:text-gray-400 dark:hover:text-gray-700 hover:text-gray-200",
 		},
 		scrollContainer: {
 			base: "flex h-full w-full snap-mandatory overflow-y-hidden overflow-x-scroll scroll-smooth rounded-2xl",
@@ -45,7 +45,7 @@ function Display() {
 	};
 
 	return (
-		<div className="w-full h-full col-span-4 col-start-1 row-start-2 border border-gray-700 row-span-11 rounded-2xl bg-gray-700/30">
+		<div className="w-full xl:h-full h-[600px] xl:col-span-4 xl:col-start-1 xl:row-start-2 bg-orange-100 border border-orange-900/30 dark:border-gray-700 row-span-11 rounded-2xl dark:bg-gray-700/30">
 			<Carousel
 				slide={true}
 				slideInterval={5000}

@@ -11,7 +11,7 @@ function StackLanguages() {
 	}
 
 	return (
-		<div className="flex flex-row flex-wrap gap-4">
+		<div className="flex flex-row flex-wrap gap-4 px-6">
 			{workCardContext.workCardData.stack.languages.map((item) => (
 				<div className="flex flex-row items-center gap-2" key={item.name}>
 					<p

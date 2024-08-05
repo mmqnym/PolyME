@@ -3,11 +3,13 @@ import WorkCardDock from "./workCardDock/WorkCardDock";
 import WorkCard from "./workCrad/WorkCard";
 
 import WorkCardConsumer from "./workCardConsumer/WorkCardConsumer";
+import Hinter from "./Hinter";
 
 function Portfolio() {
 	return (
 		<Container>
 			<WorkCardConsumer>
+				<Hinter />
 				<WorkCard />
 				<WorkCardDock />
 			</WorkCardConsumer>

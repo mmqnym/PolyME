@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 @layer utilities {
-  html {
-    @apply scrollbar-thin scrollbar-thumb-rounded-full scrollbar-thumb-purple-400/30 scrollbar-track-current hover:scrollbar-track-gray-900 transition-colors duration-300;
+  :root {
+    @apply transition-colors duration-300 scrollbar-thin scrollbar-thumb-rounded-full scrollbar-thumb-white/50 scrollbar-track-current;
   }
+
 }
