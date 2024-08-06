@@ -62,7 +62,7 @@ function Display() {
 						<img
 							src={item.src}
 							alt={item.alt}
-							className={`h-auto max-h-full w-[99.9%] max-w-full ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} object-contain`}
+							className={`h-auto max-h-full w-[99.9%] max-w-full transition-all duration-100 ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} object-contain`}
 						/>
 					</div>
 				))}

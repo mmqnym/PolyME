@@ -16,7 +16,7 @@ function Title() {
 				Title
 			</p>
 			<p
-				className={`font-ubuntu text-2xl xl:text-3xl tracking-wide transition-all duration-300 ${workCardContext.isSwitchingCard ? "animate-pulse text-gray-700/30 dark:text-gray-200/30" : "dark:text-gray-200 text-gray-700"}`}
+				className={`font-ubuntu text-2xl xl:text-3xl tracking-wide transition-all duration-200 ${workCardContext.isSwitchingCard ? "animate-pulse text-gray-700/30 dark:text-gray-200/30" : "dark:text-gray-200 text-gray-700"}`}
 			>
 				{workCardContext.workCardData.title}
 			</p>

@@ -1,4 +1,4 @@
-import { Suspense, useEffect, useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 
 interface Props {
@@ -7,25 +7,32 @@ interface Props {
 	children: React.ReactNode;
 }
 
-function LazyLoader({ fallback, minDelay = 500, children }: Props) {
-	const [isDelayPassed, setIsDelayPassed] = useState(false);
+function LazyLoader({ fallback, children, minDelay = 600 }: Props) {
 	const location = useLocation();
+	const [isLoading, setIsLoading] = useState(true);
+	const visitedRoutes = useRef(new Set<string>());
 
-	// biome-ignore lint/correctness/useExhaustiveDependencies: Make sure to apply transition effects every time the route is switched
 	useEffect(() => {
-		setIsDelayPassed(false);
+		const currentPath = location.pathname;
 
-		const timer = setTimeout(() => {
-			setIsDelayPassed(true);
-		}, minDelay);
+		if (!visitedRoutes.current.has(currentPath)) {
+			setIsLoading(true);
+			visitedRoutes.current.add(currentPath);
 
-		return () => clearTimeout(timer);
-	}, [minDelay, location]);
+			const timer = setTimeout(() => {
+				setIsLoading(false);
+			}, minDelay);
+
+			return () => clearTimeout(timer);
+		}
+
+		setIsLoading(false);
+	}, [location, minDelay]);
 
 	return (
-		<Suspense fallback={fallback}>
-			{isDelayPassed ? children : fallback}
-		</Suspense>
+		<React.Suspense fallback={fallback}>
+			{isLoading ? fallback : children}
+		</React.Suspense>
 	);
 }
 

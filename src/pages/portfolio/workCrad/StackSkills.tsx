@@ -15,10 +15,10 @@ function StackSkills() {
 			{workCardContext.workCardData.stack.skills.map((item) => (
 				<div className="flex flex-row items-center gap-2" key={item}>
 					<div
-						className={`h-2 w-2 rounded-full transition-all duration-300 ${workCardContext.isSwitchingCard ? "animate-pulse bg-gray-500/30 dark:bg-gray-300/30" : "bg-gray-500 dark:bg-gray-300"}`}
+						className={`h-2 w-2 rounded-full transition-all duration-100 ${workCardContext.isSwitchingCard ? "animate-pulse bg-gray-500/30 dark:bg-gray-300/30" : "bg-gray-500 dark:bg-gray-300"}`}
 					/>
 					<p
-						className={`font-ubuntu text-base transition-all duration-300 ${workCardContext.isSwitchingCard ? "animate-pulse text-gray-500/30 dark:text-gray-200/30" : "dark:text-gray-200 text-gray-500"}`}
+						className={`font-ubuntu text-base transition-all duration-100 ${workCardContext.isSwitchingCard ? "animate-pulse text-gray-500/30 dark:text-gray-200/30" : "dark:text-gray-200 text-gray-500"}`}
 					>
 						{item}
 					</p>

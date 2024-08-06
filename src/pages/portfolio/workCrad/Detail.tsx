@@ -16,7 +16,7 @@ function Detail() {
 				Detail
 			</p>
 			<p
-				className={`mt-4 h-4/5 w-full overflow-y-auto whitespace-pre-line px-6 pb-5 font-ubuntu text-lg ${workCardContext.isSwitchingCard ? "animate-pulse text-gray-700/30 dark:text-gray-200/30" : "dark:text-gray-200 text-gray-700"} transition-all duration-300 scrollbar-thin scrollbar-track-transparent scrollbar-track-rounded-full scrollbar-thumb-rounded-full scrollbar-thumb-amber-900/50 dark:scrollbar-thumb-purple-400/30`}
+				className={`mt-4 h-4/5 w-full overflow-y-auto whitespace-pre-line px-6 pb-5 font-ubuntu text-lg ${workCardContext.isSwitchingCard ? "animate-pulse text-gray-700/30 dark:text-gray-200/30" : "dark:text-gray-200 text-gray-700"} transition-all duration-100 scrollbar-thin scrollbar-track-transparent scrollbar-track-rounded-full scrollbar-thumb-rounded-full scrollbar-thumb-amber-900/50 dark:scrollbar-thumb-purple-400/30`}
 			>
 				{workCardContext.workCardData.detail}
 			</p>
