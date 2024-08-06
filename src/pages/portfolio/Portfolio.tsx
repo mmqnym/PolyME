@@ -1,11 +1,20 @@
 import Container from "./Container";
+import WorkCardDock from "./workCardDock/WorkCardDock";
+import WorkCard from "./workCrad/WorkCard";
+
+import WorkCardConsumer from "./workCardConsumer/WorkCardConsumer";
+import Hinter from "./Hinter";
 
 function Portfolio() {
-  return (
-    <Container>
-      <h1 className="text-3xl text-white">Portfolio</h1>
-    </Container>
-  );
+	return (
+		<Container>
+			<WorkCardConsumer>
+				<Hinter />
+				<WorkCard />
+				<WorkCardDock />
+			</WorkCardConsumer>
+		</Container>
+	);
 }
 
 export default Portfolio;

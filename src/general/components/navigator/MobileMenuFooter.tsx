@@ -1,18 +1,18 @@
-import Logo from "../../assets/logo.webp";
+import logo from "../../assets/logo.webp";
+import brand from "../../assets/brand.webp";
+import SuspenseImage from "../lazyLoader/SuspenseImage";
 
 function MobileMenuFooter() {
-  return (
-    <li className="absolute bottom-16 left-1/2 flex w-4/5 -translate-x-1/2 flex-col items-center gap-2">
-      <div className="mb-6 w-full rounded-full border-t-2 border-gray-500/30"></div>
-      <img src={Logo} alt="logo" className="w-16" />
-      <p className="font-orbitron select-none text-3xl text-gray-500 transition-all duration-500 dark:text-gray-300 xl:hidden">
-        PolyME
-      </p>
-      <p className="font-ubuntu text dark:black/70 mt-2 select-none rounded-md bg-gray-700/90 px-2 text-gray-300 transition-all duration-500 dark:bg-gray-300/90 dark:text-black/70">
-        0xmmq
-      </p>
-    </li>
-  );
+	return (
+		<li className="absolute flex flex-col items-center w-4/5 gap-2 -translate-x-1/2 bottom-12 left-1/2">
+			<div className="w-full mb-6 border-t-2 rounded-full border-gray-500/30" />
+			<SuspenseImage src={logo} alt="logo" className="w-2/5" />
+			<SuspenseImage src={brand} alt="brand" className="w-4/5 xl:hidden" />
+			<p className="px-2.5 py-0.5 mt-2 text-gray-700/50 transition-all duration-500 rounded-md select-none font-ubuntu text-sm sm:text-base dark:black/70 bg-yellow-700/10 dark:bg-violet-300/20 dark:text-white/70">
+				© 2024 0xmmq
+			</p>
+		</li>
+	);
 }
 
 export default MobileMenuFooter;
