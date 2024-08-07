@@ -10,7 +10,7 @@ function Menu() {
 	return (
 		<ul
 			id="menu"
-			className="flex-row items-center hidden space-x-10 tracking-wider select-none font-ubuntu xl:flex"
+			className="flex-row items-center hidden w-1/2 h-full space-x-20 tracking-wider select-none font-ubuntu xl:flex"
 		>
 			<MenuItem Logo={ProfileLogo} label="Profile" route="/" />
 			<MenuItem Logo={StackLogo} label="Stack" route="/stack" />
