@@ -11,7 +11,7 @@ function LinkCard({ Logo, HoverLogo, title, handle, url }: LinkCardProps) {
 		<a
 			target="_blank"
 			href={url}
-			className="flex flex-row items-center justify-center w-64 tracking-wider transition-all duration-500 border-2 border-gray-500 rounded-md shadow-sm group h-14 shadow-gray-700/50 dark:shadow-white/50 sm:h-24 sm:w-72 xl:flex xl:h-64 xl:w-60 xl:flex-col xl:hover:-translate-y-4 xl:hover:border-amber-900 xl:hover:bg-white/20 xl:hover:shadow-lg xl:hover:shadow-amber-900/40 xl:dark:hover:border-purple-400 xl:dark:hover:shadow-purple-400/40"
+			className="flex flex-row items-center justify-center w-64 tracking-wider transition-all duration-500 border-2 border-gray-500 rounded-md shadow-sm group h-14 shadow-gray-700/50 dark:shadow-white/50 sm:h-24 sm:w-72 xl:flex xl:h-[20vh] xl:w-[10vw] xl:flex-col xl:hover:-translate-y-4 xl:hover:border-amber-900 xl:hover:bg-white/20 xl:hover:shadow-lg xl:hover:shadow-amber-900/40 xl:dark:hover:border-purple-400 xl:dark:hover:shadow-purple-400/40"
 			rel="noreferrer"
 		>
 			<Logo className="hidden w-2/5 h-24 mt-4 transition-opacity duration-700 fill-gray-700 dark:fill-gray-300 xl:block xl:group-hover:mt-0 xl:group-hover:h-0 xl:group-hover:w-0 xl:group-hover:opacity-0" />

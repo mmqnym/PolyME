@@ -35,7 +35,7 @@ const travelLineBotData: WorkCardProps = {
 		},
 	],
 	description:
-		"這是結合了 AI 切字的旅行機器人，使用戶能夠以簡單的對話查詢不同幣別的價格，同時提供了一些旅行用的小功能。",
+		"This is a travel bot with AI text segmentation, which allows users to check prices in different currencies with simple conversations, and provides some small functions for travel.",
 	stack: {
 		languages: [
 			{
@@ -53,9 +53,9 @@ const travelLineBotData: WorkCardProps = {
 			"Heroku",
 		],
 	},
-	detail: `這是一個讓用戶能夠方便旅行的機器人，提供人性化指令查尋根據臺灣銀行即時匯率所計算出的台幣、美元價格。同時也提供便捷的按鈕讓用戶能夠查詢當前所在地之天氣情報以及隨身筆記。
+	detail: `This is a Line bot that allows users to conveniently travel by providing user-friendly commands to find prices in $NTD and $USD based on the Bank of Taiwan's real-time exchange rate. It also provides convenient buttons for users to check the weather information of their current location and take notes.
 
-  技術上於使用了 Django 架設 callback API 供 Line Bot 使用。用戶指令則是利用 Jieba 切字，根據字詞 Token 決定該執行哪些操作。匯率由定期爬蟲臺灣銀行牌告匯率取得。`,
+	I used Django to build the callback API for Line Bot to use. The user commands use Jieba to determine which actions to perform based on the word token. The exchange rate is obtained by crawling the Bank of Taiwan exchange rate periodically.`,
 };
 
 export default travelLineBotData;

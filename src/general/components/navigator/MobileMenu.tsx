@@ -27,11 +27,11 @@ function MobileMenu() {
 			<button
 				id="mobile-menu-btn"
 				type="button"
-				className="block xl:hidden"
+				className="absolute block xl:hidden right-2 h-3/5"
 				onClick={toggleMenu}
 			>
 				<MobileMenuLogo
-					className={`${navigatorContext?.showMobileMenu ? "hidden" : "block"} h-10 w-10 stroke-gray-700 dark:stroke-gray-300`}
+					className={`${navigatorContext?.showMobileMenu ? "hidden" : "block"} h-full stroke-gray-700 dark:stroke-gray-300`}
 				/>
 			</button>
 			<ul

@@ -32,7 +32,7 @@ const jumpcrossData: WorkCardProps = {
 		},
 	],
 	description:
-		"這是一個運行在 Arbitrum One 網路上的 GameFi 項目，主打休閒及高可玩性，並在團隊與玩家獲利之間取得平衡，以追求長久營運的目的。",
+		"This is a GameFi project running on the Arbitrum One network, focusing on relaxation and high playability, and balancing team and player profitability in pursuit of long-term operation.",
 	stack: {
 		languages: [
 			{
@@ -62,8 +62,8 @@ const jumpcrossData: WorkCardProps = {
 			"GCP",
 		],
 	},
-	detail: `我在這個 GameFi 項目裡負責後端系統與 EVM 合約的開發。合約的部分使用 Solidity 與 HardHat 編寫包含域名註冊與解析合約、遊戲代幣合約、遊戲主合約；後端系統的部分則編寫了 6 個微服務，包含用戶登入狀態處理、遊戲資料紀錄、遊戲同步、外掛監控等服務，並使用 http2 及 WebSocket 來降低用戶與伺服器溝通所需的時間成本。另外也有串接 X 以及 Discord Oauth，以提升女巫攻擊的難度。
-  `,
+	detail: `In this GameFi project, I am responsible for the development of the backend system and EVM contracts. For the contracts, I used Solidity and HardHat to develop the domain name registration and resolution contract, game token contract, and game master contract; for the back-end system, I developed 6 micro-services, including user login status processing, game data recording, game synchronization, and monitoring of plug-ins, etc. I also use http2 and WebSocket to reduce the time and cost of communicating between users and the servers. 
+	In addition, X and Discord Oauth are also connected to increase the difficulty of sybil attacks.`,
 };
 
 export default jumpcrossData;

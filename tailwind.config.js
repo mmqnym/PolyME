@@ -5,6 +5,13 @@ export default {
 	darkMode: "class",
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}", flowbite.content()],
 	theme: {
+		screens: {
+			sm: "640px",
+			md: "768px",
+			lg: "1024px",
+			xl: "1280px",
+			"2k": "2560px",
+		},
 		extend: {
 			animation: {
 				wave: "wave 8s linear infinite",

@@ -66,9 +66,9 @@ const polymeData: WorkCardProps = {
 			"Biome",
 		],
 	},
-	detail: `PolyMe 是我的個人網站，用於展示我的個人資訊與開發經歷。應用名稱象徵著多面向的我，同時網站形象 Logo 使用了具有多色塊的烏鴉，其中烏鴉表示低調在廣大的天空中翱翔之意、多色塊表達不同面向的我，結合起來即為一個默默在資訊領域努力的且具多個面向的我的意思。
+	detail: `PolyMe is my personal website to show my personal information and development experience. The name of the application symbolizes the multi-oriented me, and the logo uses a crow with multi-colored blocks, where the crow represents a low profile soaring in the big sky, and the multi-colored blocks represent different orientations of me, which combines to mean a multi-oriented me who quietly works hard in the field of information.
 
-  技術上使用了一些較新的前端工具鏈，用以加速編譯與執行時間，並架設於 Vercel 上，處理流量分析以及CDN，也做了一些針對 SEO 優化的設置。`,
+	Technically, I used some newer front-end toolchains to speed up compilation and execution time. In addition, to support some proxy services and http3, I chose not to use the Saas platform to set up, but to use Caddy 2 to set up on my own VPS. I also did some SEO optimization.`,
 };
 
 export default polymeData;

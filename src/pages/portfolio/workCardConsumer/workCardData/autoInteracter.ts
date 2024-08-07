@@ -27,7 +27,7 @@ const autoInteracterData: WorkCardProps = {
 		},
 	],
 	description:
-		"這是一個全自動與 EVM 合約交互的腳本。本倉庫應用於 Scroll 區塊鏈交互。",
+		"This is a script for fully automated interaction with EVM contracts. The repository is used for Scroll blockchain interactions.",
 	stack: {
 		languages: [
 			{
@@ -37,11 +37,11 @@ const autoInteracterData: WorkCardProps = {
 		],
 		skills: ["ts-node", "EthersJS", "Docker", "CoinMarketCap API"],
 	},
-	detail: `這個腳本的誕生源於嚕空投活動的盛行，人工參與生態交互能獲得的報酬越來越低，因此大量的帳戶自動化交互成為了一個多數人的需求。
+	detail: `This script was born out of the popularity of participating in blockchain project airdrops, where manual project interactions were becoming less and less rewarding, making automated interactions with a large number of accounts becoming a need for the majority of people.
   
-  我開發了這個項目主要用於提升自我的區塊鏈知識與技術，並提供他人研究如何自動化交互合約。
+	I developed this project to improve my blockchain knowledge and skills, and to provide others with the opportunity to study how to automate interaction contracts.
   
-  技術上主要使用 EthersJS 來與合約交互，大多數開發時程用在解析個項目合約的 ABI，以及對合約交互的回傳結果進行分析。`,
+	This project mainly uses EthersJS to interact with EVM contracts, and most of the development time is spent on analyzing the ABI of each project's contract and the results of the contract interaction returns.`,
 };
 
 export default autoInteracterData;

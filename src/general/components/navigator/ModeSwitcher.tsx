@@ -26,7 +26,11 @@ function ModeSwitcher() {
 	};
 
 	return (
-		<button type="button" className="hidden xl:block" onClick={toggleDarkMode}>
+		<button
+			type="button"
+			className="absolute hidden xl:block right-2"
+			onClick={toggleDarkMode}
+		>
 			{!navigatorContext.isDarkMode ? (
 				<NormalModeLogo className="w-8 mr-1 transition-colors duration-300 fill-gray-500 hover:fill-amber-600 dark:fill-white/70 hover:dark:fill-purple-200" />
 			) : (
