@@ -32,7 +32,8 @@ const discordMemberVerificationSystemData: WorkCardProps = {
 			url: "https://github.com/mmqnym/Discord-NFT-Verifier-Client",
 		},
 	],
-	description: "這是一個檢驗 NFT 持有情況的 Discord 會員驗證系統。",
+	description:
+		"This is a Discord member verification system that verifies NFT holdings.",
 	stack: {
 		languages: [
 			{
@@ -53,9 +54,9 @@ const discordMemberVerificationSystemData: WorkCardProps = {
 			"Moralis",
 		],
 	},
-	detail: `此系統的功能為驗證 Discord 帳戶擁有者的 Web3 錢包是否持有指定的 Token，同時也能檢查數量來達到區分會員階級的目的。
+	detail: `The function of this system is to verify whether the Web3 wallet of the Discord account owner holds the specified token, and also to check the number of tokens for the member level differentiation purpose.
 
-  技術上於後端使用了 ExpressJS、MongoDB 以及 DiscordJS，分別用於提供 Discord OAuth 的 API 端點、會員資料的紀錄與更新；前端則是使用 React 與 Tailwind 搭配 Rainbow Kit 製作易於操作的 DApp。`,
+	Technically, I used ExpressJS, MongoDB, and DiscordJS in the backend to provide the API endpoint for Discord OAuth, and to record and update members' data, while in the frontend, I used React and Tailwind together with Rainbow Kit to create an easy-to-use DApp.`,
 };
 
 export default discordMemberVerificationSystemData;

@@ -36,7 +36,7 @@ const recipeMasterData: WorkCardProps = {
 		},
 	],
 	description:
-		"這個項目是我的大學畢業專題，分類主題是計算機圖學，是一個利用照片尋找食譜的 Web 應用。",
+		"This project was my Bachelor of Computer Science graduation project, categorized under the theme of Computer Graphics, which is a web application that uses photos to find recipes.",
 	stack: {
 		languages: [
 			{
@@ -59,7 +59,7 @@ const recipeMasterData: WorkCardProps = {
 		skills: ["VanillaJS", "BootStrap", "Flask", "OpenCV", "Selenium"],
 	},
 	// biome-ignore lint/style/noUnusedTemplateLiteral: <explanation>
-	detail: `本軟體結合了爬蟲與圖搜技術，用戶可上傳圖片到由 Flask 搭建的 API 端點，該圖片會經過 OpenCV 進行感知哈希算法的一系列處理後，與遠端和本地圖片庫比對，確認該圖片中的食物最有可能的所屬分類後，回傳給用戶相關的食譜連結。`,
+	detail: `This project combines crawler and image search technology, users can upload images to the API endpoint built by Flask, the image will be processed by OpenCV through a series of perceptual hash algorithms, and then compared with remote and local image libraries to confirm that the food in the image most likely belongs to the category. Finally, return to the user the relevant recipes link.`,
 };
 
 export default recipeMasterData;

@@ -17,25 +17,23 @@ function InfoCardContent({ showHideMsg }: Props) {
 				Backend Software Engineer |
 			</p>
 			<p className="mt-5 text-lg leading-8 text-gray-600 transition-colors duration-500 font-ubuntu dark:text-gray-300">
-				I am a backend engineer passionate about development and technology
-				research, specializing in blockchain and fintech domains with 3 years of
-				relevant work experience.
+				I am a backend engineer with a passion for development and technical
+				research, specializing in the blockchain and Fintech space, with 3 years
+				of related experience.
 			</p>
 			<p
 				className={`${showHideMsg ? "mt-5 h-fit w-fit opacity-100" : "absolute z-[-1] mt-0 opacity-0"} font-ubuntu text-lg leading-8 text-gray-600 transition-all duration-500 dark:text-gray-300`}
 			>
-				My expertise includes planning and developing EVM smart contracts and
-				high-concurrency backend systems. Over the course of my career,
-				involvement in various Web3 projects has allowed me to serve in multiple
-				capacities, both in-person and remotely, as a translator, consultant,
-				researcher, and developer.
+				I have planned and developed several EVM smart contracts and
+				high-concurrency back-end systems, and have been a member of several
+				Web3 project operations teams in various capacities (translator,
+				consultant, researcher, developer).
 			</p>
 			<p
 				className={`${showHideMsg ? "mt-5 h-fit w-fit opacity-100" : "absolute z-[-1] mt-0 opacity-0"} font-ubuntu text-lg leading-8 text-gray-600 transition-all duration-700 dark:text-gray-300`}
 			>
-				Equipped with strong communication skills and a collaborative mindset,
-				my professional experience and technical proficiency make me a valuable
-				asset to any team.
+				In addition, I have good communication and cooperation with the team, as
+				well as professional related skills and experience.
 			</p>
 		</>
 	);

@@ -39,7 +39,7 @@ const nftMarketSniperData: WorkCardProps = {
 		},
 	],
 	description:
-		"這是一個利用定時爬蟲來監控 NFT 市場網站的價格，並串接到 Discord Bot 上供用戶使用。",
+		"This is a timed crawler that monitors prices on the NFT Marketplace website and connects it to the Discord Bot for users to check.",
 	stack: {
 		languages: [
 			{
@@ -49,9 +49,9 @@ const nftMarketSniperData: WorkCardProps = {
 		],
 		skills: ["Pycord", "Pyppeteer", "MySQL"],
 	},
-	detail: `這是一個用於監控 Cronos 鏈上的 NFT 市場 - ebisu' s bay的 Discord Bot，令訂閱者能夠獲得指定 Collection 的最即時地板價。
+	detail: `This is a Discord Bot for monitoring the NFT marketplace on the Cronos chain - ebisu's bay, allowing subscribers to get the latest floor prices for selected Collections.
 
-  技術上使用了 Pyppeteer 進行了週期性的爬蟲與快照，當價格變化時透過 Pycord 推播相關資訊給用戶參考。`,
+	The technology uses Pyppeteer for periodic crawling and snapshots, and Pycord pushes relevant information to Disocrd for users to reference when prices change. Users can also interact with the bot via bot commands.c`,
 };
 
 export default nftMarketSniperData;

@@ -37,7 +37,7 @@ const mymemoData: WorkCardProps = {
 			url: "https://github.com/mmqnym/MyMemo",
 		},
 	],
-	description: "這是一個利用 QT 編寫而成的圖形化簡易行事曆軟體。",
+	description: "This is a simple GUI calendar program written in Qt5.",
 	stack: {
 		languages: [
 			{
@@ -47,9 +47,9 @@ const mymemoData: WorkCardProps = {
 		],
 		skills: ["Qt5", "Qt5 designer"],
 	},
-	detail: `在求學時期經歷了許多命令行程式的練習與開發後，我對圖形化程式感到相當好奇，想了解一般圖形化應用是如何實現的。在經歷一小段時間研究後，由於在學時大多使用 C++ 開發，覺得最適合我使用的圖形化框架是 Qt5，於是使用它來實現我的第一個 GUI 程式。
+	detail: `After a lot of command-line based practice and development during my studies, I was curious about GUI programs, and wanted to understand how graphical applications are implemented generally. After a short period of research, I decided that Qt5 was the most suitable graphical framework for me to implement my first GUI program, as I had mostly developed in C++ during my studies.
 
-  技術上使用大量的 C++ STL 以及 指標操作來優化效能，並使用 Qt designer 設計介面，然後綁定互動式元件到邏輯函數上。開發過程中還使用了系統級函式庫來將我的應用能夠登錄註冊表，實現開機自啟動。`,
+	I used a lot of C++ STL and pointer manipulation to optimize performance, and used the Qt designer to design the interface and bind interactive components to logic functions. During development, I also used system level libraries to enable my application to register in the registry and autostart at boot.`,
 };
 
 export default mymemoData;
