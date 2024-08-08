@@ -1,4 +1,4 @@
-name: Preview
+name: Build Test
 
 on:
   pull_request:
@@ -25,15 +25,6 @@ jobs:
     - name: Build project
       run: bun run build
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
-        destination_dir: pr-${{ github.event.pull_request.number }}
-        allow_empty_commit: true
-        force_orphan: false
-
     - name: Comment PR
       uses: actions/github-script@v7
       with:
@@ -43,5 +34,5 @@ jobs:
             issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: 'Preview deployed to: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/pr-${{ github.event.pull_request.number }}'
+            body: 'Build test passed. (pr-${{ github.event.pull_request.number }})'
           })
