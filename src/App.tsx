@@ -1,4 +1,4 @@
-import { lazy, useEffect, useState } from "react";
+import { lazy, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { NavigatorContext } from "./context/navigatorContext";
 import Navigator from "./general/components/navigator/Navigator";
@@ -25,22 +25,6 @@ function App() {
 		isDarkMode,
 		setIsDarkMode,
 	};
-
-	// biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
-	useEffect(() => {
-		// biome-ignore lint/suspicious/noExplicitAny: datalayer will be added to the window at runtime
-		if (typeof (window as any).dataLayer === "undefined") {
-			return;
-		}
-
-		// biome-ignore lint/suspicious/noExplicitAny: datalayer will be added to the window at runtime
-		(window as any).dataLayer.push({
-			event: "pageview",
-			page_location: window.location.href,
-			page_path: location.pathname + location.search,
-			page_title: document.title,
-		});
-	}, [window.location.href]);
 
 	return (
 		<NavigatorContext.Provider value={contextValue}>
