@@ -47,7 +47,7 @@ function SocialButtonGroup() {
 	return (
 		<>
 			<TelegramShareButton
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-9 w-9 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
 				title={`PolyME | project - ${workCardContext.workCardData.title}`}
 				url={window.location.href}
 			>
@@ -57,7 +57,7 @@ function SocialButtonGroup() {
 				/>
 			</TelegramShareButton>
 			<TwitterShareButton
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-9 w-9 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
 				title={`PolyME | project - ${workCardContext.workCardData.title}`}
 				url={window.location.href}
 				hashtags={["0xmmq", "project"]}
@@ -69,7 +69,7 @@ function SocialButtonGroup() {
 				/>
 			</TwitterShareButton>
 			<LineShareButton
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-9 w-9 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
 				title={`PolyME | project - ${workCardContext.workCardData.title}`}
 				url={window.location.href}
 			>
@@ -79,7 +79,7 @@ function SocialButtonGroup() {
 				/>
 			</LineShareButton>
 			<LinkedinShareButton
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-9 w-9 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
 				title={`PolyME | project - ${workCardContext.workCardData.title}`}
 				summary="Hi! Here's the link to 0xmmq's project. Check it out!"
 				source="PolyME"
@@ -91,7 +91,7 @@ function SocialButtonGroup() {
 				/>
 			</LinkedinShareButton>
 			<PinterestShareButton
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-9 w-9 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
 				title={`PolyME | project - ${workCardContext.workCardData.title}`}
 				description="0xmmq's project"
 				url={window.location.href}
@@ -103,7 +103,7 @@ function SocialButtonGroup() {
 				/>
 			</PinterestShareButton>
 			<FacebookShareButton
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-9 w-9 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
 				url={window.location.href}
 				hashtag={`PolyME | project - ${workCardContext.workCardData.title}`}
 			>
@@ -113,7 +113,7 @@ function SocialButtonGroup() {
 				/>
 			</FacebookShareButton>
 			<RedditShareButton
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-9 w-9 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
 				url={window.location.href}
 				title={`PolyME | project - ${workCardContext.workCardData.title}`}
 			>
@@ -123,7 +123,7 @@ function SocialButtonGroup() {
 				/>
 			</RedditShareButton>
 			<WhatsappShareButton
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-9 w-9 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
 				url={window.location.href}
 				title={`PolyME | project - ${workCardContext.workCardData.title}`}
 			>
@@ -133,7 +133,7 @@ function SocialButtonGroup() {
 				/>
 			</WhatsappShareButton>
 			<EmailShareButton
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-9 w-9 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
 				url={window.location.href}
 				subject={`PolyME | project - ${workCardContext.workCardData.title}`}
 				body="Hi! Here's the link to 0xmmq's project. Check it out!"

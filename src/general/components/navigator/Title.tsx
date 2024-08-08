@@ -23,8 +23,16 @@ function Title() {
 			className="absolute flex flex-row items-center select-none w-fit h-3/5 left-2"
 			onClick={closeMenu}
 		>
-			<SuspenseImage src={logo} alt="logo" className="w-12 mr-2" />
-			<SuspenseImage src={brand} alt="brand" className="h-full" />
+			<SuspenseImage
+				src={logo}
+				alt="logo"
+				className="sm:w-12 h-auto w-10 xl:w-12 mr-1.5 2k:w-14"
+			/>
+			<SuspenseImage
+				src={brand}
+				alt="brand"
+				className="w-32 h-auto sm:w-36 xl:w-28 2k:w-36"
+			/>
 		</NavLink>
 	);
 }

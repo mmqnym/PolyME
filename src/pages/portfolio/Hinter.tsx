@@ -11,7 +11,7 @@ export function Component() {
 	return (
 		<Alert
 			color="success"
-			className={`${showHint ? "xl:hidden absolute w-full z-10 top-0 left-1/2 -translate-x-[50%]" : "hidden z-[-1]"}`}
+			className={`${showHint ? "xl:hidden fixed w-full z-10 top-[4rem] left-1/2 -translate-x-[50%]" : "hidden z-[-1]"}`}
 			onDismiss={closeHint}
 		>
 			<span className="font-medium">
