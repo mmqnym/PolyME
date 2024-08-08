@@ -20,7 +20,7 @@ function LinkCard({ Logo, HoverLogo, title, handle, url }: LinkCardProps) {
 				{title}
 			</span>
 			<div className="w-0 h-full transition-colors duration-300 border-r-2 border-gray-500 xl:mt-10 xl:h-0 xl:w-full xl:border-t-2 xl:group-hover:border-amber-900 xl:group-hover:bg-white/20 xl:dark:group-hover:border-purple-400" />
-			<div className="flex flex-col items-center justify-center w-full h-10 text-lg text-gray-700 dark:text-gray-300 xl:text-sm">
+			<div className="flex flex-col items-center font-ubuntu justify-center w-full h-10 xl:py-0.5 2k:py-0 2k:mt-1 text-lg 2k:text-xl text-gray-700 dark:text-gray-300 xl:text-sm">
 				{handle}
 			</div>
 		</a>
