@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write 
     steps:
     - uses: actions/checkout@v4
 
@@ -34,7 +35,7 @@ jobs:
         force_orphan: false
 
     - name: Comment PR
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         script: |
