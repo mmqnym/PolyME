@@ -47,6 +47,7 @@ export default {
 			fontFamily: {
 				orbitron: ["Orbitron", "sans-serif"],
 				ubuntu: ["Ubuntu", "sans-serif"],
+				iceland: ["Iceland", "sans-serif"],
 			},
 		},
 	},

@@ -3,7 +3,6 @@ import type { WorkCardProps } from "../../../../context/workCardContext";
 import screenshot1 from "../../../../general/assets/works/content/polyme/polyme-1.webp";
 import screenshot2 from "../../../../general/assets/works/content/polyme/polyme-2.webp";
 import screenshot3 from "../../../../general/assets/works/content/polyme/polyme-3.webp";
-import screenshot4 from "../../../../general/assets/works/content/polyme/polyme-4.webp";
 
 import githubLinkIcon from "../../../../general/assets/works/linkIcon/github.webp";
 import polymeProjectLogo from "../../../../general/assets/works/preview/polyme.webp";
@@ -16,7 +15,6 @@ const polymeData: WorkCardProps = {
 			{ src: screenshot1, alt: "polyme-screenshot-1" },
 			{ src: screenshot2, alt: "polyme-screenshot-2" },
 			{ src: screenshot3, alt: "polyme-screenshot-3" },
-			{ src: screenshot4, alt: "polyme-screenshot-4" },
 		],
 	},
 	links: [

@@ -1,7 +1,6 @@
 import logo from "../../../general/assets/logo.webp";
 import SuspenseImage from "../../../general/components/lazyLoader/SuspenseImage";
 import BottomWave from "./BottomWave";
-import brand from "../../../general/assets/brand.webp";
 
 function Footer() {
 	return (
@@ -10,14 +9,19 @@ function Footer() {
 				<div className="flex flex-row items-center justify-center w-full h-1/3 sm:h-full sm:w-fit sm:justify-start">
 					<SuspenseImage src={logo} alt="logo" className="h-4/5 sm:h-1/2" />
 					<div className="flex flex-col justify-center w-full h-full">
-						<SuspenseImage src={brand} alt="brand" className="w-2/5 xl:w-1/4" />
-						<p className="text-sm font-ubuntu mt-0.5 text-gray-400/80">
+						<p className="text-5xl text-gray-500 font-iceland xl:text-5xl dark:text-gray-200">
+							PolyME
+						</p>
+						<p className="xl:hidden text-sm font-ubuntu mt-0.5 text-gray-400/80">
+							© 2024 0xmmq
+						</p>
+						<p className="hidden xl:block text-sm font-ubuntu mt-0.5 text-gray-400/80">
 							© 2024 0xmmq. All rights reserved.
 						</p>
 					</div>
 				</div>
 
-				<p className="flex w-full mt-5 text-sm transition-colors duration-500 sm:mt-0 text-pretty font-ubuntu text-gray-400/80 xl:group-hover:text-gray-500 xl:dark:group-hover:text-gray-300">
+				<p className="flex w-full mt-5 text-sm transition-colors duration-500 sm:w-1/2 xl:w-1/3 sm:mt-0 text-pretty font-ubuntu text-gray-400/80 xl:group-hover:text-gray-500 xl:dark:group-hover:text-gray-300">
 					For business cooperation, welcome to leaving your details by contact
 					channels above, and I will respond as soon as possible.
 				</p>

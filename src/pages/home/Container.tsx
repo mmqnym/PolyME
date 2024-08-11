@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { NavigatorContext } from "../../context/navigatorContext";
+import { Helmet } from "react-helmet";
 
 function Container({ children }: { children: React.ReactNode }) {
 	const navigatorContext = useContext(NavigatorContext);
@@ -18,6 +19,21 @@ function Container({ children }: { children: React.ReactNode }) {
 			className="relative flex min-h-[calc(100vh-4rem)] top-16 w-full select-none flex-row overflow-x-hidden bg-orange-50 transition-colors duration-300 dark:bg-black sm:overflow-hidden"
 			onClick={closeMenu}
 		>
+			<Helmet>
+				<title>PolyME</title>
+				<meta
+					name="description"
+					content="PolyME is a 0xmmq's personal website, used to show information about experience, skills, portfolio, etc. Welcome to visit and contact me."
+				/>
+				<meta property="og:title" content="PolyME" />
+				<meta property="og:url" content="https://mmq.dev/" />
+				<meta property="og:image" content="https://mmq.dev/main.png" />
+				<meta property="og:image:alt" content="PolyME-Home" />
+				<meta
+					property="og:description"
+					content="PolyME is a 0xmmq's personal website, used to show information about experience, skills, portfolio, etc. Welcome to visit and contact me."
+				/>
+			</Helmet>
 			{children}
 		</div>
 	);
