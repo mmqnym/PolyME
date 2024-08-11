@@ -10,7 +10,7 @@ const Home = lazy(() => import("./pages/home/Home"));
 const Stack = lazy(() => import("./pages/stack/Stack"));
 const Experience = lazy(() => import("./pages/experience/Experience"));
 const Portfolio = lazy(() => import("./pages/portfolio/Portfolio"));
-const Links = lazy(() => import("./pages/Links/Links"));
+const Links = lazy(() => import("./pages/links/Links"));
 
 function App() {
 	const [showMobileMenu, setShowMobileMenu] = useState(false);

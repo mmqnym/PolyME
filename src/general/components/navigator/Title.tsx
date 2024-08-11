@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo.webp";
-import brand from "../../assets/brand.webp";
 import SuspenseImage from "../lazyLoader/SuspenseImage";
 import { NavigatorContext } from "../../../context/navigatorContext";
 import { useContext } from "react";
@@ -26,13 +25,11 @@ function Title() {
 			<SuspenseImage
 				src={logo}
 				alt="logo"
-				className="sm:w-12 h-auto w-10 xl:w-12 mr-1.5 2k:w-14"
+				className="sm:w-12 h-auto w-12 xl:w-12 mr-0.5 2k:w-12"
 			/>
-			<SuspenseImage
-				src={brand}
-				alt="brand"
-				className="w-32 h-auto sm:w-36 xl:w-28 2k:w-36"
-			/>
+			<p className="text-5xl text-gray-500 font-iceland xl:text-5xl dark:text-gray-200">
+				PolyME
+			</p>
 		</NavLink>
 	);
 }
