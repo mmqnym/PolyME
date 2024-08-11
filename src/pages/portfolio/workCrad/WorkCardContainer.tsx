@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext } from "react";
 import { Helmet } from "react-helmet";
 import { WorkCardContext } from "../../../context/workCardContext";
 
@@ -10,16 +10,6 @@ function WorkCardContainer({ children }: { children: React.ReactNode }) {
 			"workCardContext must be used within a WorkCardContextProvider",
 		);
 	}
-
-	const [shareImage, setShareImage] = useState<string>("");
-
-	// biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
-	useEffect(() => {
-		// get query params
-		const urlParams = new URLSearchParams(window.location.search);
-		const projectTitle = urlParams.get("project");
-		setShareImage(projectTitle ? `${projectTitle}.png` : "PolyME.png");
-	}, [window.location.href]);
 
 	return (
 		<div className="flex flex-col w-4/5 min-h-screen gap-6 transition-colors duration-500 cursor-default xl:min-h-fit 2k:h-[calc(100vh-18rem)] xl:h-[calc(100vh-16rem)] xl:grid xl:grid-cols-6 xl:grid-rows-12">
@@ -35,7 +25,7 @@ function WorkCardContainer({ children }: { children: React.ReactNode }) {
 				<meta property="og:url" content={window.location.href} />
 				<meta
 					property="og:image"
-					content={`https://mmq.dev/projects/project-${shareImage}`}
+					content={`https://mmq.dev/projects/project-${workCardContext.workCardData.title.replaceAll(" ", "+")}`}
 				/>
 				<meta
 					property="og:image:alt"
