@@ -1,7 +1,7 @@
 import Menu from "./Menu";
 import MobileMenu from "./MobileMenu";
-import ModeSwitcher from "./ModeSwitcher";
 import Title from "./Title";
+import ToolButtonGroup from "./ToolButtonGroup";
 
 function Navigator() {
 	return (
@@ -11,7 +11,7 @@ function Navigator() {
 		>
 			<Title />
 			<Menu />
-			<ModeSwitcher />
+			<ToolButtonGroup />
 			<MobileMenu />
 		</nav>
 	);

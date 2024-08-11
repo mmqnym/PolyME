@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 function NameSwitcher() {
+	const { t } = useTranslation();
 	const [showFirst, setShowFirst] = useState(true);
 
 	useEffect(() => {
@@ -21,12 +23,12 @@ function NameSwitcher() {
 			<p
 				className={`${baseClasses} ${textClasses} ${showFirst ? "opacity-100" : "absolute z-[-1] h-0 w-0 opacity-0"}`}
 			>
-				0xmmq
+				{t("profile.net-name")}
 			</p>
 			<p
 				className={`${baseClasses} ${textClasses} ${showFirst ? "absolute z-[-1] h-0 w-0 opacity-0" : "opacity-100"}`}
 			>
-				Wei Tzu Hsiang
+				{t("profile.real-name")}
 			</p>
 		</>
 	);

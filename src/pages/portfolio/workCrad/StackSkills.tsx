@@ -20,7 +20,7 @@ function StackSkills() {
 					/>
 					{/* label */}
 					<p
-						className={`font-ubuntu text-base xl:text-sm 2k:text-base transition-all duration-100 ${workCardContext.isSwitchingCard ? "animate-pulse text-gray-500/30 dark:text-gray-200/30" : "dark:text-gray-200 text-gray-500"}`}
+						className={`text-base xl:text-sm 2k:text-base transition-all duration-100 ${workCardContext.isSwitchingCard ? "animate-pulse text-gray-500/30 dark:text-gray-200/30" : "dark:text-gray-200 text-gray-500"}`}
 					>
 						{item}
 					</p>

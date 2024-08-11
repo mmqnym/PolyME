@@ -33,8 +33,7 @@ const vishybridData: WorkCardProps = {
 		},
 		{ icon: githubLinkIcon, alt: "vishybrid-github-link", url: "#" },
 	],
-	description:
-		"This is an AI-based multimedia broadcasting tool that supports timely background removal and motion capture. It also provides an easy-to-use interface that supports English, Simplified Chinese, Traditional Chinese, and Japanese.",
+	description: "portfolio.vishybrid.about",
 	stack: {
 		languages: [
 			{
@@ -67,9 +66,7 @@ const vishybridData: WorkCardProps = {
 			"NDI",
 		],
 	},
-	detail: `This tool uses Tauri + React + Tailwind to build the interface, the backend uses OpenCV to do real-time processing of video images (real-time background removal, motion capture), then broadcasts through FFmpeg with media server and NDI SDK, after that, builds APIs in Python to provide the services.
-	
-	The product supports multiple input sources (RTSP, NDI, Raw video) and output protocols (RTSP-Opus, NDI-Opus, WebRTC-H264-Opus, WebRTC-VP8-Opus, CTP-AAC) to satisfy all kinds of multimedia transmission needs.`,
+	detail: "portfolio.vishybrid.detail",
 };
 
 export default vishybridData;

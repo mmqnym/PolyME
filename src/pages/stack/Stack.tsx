@@ -60,7 +60,7 @@ function Stack() {
 		<Container>
 			<div className="flex flex-col w-3/4 pt-4 pb-24 xl:w-1/2 xl:pb-64">
 				<SkillList
-					category="Languages"
+					category="Language"
 					child={
 						<>
 							<SkillLabel logo={GolangLogo} label="Golang" />
@@ -145,7 +145,7 @@ function Stack() {
 					}
 				/>
 				<SkillList
-					category="Tools"
+					category="Tool"
 					child={
 						<>
 							<SkillLabel logo={GitLogo} label="Git" />

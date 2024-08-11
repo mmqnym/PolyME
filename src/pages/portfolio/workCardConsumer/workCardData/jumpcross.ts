@@ -31,8 +31,7 @@ const jumpcrossData: WorkCardProps = {
 			url: "https://github.com/JumpCrossGame",
 		},
 	],
-	description:
-		"This is a GameFi project running on the Arbitrum One network, focusing on relaxation and high playability, and balancing team and player profitability in pursuit of long-term operation.",
+	description: "portfolio.jumpcross.about",
 	stack: {
 		languages: [
 			{
@@ -62,8 +61,7 @@ const jumpcrossData: WorkCardProps = {
 			"GCP",
 		],
 	},
-	detail: `In this GameFi project, I am responsible for the development of the backend system and EVM contracts. For the contracts, I used Solidity and HardHat to develop the domain name registration and resolution contract, game token contract, and game master contract; for the back-end system, I developed 6 micro-services, including user login status processing, game data recording, game synchronization, and monitoring of plug-ins, etc. I also use http2 and WebSocket to reduce the time and cost of communicating between users and the servers. 
-	In addition, X and Discord Oauth are also connected to increase the difficulty of sybil attacks.`,
+	detail: "portfolio.jumpcross.detail",
 };
 
 export default jumpcrossData;

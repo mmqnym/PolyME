@@ -34,8 +34,7 @@ const travelLineBotData: WorkCardProps = {
 			url: "https://github.com/mmqnym/Currency-Bot-using-Line-API",
 		},
 	],
-	description:
-		"This is a travel bot with AI text segmentation, which allows users to check prices in different currencies with simple conversations, and provides some small functions for travel.",
+	description: "portfolio.travel-line-bot.about",
 	stack: {
 		languages: [
 			{
@@ -53,9 +52,7 @@ const travelLineBotData: WorkCardProps = {
 			"Heroku",
 		],
 	},
-	detail: `This is a Line bot that allows users to conveniently travel by providing user-friendly commands to find prices in $NTD and $USD based on the Bank of Taiwan's real-time exchange rate. It also provides convenient buttons for users to check the weather information of their current location and take notes.
-
-	I used Django to build the callback API for Line Bot to use. The user commands use Jieba to determine which actions to perform based on the word token. The exchange rate is obtained by crawling the Bank of Taiwan exchange rate periodically.`,
+	detail: "portfolio.travel-line-bot.detail",
 };
 
 export default travelLineBotData;

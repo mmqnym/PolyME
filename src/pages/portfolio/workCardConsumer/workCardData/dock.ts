@@ -43,9 +43,9 @@ export const dock: WorkCardDockProjectProps[] = [
 		alt: workCardDataMap["Travel Line Bot"].dockIcon.alt,
 	},
 	{
-		title: workCardDataMap.GoINK.title,
-		icon: workCardDataMap.GoINK.dockIcon.src,
-		alt: workCardDataMap.GoINK.dockIcon.alt,
+		title: workCardDataMap.GoInk.title,
+		icon: workCardDataMap.GoInk.dockIcon.src,
+		alt: workCardDataMap.GoInk.dockIcon.alt,
 	},
 	{
 		title: workCardDataMap.AutoInteracter.title,

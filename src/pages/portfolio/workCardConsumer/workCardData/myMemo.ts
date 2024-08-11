@@ -37,7 +37,7 @@ const mymemoData: WorkCardProps = {
 			url: "https://github.com/mmqnym/MyMemo",
 		},
 	],
-	description: "This is a simple GUI calendar program written in Qt5.",
+	description: "portfolio.mymemo.about",
 	stack: {
 		languages: [
 			{
@@ -47,9 +47,7 @@ const mymemoData: WorkCardProps = {
 		],
 		skills: ["Qt5", "Qt5 designer"],
 	},
-	detail: `After a lot of command-line based practice and development during my studies, I was curious about GUI programs, and wanted to understand how graphical applications are implemented generally. After a short period of research, I decided that Qt5 was the most suitable graphical framework for me to implement my first GUI program, as I had mostly developed in C++ during my studies.
-
-	I used a lot of C++ STL and pointer manipulation to optimize performance, and used the Qt designer to design the interface and bind interactive components to logic functions. During development, I also used system level libraries to enable my application to register in the registry and autostart at boot.`,
+	detail: "portfolio.mymemo.detail",
 };
 
 export default mymemoData;

@@ -6,7 +6,7 @@ import githubLinkIcon from "../../../../general/assets/works/linkIcon/github.web
 import goinkProjectLogo from "../../../../general/assets/works/preview/goink.webp";
 
 const goinkData: WorkCardProps = {
-	title: "GoINK",
+	title: "GoInk",
 	dockIcon: { src: goinkProjectLogo, alt: "goink-project-logo" },
 	display: {
 		imgs: [{ src: screenshot1, alt: "goink-screenshot-1" }],
@@ -19,8 +19,7 @@ const goinkData: WorkCardProps = {
 			url: "https://github.com/mmqnym/GoInk",
 		},
 	],
-	description:
-		"GoInk is a project template that helps developers quickly build a server. Use the gin framework.",
+	description: "portfolio.goink.about",
 	stack: {
 		languages: [
 			{
@@ -30,16 +29,7 @@ const goinkData: WorkCardProps = {
 		],
 		skills: ["Gin", "Redis", "PostgreSQL", "Swagger", "Docker"],
 	},
-	detail: `This project is based on the following open source libraries:
-
-  - Gin
-  - swaggo
-  - zap
-  - lumberjack
-  - golang-jwt
-  
-  It is used to quickly build a web server with mainstream infrastructure to provide an environment for quickly developing API routes, middleware, and database operations, and to save the time of file hierarchy planning and log customization.
-  `,
+	detail: "portfolio.goink.detail",
 };
 
 export default goinkData;

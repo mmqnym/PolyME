@@ -8,3 +8,13 @@
   }
 
 }
+
+@font-face { 
+  font-family: "openhuninn"; 
+  src: url("/fonts/jf-openhuninn-2.0.ttf"); 
+}
+
+@font-face { 
+  font-family: "chillroundh2othic"; 
+  src: url("/fonts/ChillRoundGothic.ttf"); 
+}
