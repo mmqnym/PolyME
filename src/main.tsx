@@ -5,7 +5,7 @@ import "./i18n/config";
 
 import TagManager from "react-gtm-module";
 
-// TagManager.initialize({ gtmId: "GTM-TKLQL6PP" });
+TagManager.initialize({ gtmId: "GTM-TKLQL6PP" });
 
 // biome-ignore lint/style/noNonNullAssertion: must have root
 ReactDOM.createRoot(document.getElementById("root")!).render(<App />);
