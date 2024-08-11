@@ -26,8 +26,7 @@ const autoInteracterData: WorkCardProps = {
 			url: "https://github.com/mmqnym/scroll-interact-script",
 		},
 	],
-	description:
-		"This is a script for fully automated interaction with EVM contracts. The repository is used for Scroll blockchain interactions.",
+	description: "portfolio.auto-interacter.about",
 	stack: {
 		languages: [
 			{
@@ -37,11 +36,7 @@ const autoInteracterData: WorkCardProps = {
 		],
 		skills: ["ts-node", "EthersJS", "Docker", "CoinMarketCap API"],
 	},
-	detail: `This script was born out of the popularity of participating in blockchain project airdrops, where manual project interactions were becoming less and less rewarding, making automated interactions with a large number of accounts becoming a need for the majority of people.
-  
-	I developed this project to improve my blockchain knowledge and skills, and to provide others with the opportunity to study how to automate interaction contracts.
-  
-	This project mainly uses EthersJS to interact with EVM contracts, and most of the development time is spent on analyzing the ABI of each project's contract and the results of the contract interaction returns.`,
+	detail: "portfolio.auto-interacter.detail",
 };
 
 export default autoInteracterData;

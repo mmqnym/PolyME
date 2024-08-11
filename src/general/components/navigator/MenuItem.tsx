@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { NavigatorContext } from "../../../context/navigatorContext";
+import { useTranslation } from "react-i18next";
+import { GlobalContext } from "../../../context/globalContext";
 
 interface Props {
 	Logo: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
@@ -9,10 +11,17 @@ interface Props {
 }
 
 function MenuItem({ Logo, label, route }: Props) {
+	const { t } = useTranslation();
 	const navigatorContext = useContext(NavigatorContext);
 
 	if (!navigatorContext) {
 		throw new Error("NavigatorContext must be used within a NavigatorProvider");
+	}
+
+	const globalContext = useContext(GlobalContext);
+
+	if (!globalContext) {
+		throw new Error("GlobalContext must be used within a GlobalProvider");
 	}
 
 	const closeMenu = () => {
@@ -41,8 +50,10 @@ function MenuItem({ Logo, label, route }: Props) {
 									: "fill-gray-500 group-hover:fill-amber-600 dark:fill-white/70 dark:group-hover:fill-purple-200"
 							}`}
 						/>
-						<span className="tracking-wider transition-colors duration-300">
-							{label}
+						<span
+							className={`${globalContext.font} tracking-wider transition-colors duration-300`}
+						>
+							{t(`navigator.${label}`)}
 						</span>
 					</>
 				)}

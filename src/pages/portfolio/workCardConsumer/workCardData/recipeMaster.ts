@@ -35,8 +35,7 @@ const recipeMasterData: WorkCardProps = {
 			url: "#",
 		},
 	],
-	description:
-		"This project was my Bachelor of Computer Science graduation project, categorized under the theme of Computer Graphics, which is a web application that uses photos to find recipes.",
+	description: "portfolio.recipe-master.about",
 	stack: {
 		languages: [
 			{
@@ -58,8 +57,7 @@ const recipeMasterData: WorkCardProps = {
 		],
 		skills: ["VanillaJS", "BootStrap", "Flask", "OpenCV", "Selenium"],
 	},
-	// biome-ignore lint/style/noUnusedTemplateLiteral: <explanation>
-	detail: `This project combines crawler and image search technology, users can upload images to the API endpoint built by Flask, the image will be processed by OpenCV through a series of perceptual hash algorithms, and then compared with remote and local image libraries to confirm that the food in the image most likely belongs to the category. Finally, return to the user the relevant recipes link.`,
+	detail: "portfolio.recipe-master.detail",
 };
 
 export default recipeMasterData;

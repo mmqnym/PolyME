@@ -29,8 +29,7 @@ const pwdPortData: WorkCardProps = {
 			url: "https://github.com/mmqnym/Pwdport",
 		},
 	],
-	description:
-		"This app helps people to generate secure passwords without having to remember too much information.",
+	description: "portfolio.pwdport.about",
 	stack: {
 		languages: [
 			{
@@ -52,8 +51,7 @@ const pwdPortData: WorkCardProps = {
 		],
 		skills: ["React", "Tailwind CSS", "NPM", "Vercel", "Prettier"],
 	},
-	// biome-ignore lint/style/noUnusedTemplateLiteral: <explanation>
-	detail: `By using this password generation tool, it can help people who are used to using the same password to have higher security, and it can also provide a better password generation tool for people who are more aware of information security.`,
+	detail: "portfolio.pwdport.detail",
 };
 
 export default pwdPortData;

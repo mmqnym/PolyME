@@ -29,8 +29,7 @@ const polymeData: WorkCardProps = {
 			url: "https://github.com/mmqnym/PolyME",
 		},
 	],
-	description:
-		"PolyME is my personal website, used to show information about experience, skills, portfolio, etc. Welcome to visit and contact me.",
+	description: "portfolio.polyme.about",
 	stack: {
 		languages: [
 			{
@@ -64,9 +63,7 @@ const polymeData: WorkCardProps = {
 			"Biome",
 		],
 	},
-	detail: `PolyMe is my personal website to show my personal information and development experience. The name of the application symbolizes the multi-oriented me, and the logo uses a crow with multi-colored blocks, where the crow represents a low profile soaring in the big sky, and the multi-colored blocks represent different orientations of me, which combines to mean a multi-oriented me who quietly works hard in the field of information.
-
-	Technically, I used some newer front-end toolchains to speed up compilation and execution time. In addition, to support some proxy services and http3, I chose not to use the Saas platform to set up, but to use Caddy 2 to set up on my own VPS. I also did some SEO optimization.`,
+	detail: "portfolio.polyme.detail",
 };
 
 export default polymeData;

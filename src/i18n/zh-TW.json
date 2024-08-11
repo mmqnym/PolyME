@@ -1,0 +1,131 @@
+{
+	"navigator": {
+		"Profile": "簡介",
+		"Stack": "技術棧",
+		"Experience": "經歷",
+		"Portfolio": "作品集",
+		"Links": "連結"
+	},
+	"profile": {
+		"greeting": "嗨！你好，我是",
+		"net-name": "0xmmq",
+		"real-name": "Wei Tzu Hsiang",
+		"job-title": "後端軟體工程師",
+		"job-title-alt": "後端工程師",
+		"description-1": "我是一名熱衷於開發以及鑽研技術的後端工程師，專注於區塊鏈與 Fintech 領域，具有 3 年的相關工作經驗。",
+		"description-2": "曾規劃與開發過多個 EVM 智能合約與高併發的後端系統，同時也以多個身分擔任過數個實體與遠端的 Web3 項目的營運團隊成員（翻譯員、顧問、研究員、開發者）。",
+		"description-3": "另外，我也能夠與開發團隊進行良好的溝通與合作，同時具備專業的相關技能和經驗。",
+		"readmore-btn": "閱讀更多",
+		"contact-btn": "聯繫"
+	},
+	"stack": {
+		"Language": "程式語言",
+		"Backend": "後端",
+		"Frontend": "前端",
+		"Operation": "維運",
+		"Liberary": "函式庫",
+		"Tool": "工具",
+		"Design": "設計"
+	},
+	"experience": {
+		"tmm": {
+			"title": "研究員",
+			"organization": "TMM Alpha．兼職",
+			"location": "台灣．遠端",
+			"time": "2024.06 - 現在",
+			"content": "經歷:\n1. 探索並研究 TON 區塊鏈上的新項目，為社區提供天使輪和 VC 輪等早期投資機會。\n2. 協助運營社區。"
+		},
+		"axis3d": {
+			"title": "後端工程師",
+			"organization": "愛迪斯科技股份有限公司．全職",
+			"location": "內湖區, 台北, 台灣",
+			"time": "2023.05 - 現在",
+			"content": "技術棧: FFMpeg, OpenCV, FastAPI, Gin, Tauri, React, Tailwind CSS, Solidity, GCP\n經歷:\n1. 開發與持續維護一項基於 AI 的相關多媒體產品，該產品在取得專利後，已在半年內替公司獲利至少 400 萬新台幣。該產品同時也被運用在公司至少 5 個新案子上。\n2. 支援編寫多個專案的後端系統以及 AI 相關應用代碼。\n3. 規劃與開發區塊鏈遊戲項目之後端系統與相關 EVM 合約，同時串接 Discord 以及 X Oauth 作為防治女巫攻擊手段。\n4. 替公司開發與架設產品金鑰驗證伺服器在 GCP 上，每售出一套產品，便能省去約新台幣 1000 元的硬體金鑰成本。\n5. 協助國家災防中心的專案設定 GCB（GPO），替公司省下 60 萬元。\n6. 2024 台南燈會全美戲院 AI 換臉開發。\n"
+		},
+		"n3labs": {
+			"title": "社區中文管理員",
+			"organization": "N3 Labs．兼職",
+			"location": "千代田區, 東京, 日本．遠端",
+			"time": "2022.10 - 2023.02．5 個月",
+			"content": "技術棧:\n1. 協助團隊規劃與設計線上活動。\n2. 設計活動相關藝術創作。\n3. 提供 Web3 資安建議。"
+		},
+		"izana": {
+			"title": "中文顧問",
+			"organization": "IZANA INDUSTRIES Ltd．兼職",
+			"location": "英屬維京群島．遠端",
+			"time": "2022.09 - 2023.02．6 個月",
+			"content": "技術棧: React\n經歷:\n1. 協助日本團隊建置英文及中文版官方網頁，使超過 3 萬非日語使用者能夠取得最新的資訊。\n2. 提供 Web3 資安建議。\n3. 協助漫畫翻譯成英文及中文，同時英文版在當地有出版成冊。"
+		},
+		"kaiju-of-cronos": {
+			"title": "初階開發者",
+			"organization": "Kaiju of Cronos．兼職",
+			"location": "美國．遠端",
+			"time": "2022.07 - 2023.01．7 個月",
+			"content": "技術棧: Express, React, DiscordJS, BootStrap\n經歷:\n1. 協助團隊開發成員驗證系統，供超過 2000 人使用，替團隊省去持續的機器人支出及管理成本。"
+		}
+	},
+	"portfolio": {
+		"title": "項目",
+		"about": "關於",
+		"stack": "技術棧",
+		"detail": "詳細",
+		"polyme": {
+			"about": "PolyME 是我的個人網站，用於展示我的經歷、技能、作品等，歡迎參觀與聯繫我。",
+			"detail": "這是我的個人網站，記錄著我的開發生涯。技術上使用了較多新興的前端工具鏈，例如 Bun, Vite, SWC, Biome，用以加速開發與編譯時程。\n\n另外本網站為了追求存取速度，自行架設 Caddy 2 伺服器來處理靜態網頁，再使用 Cloudflare CDN 以及 Http3 來減少存取時間。在 SEO 相關的處置上，使用了 Helmet、Open Graph、Google Tag Manager 與 GA4。"
+		},
+		"quickcerts": {
+			"about": "這是一個簡易版的憑證伺服器，可為你的產品頒發憑證，以驗證其啟用狀態。",
+			"detail": "這個專案旨在協助開發者快速建立憑證伺服器，為應用程式簽發憑證（金鑰和簽名）。可以將公鑰嵌入至應用程式中，並使用簽名來驗證金鑰是否由此憑證伺服器簽發，進而達成「產品啟動」功能。\n\n此外，QuickCerts 提供了臨時許可權的支援。如果您的應用程式需要的是「試用期」或定期授權，而非永久授權，可以使用相關的 API 來達成此目的。"
+		},
+		"jumpcross": {
+			"about": "這是一個運行在 Arbitrum One 網路上的 GameFi 項目，主打休閒及高可玩性，並在團隊與玩家獲利之間取得平衡，以追求長久營運的目的。",
+			"detail": "我在這個 GameFi 項目裡負責後端系統與 EVM 合約的開發。合約的部分使用 Solidity 與 HardHat 編寫包含域名註冊與解析合約、遊戲代幣合約、遊戲主合約；後端系統的部分則編寫了 6 個微服務，包含用戶登入狀態處理、遊戲資料紀錄、遊戲同步、外掛監控等服務，並使用 http2 及 WebSocket 來降低用戶與伺服器溝通所需的時間成本。\n\n另外也有串接 X 以及 Discord Oauth，以提升女巫攻擊的難度。"
+		},
+		"vishybrid": {
+			"about": "這是一款基於 AI 的多媒體訊號廣播工具，支援及時去背以及動作捕捉。同時提供易於操作的介面，支援英文、簡體中文、繁體中文、日語。",
+			"detail": "此工具使用 Tauri + React + Tailwind 構建介面，後端使用 OpenCV 對視訊畫面進行即時處理（即時去除背景、動作補捉），再透過 FFmpeg 與 media server 和 NDI SDK 進行廣播，然後以 Python 建立 API 提供介面使用。\n\n本軟體支援多種輸入源（RTSP, NDI, Raw video）與輸出協議（RTSP-Opus, NDI-Opus, WebRTC-H264-Opus, WebRTC-VP8-Opus, CTP-AAC），以滿足各種多媒體傳輸需求。"
+		},
+		"pwdport": {
+			"about": "本應用程式有助於人們產生安全密碼且無需記憶太多資訊。",
+			"detail": "使用此密碼產生工具，可以幫助習慣使用相同密碼的人擁有更高的安全性，也能提供給較注重資訊安全的人，一個更優良的密碼產生工具。\n\n技術上主要使用雜湊，使用戶僅需記憶少量資訊即可產生安全密碼。"
+		},
+		"discord-member-verification-system": {
+			"about": "這是一個檢驗 NFT 持有情況的 Discord 會員驗證系統。",
+			"detail": "系統的功能為驗證 Discord 帳戶擁有者的 Web3 錢包是否持有指定的 Token，同時也能檢查數量來達到區分會員階級的目的。\n\n技術上於後端使用了 ExpressJS、MongoDB 以及 DiscordJS，分別用於提供 Discord OAuth 的 API 端點、會員資料的紀錄與更新；前端則是使用 React 與 Tailwind 搭配 Rainbow Kit 製作易於操作的 DApp。"
+		},
+		"nft-market-sniper": {
+			"about": "這是一個利用定時爬蟲來監控 NFT 市場網站的價格，並串接到 Discord Bot 上供用戶使用。",
+			"detail": "這是一個用於監控 Cronos 鏈上的 NFT 市場 - ebisu' s bay的 Discord Bot，令訂閱者能夠獲得指定 Collection 的最即時地板價。\n\n技術上使用了 Pyppeteer 進行了週期性的爬蟲與快照，當價格變化時透過 Pycord 推播相關資訊到 Disocrd 給用戶參考。用戶也能夠透過機器人命令來與機器人互動。"
+		},
+		"travel-line-bot": {
+			"about": "這是結合了 AI 切字的旅行機器人，使用戶能夠以簡單的對話查詢不同幣別的價格，同時提供了一些旅行用的小功能。",
+			"detail": "這是一個讓用戶能夠方便旅行的機器人，提供人性化指令查尋根據臺灣銀行即時匯率所計算出的台幣、美元價格。同時也提供便捷的按鈕讓用戶能夠查詢當前所在地之天氣情報以及隨身筆記。\n\n技術上於使用了 Django 架設 callback API 供 Line Bot 使用。用戶指令則是利用 Jieba 切字，根據字詞 Token 決定該執行哪些操作。匯率由定期爬蟲臺灣銀行牌告匯率取得。"
+		},
+		"goink": {
+			"about": "這是一個簡易的 GO 後端專案樣板，用於快速搭建一個 GO Web 後端服務。",
+			"detail": "本專案基於以下開源庫建立而成:\n\n- Gin\n- swaggo\n- zap\n- lumberjack\n- golang-jwt\n\n利用主流基礎架構快速建立一個 Web 伺服器，提供可以快速開發 API 路由、中間件和資料庫操作的環境，省去檔案層級規劃以及日誌客製化的時間。"
+		},
+		"auto-interacter": {
+			"about": "這是與 EVM 合約進行全自動互動的腳本。本倉庫用於與 Scroll 區塊鏈互動。",
+			"detail": "這個腳本的誕生緣於嚕空投的盛行，手動交互越來越無法帶來回報，對大多數人來說，已經無法避免使用大量帳戶進行自動化交互了。\n\n本人開發這個項目主要是為了提升自己的區塊鏈知識和技能，並且希望提供其他人學習如何自動化與合約互動的機會。\n\n此項目主要使用 EthersJS 來與 EVM 合約進行互動，開發的大部分時程都花在分析各個項目的合約 ABI 和合約互動回傳的結果上。"
+		},
+		"recipe-master": {
+			"about": "這是一個利用照片尋找食譜的 Web 應用。",
+			"detail": "本軟體結合了爬蟲與圖搜技術，用戶可上傳圖片到由 Flask 搭建的 API 端點，該圖片會經過 OpenCV 進行感知哈希算法的一系列處理後，與遠端和本地圖片庫比對，確認該圖片中的食物最有可能的所屬分類後，回傳給用戶相關的食譜連結。"
+		},
+		"mymemo": {
+			"about": "這是一個使用 Qt5 編寫的簡易圖形化介面行事曆。",
+			"detail": "在學習期間經歷了大量命令行程式的練習和開發後，我對 GUI 程式感到相當好奇，並想瞭解一般實作圖形化應用的原理。在短暫研究後，我決定使用 Qt5 框架來實作我的第一個 GUI 程式，因為我在就學期間主要以 C++ 進行程式開發。\n\n我使用了許多 C++ STL 和指標處理來優化性能，並使用 Qt Designer 來設計介面和將互動元件綁定至邏輯函式上。在開發過程中，我還使用了系統級函式庫，讓我的應用程式能夠註冊至登錄檔並於開機時自動啟動。"
+		}
+	},
+	"links": {
+		"footer-msg": "商業合作歡迎以上方的任一管道聯繫我，並請您盡可能描述清楚您的來意，讓我能夠盡快回覆。"
+	},
+	"theme": {
+		"dark": "深色模式",
+		"light": "淺色模式"
+	},
+	"tip": {
+		"suggestUseComputer": "為了最佳的閱讀體驗，建議您使用電腦閱覽本頁。"
+	}
+}

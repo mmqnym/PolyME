@@ -24,7 +24,7 @@ export const workCardDataMap: WorkCardDataMap = {
 	AutoInteracter: autoInteracterData,
 	"Discord Member Verification System": discordMemberVerificationSystemData,
 	"NFT Market Sniper": nftMarketSniperData,
-	GoINK: goinkData,
+	GoInk: goinkData,
 	"Travel Line Bot": travelLineBotData,
 	RecipeMaster: recipeMasterData,
 	MyMemo: mymemoData,

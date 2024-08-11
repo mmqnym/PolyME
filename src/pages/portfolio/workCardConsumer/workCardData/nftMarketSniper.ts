@@ -38,8 +38,7 @@ const nftMarketSniperData: WorkCardProps = {
 			url: "https://github.com/mmqnym/NFT-Market-Sniper",
 		},
 	],
-	description:
-		"This is a timed crawler that monitors prices on the NFT Marketplace website and connects it to the Discord Bot for users to check.",
+	description: "portfolio.nft-market-sniper.about",
 	stack: {
 		languages: [
 			{
@@ -49,9 +48,7 @@ const nftMarketSniperData: WorkCardProps = {
 		],
 		skills: ["Pycord", "Pyppeteer", "MySQL"],
 	},
-	detail: `This is a Discord Bot for monitoring the NFT marketplace on the Cronos chain - ebisu's bay, allowing subscribers to get the latest floor prices for selected Collections.
-
-	The technology uses Pyppeteer for periodic crawling and snapshots, and Pycord pushes relevant information to Disocrd for users to reference when prices change. Users can also interact with the bot via bot commands.c`,
+	detail: "portfolio.nft-market-sniper.detail",
 };
 
 export default nftMarketSniperData;

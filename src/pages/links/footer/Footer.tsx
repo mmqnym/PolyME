@@ -1,8 +1,19 @@
+import { useTranslation } from "react-i18next";
 import logo from "../../../general/assets/logo.webp";
 import SuspenseImage from "../../../general/components/lazyLoader/SuspenseImage";
 import BottomWave from "./BottomWave";
+import { useContext } from "react";
+import { GlobalContext } from "../../../context/globalContext";
 
 function Footer() {
+	const { t } = useTranslation();
+
+	const globalContext = useContext(GlobalContext);
+
+	if (!globalContext) {
+		throw new Error("GlobalContext must be used within a GlobalProvider");
+	}
+
 	return (
 		<footer className="absolute bottom-0 left-0 flex flex-col items-center justify-center w-full h-[30vh] sm:h-[14vh] gap-4 transition-colors duration-500 bg-orange-100 select-none group dark:border-t-2 dark:border-purple-400/30 dark:bg-stone-900/80 xl:dark:hover:border-purple-400/70">
 			<div className="flex flex-col items-center justify-center w-4/5 h-full gap-2 sm:flex-row sm:justify-between xl:w-1/2">
@@ -21,9 +32,10 @@ function Footer() {
 					</div>
 				</div>
 
-				<p className="flex w-full mt-5 text-sm transition-colors duration-500 sm:w-1/2 xl:w-1/3 sm:mt-0 text-pretty font-ubuntu text-gray-400/80 xl:group-hover:text-gray-500 xl:dark:group-hover:text-gray-300">
-					For business cooperation, welcome to leaving your details by contact
-					channels above, and I will respond as soon as possible.
+				<p
+					className={`${globalContext.font} flex w-full mt-5 text-sm transition-colors duration-500 sm:w-1/2 xl:w-1/3 sm:mt-0 text-pretty text-gray-400/80 xl:group-hover:text-gray-500 xl:dark:group-hover:text-gray-300`}
+				>
+					{t("links.footer-msg")}
 				</p>
 			</div>
 			<BottomWave />

@@ -23,8 +23,7 @@ const quickCertsData: WorkCardProps = {
 			url: "https://github.com/mmqnym/quickcerts",
 		},
 	],
-	description:
-		"A simple certificate server that can be used to issue certificates for your product to verify that it has been activated.",
+	description: "portfolio.quickcerts.about",
 	stack: {
 		languages: [
 			{
@@ -52,10 +51,7 @@ const quickCertsData: WorkCardProps = {
 			"GitHub Action",
 		],
 	},
-	detail: `This project aims to help developers quickly establish a certificate server for issuing certificates (keys and signatures) for your applications. You can embed the public key into your application and use the signature to verify whether the key is issued by the certificate server you have set up, achieving "product activation" functionality.
-  
-  Additionally, QuickCerts provides support for temporary permission. If your application requires a "trial period" or periodic authorization rather than permanent authorization, you can use the relevant API to achieve this.
-  `,
+	detail: "portfolio.quickcerts.detail",
 };
 
 export default quickCertsData;
