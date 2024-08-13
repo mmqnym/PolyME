@@ -43,7 +43,7 @@ function App() {
 
 		if (lang) {
 			if (lang === "zh-TW") {
-				setFont("font-openhuninn");
+				setFont("font-yupearl");
 			} else if (lang === "zh-CN") {
 				setFont("font-chillroundh2othic");
 			} else if (lang === "ja-JP") {

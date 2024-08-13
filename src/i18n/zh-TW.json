@@ -7,7 +7,7 @@
 		"Links": "連結"
 	},
 	"profile": {
-		"greeting": "嗨！你好，我是",
+		"greeting": "嗨！我是",
 		"net-name": "0xmmq",
 		"real-name": "Wei Tzu Hsiang",
 		"job-title": "後端軟體工程師",
@@ -30,37 +30,37 @@
 	"experience": {
 		"tmm": {
 			"title": "研究員",
-			"organization": "TMM Alpha．兼職",
-			"location": "台灣．遠端",
+			"organization": "TMM Alpha・兼職",
+			"location": "台灣・遠端",
 			"time": "2024.06 - 現在",
 			"content": "經歷:\n1. 探索並研究 TON 區塊鏈上的新項目，為社區提供天使輪和 VC 輪等早期投資機會。\n2. 協助運營社區。"
 		},
 		"axis3d": {
 			"title": "後端工程師",
-			"organization": "愛迪斯科技股份有限公司．全職",
+			"organization": "愛迪斯科技股份有限公司・全職",
 			"location": "內湖區, 台北, 台灣",
 			"time": "2023.05 - 現在",
 			"content": "技術棧: FFMpeg, OpenCV, FastAPI, Gin, Tauri, React, Tailwind CSS, Solidity, GCP\n經歷:\n1. 開發與持續維護一項基於 AI 的相關多媒體產品，該產品在取得專利後，已在半年內替公司獲利至少 400 萬新台幣。該產品同時也被運用在公司至少 5 個新案子上。\n2. 支援編寫多個專案的後端系統以及 AI 相關應用代碼。\n3. 規劃與開發區塊鏈遊戲項目之後端系統與相關 EVM 合約，同時串接 Discord 以及 X Oauth 作為防治女巫攻擊手段。\n4. 替公司開發與架設產品金鑰驗證伺服器在 GCP 上，每售出一套產品，便能省去約新台幣 1000 元的硬體金鑰成本。\n5. 協助國家災防中心的專案設定 GCB（GPO），替公司省下 60 萬元。\n6. 2024 台南燈會全美戲院 AI 換臉開發。\n"
 		},
 		"n3labs": {
 			"title": "社區中文管理員",
-			"organization": "N3 Labs．兼職",
-			"location": "千代田區, 東京, 日本．遠端",
-			"time": "2022.10 - 2023.02．5 個月",
+			"organization": "N3 Labs・兼職",
+			"location": "千代田區, 東京, 日本・遠端",
+			"time": "2022.10 - 2023.02・5 個月",
 			"content": "技術棧:\n1. 協助團隊規劃與設計線上活動。\n2. 設計活動相關藝術創作。\n3. 提供 Web3 資安建議。"
 		},
 		"izana": {
 			"title": "中文顧問",
-			"organization": "IZANA INDUSTRIES Ltd．兼職",
-			"location": "英屬維京群島．遠端",
-			"time": "2022.09 - 2023.02．6 個月",
+			"organization": "IZANA INDUSTRIES Ltd・兼職",
+			"location": "英屬維京群島・遠端",
+			"time": "2022.09 - 2023.02・6 個月",
 			"content": "技術棧: React\n經歷:\n1. 協助日本團隊建置英文及中文版官方網頁，使超過 3 萬非日語使用者能夠取得最新的資訊。\n2. 提供 Web3 資安建議。\n3. 協助漫畫翻譯成英文及中文，同時英文版在當地有出版成冊。"
 		},
 		"kaiju-of-cronos": {
 			"title": "初階開發者",
-			"organization": "Kaiju of Cronos．兼職",
-			"location": "美國．遠端",
-			"time": "2022.07 - 2023.01．7 個月",
+			"organization": "Kaiju of Cronos・兼職",
+			"location": "美國・遠端",
+			"time": "2022.07 - 2023.01・7 個月",
 			"content": "技術棧: Express, React, DiscordJS, BootStrap\n經歷:\n1. 協助團隊開發成員驗證系統，供超過 2000 人使用，替團隊省去持續的機器人支出及管理成本。"
 		}
 	},
@@ -122,9 +122,10 @@
 		"footer-msg": "商業合作歡迎以上方的任一管道聯繫我，並請您盡可能描述清楚您的來意，讓我能夠盡快回覆。"
 	},
 	"theme": {
-		"dark": "深色模式",
-		"light": "淺色模式"
+		"dark": "深色",
+		"light": "淺色"
 	},
+	"language": "語言",
 	"tip": {
 		"suggestUseComputer": "為了最佳的閱讀體驗，建議您使用電腦閱覽本頁。"
 	}

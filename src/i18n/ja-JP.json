@@ -9,7 +9,7 @@
 	"profile": {
 		"greeting": "こんにちは！私は",
 		"net-name": "0xmmq",
-		"real-name": "Wei Tzu Hsiang",
+		"real-name": "Wei",
 		"job-title": "バックエンドソフトウェアエンジニア",
 		"job-title-alt": "バックエンドエンジニア",
 		"description-1": "私は開発と技術研究に情熱を持つバックエンドエンジニアで、ブロックチェーンとフィンテック分野を専門とし、3年の関連経験があります。",
@@ -29,39 +29,39 @@
 	},
 	"experience": {
 		"tmm": {
-			"title": "Researcher",
-			"organization": "TMM Alpha．Part time",
-			"location": "Taiwan．Remote",
-			"time": "2024.06 - Now",
-			"content": "Experience:\n1. Explore and research new projects on the TON blockchain to provide initial investment opportunities such as angel rounds and VC rounds for the community.\n2. Assist in community operations."
+			"title": "リサーチャー",
+			"organization": "TMM Alpha・パートタイム",
+			"location": "台湾・リモート",
+			"time": "2024.06 - 現在",
+			"content": "経歴：\n1. TONブロックチェーン上の新プロジェクトを探索・研究し、コミュニティにエンジェルラウンドやVCラウンドなどの初期投資機会を提供。\n2. コミュニティ運営のサポート。"
 		},
 		"axis3d": {
-			"title": "Backend Engineer",
-			"organization": "Axis3D Technology Co., LTD．Full time",
-			"location": "Neihu, Taipei, Taiwan",
-			"time": "2023.05 - Now",
-			"content": "Stack: FFMpeg, OpenCV, FastAPI, Gin, Tauri, React, Tailwind CSS, Solidity, GCP\nExperience:\n1. Developed and maintained an AI-based multimedia product that, after obtaining patents, generated at least 4 million $NTD in profit for the company within half a year. This product was also used in at least 5 new projects within the company.\n2. Supported the coding of backend systems and AI-related application for multiple projects.\n3. Planned and developed the high concurrency backend system and related EVM contracts for a gamefi project, as well as integrated Discord and X Oauth to prevent Sybil attacks.\n4. Developed and deployed a product key verification server on GCP for the company, which saved approximately 1,000 $NTD in hardware key costs for each product sold.\n5. Assisted the NCDR(National Science & Technology Center for Disaster Reduction)'s project by setting up GCB (GPO), saving the company approximately 600,000 $NTD in outsourcing fees.\n6. Developed AI face-swapping for the 2024 Tainan Lantern Festival, saving the company 100,000 $NTD in outsourcing fees.\n"
+			"title": "バックエンドエンジニア",
+			"organization": "Axis3D Technology Co., LTD・フルタイム",
+			"location": "内湖区, 台北市, 台湾",
+			"time": "2023.05 - 現在",
+			"content": "技術スタック：FFMpeg, OpenCV, FastAPI, Gin, Tauri, React, Tailwind CSS, Solidity, GCP\n経歴：\n1. AI技術を使ったメディアプロダクトの開発と継続的なメンテナンスを担当。このプロダクトは特許を取得してから6ヶ月以内に最低400万台湾ドルの利益を会社にもたらした。また、このプロダクトは同社の少なくとも5つの新しいケースで使用された。\n2. 複数のプロジェクトのバックエンドシステムとAI関連アプリケーションのコーディングをサポート。\n3. GameFiプロジェクトの高並列バックエンドシステムと関連EVMコントラクトの計画・開発、およびシビル攻撃防止のためのDiscordとX Oauthの統合。\n4. 会社の認証サーバーの開発をサポートし、GCPにセットアップしました。同社はプロジェクトを1セット売ると、約1000台湾ドルのハードウェアのコストを削減 \n5. NCDR（国家災害防救科技中心）のプロジェクトでGCB（GPO）の設定をサポートし、会社の外注費用約60万台湾ドルを削減。\n6. 2024年台南ランタンフェスティバルのAI顔交換を開発し、会社の外注費用10万台湾ドルを削減。\n"
 		},
 		"n3labs": {
-			"title": "Chinese Community Manager",
-			"organization": "N3 Labs．Part time",
-			"location": "Chiyoda, Tokyo, Japan．Remote",
-			"time": "2022.10 - 2023.02．5 months",
-			"content": "Experience:\n1. Assisted the team in planning and designing online events.\n2. Designed art-related creations for the events.\n3. Provided Web3 security recommendations."
+			"title": "中国語コミュニティマネージャー",
+			"organization": "N3 Labs・パートタイム",
+			"location": "千代田区, 東京都, 日本・リモート",
+			"time": "2022.10 - 2023.02・5ヶ月間",
+			"content": "経歴：\n1. チームのオンラインイベントの企画・デザインをサポート。\n2. イベント用のアート関連作品をデザイン。\n3. Web3セキュリティに関する推奨事項を提供。"
 		},
 		"izana": {
-			"title": "Chinese Consultant",
-			"organization": "IZANA INDUSTRIES Ltd．Part time",
-			"location": "Road Town,Tortola, British Virgin Islands．Remote",
-			"time": "2022.09 - 2023.02．6 months",
-			"content": "Stack: React\nExperience:\n1. Assisted the Japanese team in building the official website in English and Chinese, enabling over 30,000 non-Japanese users to get the latest information.\n2. Provided Web3 security recommendations.\n3. Helped translate the manga into English and Chinese, with the English version being published in Japan as a printed book."
+			"title": "中国語コンサルタント",
+			"organization": "IZANA INDUSTRIES Ltd・パートタイム",
+			"location": "イギリス領ヴァージン諸島・リモート",
+			"time": "2022.09 - 2023.02・6ヶ月間",
+			"content": "技術スタック：React\n経歴：\n1. 日本チームの英語・中国語版公式ウェブサイト構築をサポートし、3万人以上の非日本語ユーザーが最新情報を入手できるようにした。\n2. Web3セキュリティに関する推奨事項を提供。\n3. 漫画の英語・中国語翻訳を支援し、英語版は日本で書籍として出版された。"
 		},
 		"kaiju-of-cronos": {
-			"title": "Junior Developer",
-			"organization": "Kaiju of Cronos．Part time",
-			"location": "USA．Remote",
-			"time": "2022.07 - 2023.01．7 months",
-			"content": "Stack: Express, React, DiscordJS, BootStrap\nExperience:\n1. Assisted the team in developing a discord member verification system used by over 2,000 people, saving the team ongoing bot expenses and management costs."
+			"title": "ジュニア開発者",
+			"organization": "クロノスの怪獣・パートタイム",
+			"location": "アメリカ・リモート",
+			"time": "2022.07 - 2023.01・7ヶ月間",
+			"content": "技術スタック：Express, React, DiscordJS, BootStrap\n経歴：\n1. 2000人以上が使うメンバー認証システムの開発をサポートし、チームの継続的なボット費用と管理コストを削減。"
 		}
 	},
 	"portfolio": {
@@ -119,12 +119,13 @@
 		}
 	},
 	"links": {
-		"footer-msg": "ジネスのご相談は上記の連絡先からお気軽にご連絡ください。できるだけ早くご返信致します。"
+		"footer-msg": "ビジネスのご相談は上記の連絡先からお気軽にご連絡ください。できるだけ早くご返信致します。"
 	},
 	"theme": {
-		"dark": "ダークモード",
-		"light": "ライトモード"
+		"dark": "ダーク",
+		"light": "ライト"
 	},
+	"language": "言語",
 	"tip": {
 		"suggestUseComputer": "最適な閲覧体験のため、パソコンでご覧いただくことをおすすめします。"
 	}

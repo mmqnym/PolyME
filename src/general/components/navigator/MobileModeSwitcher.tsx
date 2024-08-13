@@ -3,11 +3,9 @@ import { useContext, useEffect } from "react";
 import { NavigatorContext } from "../../../context/navigatorContext";
 import DarkModeLogo from "../../assets/dark-mode.svg?react";
 import NormalModeLogo from "../../assets/normal-mode.svg?react";
-import { useTranslation } from "react-i18next";
 import { GlobalContext } from "../../../context/globalContext";
 
 function MobileModeSwitcher() {
-	const { t } = useTranslation();
 	const navigatorContext = useContext(NavigatorContext);
 
 	if (!navigatorContext) {
@@ -35,24 +33,22 @@ function MobileModeSwitcher() {
 	}
 
 	return (
-		// biome-ignore lint/a11y/useKeyWithClickEvents: <explanation>
-		<li
+		<button
 			id="mobile-mode-switcher"
-			className={`${globalContext.font} flex flex-row items-center w-full mt-1 ml-2 rounded-md h-14 bg-gray-700/90 dark:bg-gray-300/90 sm:ml-4 xl:hidden`}
+			type="button"
+			className={`${globalContext.font} w-fit rounded-full h-fit bg-orange-300/30 dark:bg-gray-700/30 xl:hidden`}
 			onClick={toggleDarkMode}
 		>
 			{!navigatorContext.isDarkMode ? (
 				<>
-					<NormalModeLogo className="p-1 ml-2 mr-2 transition-colors duration-300 rounded-full w-7 bg-gray-300/30 fill-gray-300 hover:fill-amber-600 dark:fill-white/70 sm:ml-6 sm:mr-4 sm:w-10" />
-					<p className="text-xl text-gray-300">{t("theme.light")}</p>
+					<NormalModeLogo className="w-10 p-2 transition-colors duration-300 rounded-full bg-gray-300/30 fill-gray-400 dark:fill-white/70 sm:w-12" />
 				</>
 			) : (
 				<>
-					<DarkModeLogo className="p-1 ml-2 mr-2 transition-colors duration-300 rounded-full w-7 bg-gray-500/30 fill-gray-500 hover:fill-amber-600 dark:fill-black/70 sm:ml-6 sm:mr-4 sm:w-10" />
-					<p className="text-xl text-black/70">{t("theme.dark")}</p>
+					<DarkModeLogo className="w-10 p-2 transition-colors duration-300 rounded-full bg-gray-500/30 fill-gray-400 dark:fill-white/50 sm:w-12" />
 				</>
 			)}
-		</li>
+		</button>
 	);
 }
 

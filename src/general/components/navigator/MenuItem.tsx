@@ -34,7 +34,7 @@ function MenuItem({ Logo, label, route }: Props) {
 				to={route}
 				onClick={closeMenu}
 				className={({ isActive }) =>
-					`group relative top-16 ml-4 mt-8 flex flex-row items-center text-xl sm:ml-10 sm:mt-12 sm:text-2xl xl:top-0 xl:mt-0 xl:ml-0 xl:text-sm 2k:texl-base ${
+					`group relative top-8 ml-4 mt-8 flex flex-row items-center text-xl sm:ml-10 sm:mt-12 sm:text-2xl xl:top-0 xl:mt-0 xl:ml-0 xl:text-sm 2k:texl-base ${
 						isActive
 							? "text-amber-900 dark:text-purple-400 xl:underline xl:underline-offset-4"
 							: "text-gray-500 hover:text-amber-600 dark:text-white/70 dark:hover:text-purple-200"
