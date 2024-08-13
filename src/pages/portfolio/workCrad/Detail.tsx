@@ -27,7 +27,7 @@ function Detail() {
 				{t("portfolio.detail")}
 			</p>
 			<p
-				className={`${globalContext.font} mt-4 h-4/5 w-full overflow-y-auto whitespace-pre-line px-6 pb-5 text-lg xl:text-sm 2k:text-lg ${workCardContext.isSwitchingCard ? "animate-pulse text-gray-700/30 dark:text-gray-200/30" : "dark:text-gray-200 text-gray-700"} transition-all duration-100 scrollbar-thin scrollbar-track-transparent scrollbar-track-rounded-full scrollbar-thumb-rounded-full scrollbar-thumb-amber-900/50 dark:scrollbar-thumb-purple-400/30`}
+				className={`${globalContext.font} mt-4 xl:h-[70%] h-4/5 2k:h-4/5 w-full overflow-y-auto whitespace-pre-line px-6 pb-5 text-lg xl:text-sm 2k:text-lg ${workCardContext.isSwitchingCard ? "animate-pulse text-gray-700/30 dark:text-gray-200/30" : "dark:text-gray-200 text-gray-700"} transition-all duration-100 scrollbar-thin scrollbar-track-transparent scrollbar-track-rounded-full scrollbar-thumb-rounded-full scrollbar-thumb-amber-900/50 dark:scrollbar-thumb-purple-400/30`}
 			>
 				{t(workCardContext.workCardData.detail)}
 			</p>

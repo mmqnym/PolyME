@@ -67,7 +67,7 @@ function LanguageSwitcher() {
 				<div className="h-0.5 w-full dark:bg-gray-700 bg-gray-200/50" />
 				<button
 					type="button"
-					className="px-4 py-2 tracking-wide text-gray-100 transition-all duration-100 font-openhuninn dark:text-gray-900 xl:hover:bg-gray-700/40 xl:dark:hover:bg-gray-300/90"
+					className="px-4 py-2 tracking-wide text-gray-100 transition-all duration-100 font-ubuntu dark:text-gray-900 xl:hover:bg-gray-700/40 xl:dark:hover:bg-gray-300/90"
 					onClick={() => handleItemClicked("zh-TW")}
 				>
 					繁體中文
@@ -75,7 +75,7 @@ function LanguageSwitcher() {
 				<div className="h-0.5 w-full dark:bg-gray-700 bg-gray-200/50" />
 				<button
 					type="button"
-					className="px-4 py-2 tracking-wide text-gray-100 transition-all duration-100 font-chillroundh2othic dark:text-gray-900 xl:hover:bg-gray-700/40 xl:dark:hover:bg-gray-300/90"
+					className="px-4 py-2 tracking-wide text-gray-100 transition-all duration-100 font-ubuntu dark:text-gray-900 xl:hover:bg-gray-700/40 xl:dark:hover:bg-gray-300/90"
 					onClick={() => handleItemClicked("zh-CN")}
 				>
 					简体中文
@@ -83,7 +83,7 @@ function LanguageSwitcher() {
 				<div className="h-0.5 w-full dark:bg-gray-700 bg-gray-200/50" />
 				<button
 					type="button"
-					className="px-4 py-2 tracking-wide text-gray-100 transition-all duration-100 font-kosugimaru dark:text-gray-900 xl:hover:bg-gray-700/40 xl:dark:hover:bg-gray-300/90"
+					className="px-4 py-2 tracking-wide text-gray-100 transition-all duration-100 font-ubuntu dark:text-gray-900 xl:hover:bg-gray-700/40 xl:dark:hover:bg-gray-300/90"
 					onClick={() => handleItemClicked("ja-JP")}
 				>
 					日本語

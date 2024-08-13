@@ -30,37 +30,37 @@
 	"experience": {
 		"tmm": {
 			"title": "Researcher",
-			"organization": "TMM Alpha．Part time",
-			"location": "Taiwan．Remote",
+			"organization": "TMM Alpha・Part time",
+			"location": "Taiwan・Remote",
 			"time": "2024.06 - Now",
 			"content": "Experience:\n1. Explore and research new projects on the TON blockchain to provide initial investment opportunities such as angel rounds and VC rounds for the community.\n2. Assist in community operations."
 		},
 		"axis3d": {
 			"title": "Backend Engineer",
-			"organization": "Axis3D Technology Co., LTD．Full time",
+			"organization": "Axis3D Technology Co., LTD・Full time",
 			"location": "Neihu, Taipei, Taiwan",
 			"time": "2023.05 - Now",
 			"content": "Stack: FFMpeg, OpenCV, FastAPI, Gin, Tauri, React, Tailwind CSS, Solidity, GCP\nExperience:\n1. Developed and maintained an AI-based multimedia product that, after obtaining patents, generated at least 4 million $NTD in profit for the company within half a year. This product was also used in at least 5 new projects within the company.\n2. Supported the coding of backend systems and AI-related application for multiple projects.\n3. Planned and developed the high concurrency backend system and related EVM contracts for a gamefi project, as well as integrated Discord and X Oauth to prevent Sybil attacks.\n4. Developed and deployed a product key verification server on GCP for the company, which saved approximately 1,000 $NTD in hardware key costs for each product sold.\n5. Assisted the NCDR(National Science & Technology Center for Disaster Reduction)'s project by setting up GCB (GPO), saving the company approximately 600,000 $NTD in outsourcing fees.\n6. Developed AI face-swapping for the 2024 Tainan Lantern Festival, saving the company 100,000 $NTD in outsourcing fees.\n"
 		},
 		"n3labs": {
 			"title": "Chinese Community Manager",
-			"organization": "N3 Labs．Part time",
-			"location": "Chiyoda, Tokyo, Japan．Remote",
-			"time": "2022.10 - 2023.02．5 months",
+			"organization": "N3 Labs・Part time",
+			"location": "Chiyoda, Tokyo, Japan・Remote",
+			"time": "2022.10 - 2023.02・5 months",
 			"content": "Experience:\n1. Assisted the team in planning and designing online events.\n2. Designed art-related creations for the events.\n3. Provided Web3 security recommendations."
 		},
 		"izana": {
 			"title": "Chinese Consultant",
-			"organization": "IZANA INDUSTRIES Ltd．Part time",
-			"location": "Road Town,Tortola, British Virgin Islands．Remote",
-			"time": "2022.09 - 2023.02．6 months",
+			"organization": "IZANA INDUSTRIES Ltd・Part time",
+			"location": "Road Town,Tortola, British Virgin Islands・Remote",
+			"time": "2022.09 - 2023.02・6 months",
 			"content": "Stack: React\nExperience:\n1. Assisted the Japanese team in building the official website in English and Chinese, enabling over 30,000 non-Japanese users to get the latest information.\n2. Provided Web3 security recommendations.\n3. Helped translate the manga into English and Chinese, with the English version being published in Japan as a printed book."
 		},
 		"kaiju-of-cronos": {
 			"title": "Junior Developer",
-			"organization": "Kaiju of Cronos．Part time",
-			"location": "USA．Remote",
-			"time": "2022.07 - 2023.01．7 months",
+			"organization": "Kaiju of Cronos・Part time",
+			"location": "USA・Remote",
+			"time": "2022.07 - 2023.01・7 months",
 			"content": "Stack: Express, React, DiscordJS, BootStrap\nExperience:\n1. Assisted the team in developing a discord member verification system used by over 2,000 people, saving the team ongoing bot expenses and management costs."
 		}
 	},
@@ -122,9 +122,10 @@
 		"footer-msg": "For business cooperation, welcome to leaving your details by contact channels above, and I will respond as soon as possible."
 	},
 	"theme": {
-		"dark": "Dark mode",
-		"light": "Light mode"
+		"dark": "Dark",
+		"light": "Light"
 	},
+	"language": "Language",
 	"tip": {
 		"suggestUseComputer": "For the best experience, read this page on a computer."
 	}

@@ -10,7 +10,7 @@ import PortfolioLogo from "../../assets/labels/portfolio.svg?react";
 import ProfileLogo from "../../assets/labels/profile.svg?react";
 import StackLogo from "../../assets/labels/stack.svg?react";
 import MobileMenuFooter from "./MobileMenuFooter";
-import MobileModeSwitcher from "./MobileModeSwitcher";
+import { GlobalContext } from "../../../context/globalContext";
 
 function MobileMenu() {
 	const navigatorContext = useContext(NavigatorContext);
@@ -21,6 +21,11 @@ function MobileMenu() {
 	const toggleMenu = () => {
 		navigatorContext?.setShowMobileMenu(!navigatorContext?.showMobileMenu);
 	};
+
+	const globalContext = useContext(GlobalContext);
+	if (!globalContext) {
+		throw new Error("GlobalContext must be used within a GlobalProvider");
+	}
 
 	return (
 		<>
@@ -42,7 +47,6 @@ function MobileMenu() {
 						: "translate-x-full"
 				}`}
 			>
-				<MobileModeSwitcher />
 				<MenuItem Logo={ProfileLogo} label="Profile" route="/" />
 				<MenuItem Logo={StackLogo} label="Stack" route="/stack" />
 				<MenuItem
@@ -52,6 +56,7 @@ function MobileMenu() {
 				/>
 				<MenuItem Logo={PortfolioLogo} label="Portfolio" route="/portfolio" />
 				<MenuItem Logo={LinksLogo} label="Links" route="/links" />
+
 				<MobileMenuFooter />
 			</ul>
 		</>

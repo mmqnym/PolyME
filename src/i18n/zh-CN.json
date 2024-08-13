@@ -7,7 +7,7 @@
 		"Links": "链接"
 	},
 	"profile": {
-		"greeting": "嗨！你好，我是",
+		"greeting": "嗨！我是",
 		"net-name": "0xmmq",
 		"real-name": "Wei Tzu Hsiang",
 		"job-title": "后端软件工程师",
@@ -122,9 +122,10 @@
 		"footer-msg": "商业合作欢迎以上方的任一渠道联系我，并请您尽可能描述清楚您的来意，让我能够尽快回复。"
 	},
 	"theme": {
-		"dark": "深色模式",
-		"light": "浅色模式"
+		"dark": "深色",
+		"light": "浅色"
 	},
+	"language": "语言",
 	"tip": {
 		"suggestUseComputer": "为了最佳的阅读体验，建议您使用电脑浏览本页。"
 	}
