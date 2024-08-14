@@ -70,52 +70,52 @@
 		"stack": "技術",
 		"detail": "詳細",
 		"polyme": {
-			"about": "PolyME is my personal website, used to show information about experience, skills, portfolio, etc. Welcome to visit and contact me.",
-			"detail": "This is my personal website, recording my development life. Technically, I use a lot of new front-end toolchains, such as Bun, Vite, SWC, Biome, to speed up the development and compilation process. \n\nIn addition, in order to speed up access to this website, I set up Caddy 2 server to handle static web pages, and use Cloudflare CDN and Http3 to minimize the access time. For SEO, I use Helmet, Open Graph, Google Tag Manager and GA4."
+			"about": "PolyMEは私の個人ウェブサイトで、経験、スキル、ポートフォリオなどの情報を紹介しています。どんなことでもお気軽にご連絡ください。",
+			"detail": "これは私の開発人生を記録した個人ウェブサイトです。技術的には、Bun、Vite、SWC、Biomeなど、多くの新しいフロントエンドツールチェーンを使用して、開発とコンパイルのプロセスを高速化しています。\n\nさらに、アクセス速度を向上させるため、Caddy 2サーバーを設置して静的ウェブページを処理し、Cloudflare CDNとHttp3を使用してアクセス時間を最小限に抑えています。SEO対策として、Helmet、Open Graph、Google Tag Manager、GA4を使用しています。"
 		},
 		"quickcerts": {
-			"about": "A simple certificate server that can be used to issue certificates for your product to verify that it has been activated.",
-			"detail": "This project aims to help developers quickly establish a certificate server for issuing certificates (keys and signatures) for your applications. You can embed the public key into your application and use the signature to verify whether the key is issued by the certificate server you have set up, achieving \"product activation\" functionality.\n\nAdditionally, QuickCerts provides support for temporary permission. If your application requires a \"trial period\" or periodic authorization rather than permanent authorization, you can use the relevant API to achieve this."
+			"about": "これはシンプルな認証サーバーで、お客様のプロダクトの認証ステータスを検証するために証明書を発行します。",
+			"detail": "このプロジェクトは、開発者がアプリケーション用の証明書（キーと署名）を発行するための証明書サーバーを迅速に構築するのを支援することを目的としています。公開キーをアプリケーションに組み込み、署名を使用して、そのキーが設定した証明書サーバーによって発行されたものかどうかを確認し、「プロダクトのアクティベーション」機能を実現します。\n\nさらに、QuickCertsは一時的な許可のサポートも提供しています。アプリケーションが永続的な認証ではなく、「試用期間」や定期的な認証を必要とする場合、関連APIを使用してこれを実現できます。"
 		},
 		"jumpcross": {
-			"about": "This is a GameFi project running on the Arbitrum One network, focusing on relaxation and high playability, and balancing team and player profitability in pursuit of long-term operation.",
-			"detail": "In this GameFi project, I am responsible for the development of the backend system and EVM contracts. For the contracts, I used Solidity and HardHat to develop the domain name registration and resolution contract, game token contract, and game master contract; for the back-end system, I developed 6 micro-services, including user login status processing, game data recording, game synchronization, and monitoring of plug-ins, etc. I also use http2 and WebSocket to reduce the time and cost of communicating between users and the servers.\nIn addition, X and Discord Oauth are also connected to increase the difficulty of sybil attacks."
+			"about": "Arbitrum One上で運営されているGameFiプロジェクトで、長期的な運営を目指し、チームとプレイヤーの収益性をバランスさせながら、手軽で高いプレイアビリティを重視してます。",
+			"detail": "このGameFiプロジェクトでは、バックエンドシステムとEVMコントラクトの開発を担当しています。コントラクトについては、SolidityとHardHatを使用してドメイン名登録・解決コントラクト、ゲームトークンコントラクト、ゲームマスターコントラクトを開発しました。バックエンドシステムについては、ユーザーログイン状態処理、ゲームデータ記録、ゲーム同期、プラグインの監視など、6つのマイクロサービスを開発しました。また、http2とWebSocketを使用して、ユーザーとサーバー間の通信時間とコストを削減しています。\n加えて、XとDiscord Oauthも接続して、シビル攻撃の難易度を上げています。"
 		},
 		"vishybrid": {
-			"about": "This is an AI-based multimedia broadcasting tool that supports timely background removal and motion capture. It also provides an easy-to-use interface that supports English, Simplified Chinese, Traditional Chinese, and Japanese.",
-			"detail": "This tool uses Tauri + React + Tailwind to build the interface, the backend uses OpenCV to do real-time processing of video images (real-time background removal, motion capture), then broadcasts through FFmpeg with media server and NDI SDK, after that, builds APIs in Python to provide the services.\n\nThe product supports multiple input sources (RTSP, NDI, Raw video) and output protocols (RTSP-Opus, NDI-Opus, WebRTC-H264-Opus, WebRTC-VP8-Opus, CTP-AAC) to satisfy all kinds of multimedia transmission needs."
+			"about": "これはAIに基づいてマルチメディア信号放送ツールであり、リアルタイムで背景除去とモーションキャプチャをサポートしています。また、英語、簡体字中国語、繁体字中国語、日本語をサポートする使いやすいインターフェースを提供します。",
+			"detail": "このツールはTauri + React + Tailwindを使用してインターフェースを構築し、バックエンドではOpenCVを使用して動画画像のリアルタイム処理（背景除去、モーションキャプチャ）を行い、FFmpegとメディアサーバー、NDI SDKを通じて配信し、その後PythonでAPIを構築してサービスを提供しています。\n\n本プロダクトは、さまざまなマルチメディア伝送ニーズを満たすため、複数の入力ソース（RTSP、NDI、Raw video）と出力プロトコル（RTSP-Opus、NDI-Opus、WebRTC-H264-Opus、WebRTC-VP8-Opus、CTP-AAC）をサポートしています。"
 		},
 		"pwdport": {
-			"about": "This app helps people to generate secure passwords without having to remember too much information.",
-			"detail": "By using this password generation tool, it can help people who are used to using the same password to have higher security, and it can also provide a better password generation tool for people who are more aware of information security."
+			"about": "このアプリは、多くの情報を覚える必要なく、安全なパスワードを生成するのに役立ちます。",
+			"detail": "このパスワード生成ツールを使用することで、同じパスワードを使い回す習慣のある人々のセキュリティを向上させ、また情報セキュリティに敏感な人々により優れたパスワード生成ツールを提供することができます。"
 		},
 		"discord-member-verification-system": {
-			"about": "This is a Discord member verification system that verifies NFT holdings.",
-			"detail": "The function of this system is to verify whether the Web3 wallet of the Discord account owner holds the specified token, and also to check the number of tokens for the member level differentiation purpose.\n\nTechnically, I used ExpressJS, MongoDB, and DiscordJS in the backend to provide the API endpoint for Discord OAuth, and to record and update members' data, while in the frontend, I used React and Tailwind together with Rainbow Kit to create an easy-to-use DApp."
+			"about": "これはNFTの保有を確認するDiscordメンバー認証システムです。",
+			"detail": "このシステムの機能は、Discordアカウント所有者のWeb3ウォレットが指定されたトークンを保有しているかを確認し、また会員レベルの区別のためにトークン数をチェックすることです。\n\n技術的には、バックエンドでExpressJS、MongoDB、DiscordJSを使用して、Discord OAuthのAPIエンドポイントを提供し、メンバーデータの記録と更新を行っています。フロントエンドでは、ReactとTailwindをRainbow Kitと組み合わせて、使いやすいDAppを作成しています。"
 		},
 		"nft-market-sniper": {
-			"about": "This is a timed crawler that monitors prices on the NFT Marketplace website and connects it to the Discord Bot for users to check.",
-			"detail": "This is a Discord Bot for monitoring the NFT marketplace on the Cronos chain - ebisu's bay, allowing subscribers to get the latest floor prices for selected Collections.\n\nThe technology uses Pyppeteer for periodic crawling and snapshots, and Pycord pushes relevant information to Disocrd for users to reference when prices change. Users can also interact with the bot via bot commands."
+			"about": "これは定期的にNFTマーケットプレイスウェブサイトの価格を監視し、ユーザーがチェックできるようDiscord Botに接続するクローラーです。",
+			"detail": "これはCronosチェーン上のNFTマーケットプレイス - ebisu's bayを監視するDiscord Botで、購読者が選択したコレクションの最新のフロア価格を取得できます。\n\n技術的には、Pyppeteerを使用して定期的なクローリングとスナップショットを行い、価格が変更されたときにPycordを通じて関連情報をDiscordにプッシュしてユーザーに参照してもらいます。ユーザーはボットコマンドを通じてボットと対話することもできます。"
 		},
 		"travel-line-bot": {
-			"about": "This is a travel bot with AI text segmentation, which allows users to check prices in different currencies with simple conversations, and provides some small functions for travel.",
-			"detail": "This is a Line bot that allows users to conveniently travel by providing user-friendly commands to find prices in $NTD and $USD based on the Bank of Taiwan's real-time exchange rate. It also provides convenient buttons for users to check the weather information of their current location and take notes.\n\nI used Django to build the callback API for Line Bot to use. The user commands use Jieba to determine which actions to perform based on the word token. The exchange rate is obtained by crawling the Bank of Taiwan exchange rate periodically."
+			"about": "これはAIテキスト分割機能を備えた旅行ボットで、ユーザーは簡単な会話で異なる通貨の価格を確認でき、旅行に役立ついくつかの小機能も提供しています。",
+			"detail": "これは、ユーザーが便利に旅行できるようにするLineボットで、台湾銀行のリアルタイム為替レートに基づいて台湾ドルと米ドルの価格を調べるためのユーザーフレンドリーなコマンドを提供しています。また、ユーザーが現在地の天気情報を確認し、メモを取るための便利なボタンも提供しています。\n\n技術的には、Djangoを使用してLine Bot用のコールバックAPIを構築しました。ユーザーコマンドはJiebaを使用して単語トークンに基づいてどのアクションを実行するかを判断します。為替レートは定期的に台湾銀行の為替レートをクロールして取得しています。"
 		},
 		"goink": {
-			"about": "GoInk is a project template that helps developers quickly build a server. Use the gin framework.",
-			"detail": "This project is based on the following open source libraries:\n\n- Gin\n- swaggo\n- zap\n- lumberjack\n- golang-jwt\n\nIt is used to quickly build a web server with mainstream infrastructure to provide an environment for quickly developing API routes, middleware, and database operations, and to save the time of file hierarchy planning and log customization."
+			"about": "GoInkは開発者がサーバーを迅速に構築するのを助けるプロジェクトテンプレートです。Ginフレームワークを使用しています。",
+			"detail": "このプロジェクトは以下のパブリックリポジトリをベースにしています：\n\n- Gin\n- swaggo\n- zap\n- lumberjack\n- golang-jwt\n\nこれは主流のインフラでWebサーバーを迅速に構築し、APIルート、ミドルウェア、データベース操作を迅速に開発するための環境を提供し、ファイル階層の計画とログのカスタマイズの時間を節約するために使用されます。"
 		},
 		"auto-interacter": {
-			"about": "This is a script for fully automated interaction with EVM contracts. The repository is used for Scroll blockchain interactions.",
-			"detail": "This script was born out of the popularity of participating in blockchain project airdrops, where manual project interactions were becoming less and less rewarding, making automated interactions with a large number of accounts becoming a need for the majority of people.\n\nI developed this project to improve my blockchain knowledge and skills, and to provide others with the opportunity to study how to automate interaction contracts.\n\nThis project mainly uses EthersJS to interact with EVM contracts, and most of the development time is spent on analyzing the ABI of each project's contract and the results of the contract interaction returns."
+			"about": "これはEVMコントラクトと完全に自動化された相互作用を行うスクリプトです。このリポジトリはScrollブロックチェーンとの相互作用に使用されます。",
+			"detail": "このスクリプトは、ブロックチェーンプロジェクトのエアドロップに参加する人気が高まる中で生まれました。手動でのプロジェクト相互作用がますます報酬を得られなくなり、多数のアカウントを使用した自動化された相互作用が多くの人々にとって必要になってきたためです。\n\n私はこのプロジェクトを開発して自身のブロックチェーンの知識とスキルを向上させ、他の人々に自動化されたコントラクト相互作用の方法を学ぶ機会を提供することを目的としていました。\n\nこのプロジェクトは主にEthersJSを使用してEVMコントラクトと相互作用し、開発時間の大部分は各プロジェクトのコントラクトのABIとコントラクト相互作用の戻り値の分析に費やされています。"
 		},
 		"recipe-master": {
-			"about": "This project was my Bachelor of Computer Science graduation project, categorized under the theme of Computer Graphics, which is a web application that uses photos to find recipes.",
-			"detail": "This project combines crawler and image search technology, users can upload images to the API endpoint built by Flask, the image will be processed by OpenCV through a series of perceptual hash algorithms, and then compared with remote and local image libraries to confirm that the food in the image most likely belongs to the category. Finally, return to the user the relevant recipes link."
+			"about": "これは私の学士（コンピュータサイエンス）卒業プロジェクトで、コンピュータグラフィックスのテーマに分類されます。写真を使用してレシピを探すウェブアプリケーションです。",
+			"detail": "このソフトウェアは、クローラーと画像検索技術を組み合わせたソフトウェアで、ユーザーはFlaskによって構築されたAPIエンドポイントに画像をアップロードすることができ、画像は一連の知覚ハッシュアルゴリズムを通じてOpenCVによって処理され、リモートおよびローカルの画像データベースと比較して、画像内の食品が分類に属する可能性が最も高いかを確認し、ユーザーにレシピへの関連リンクを返送します。"
 		},
 		"mymemo": {
-			"about": "This is a simple GUI calendar program written in Qt5.",
-			"detail": "After a lot of command-line based practice and development during my studies, I was curious about GUI programs, and wanted to understand how graphical applications are implemented generally. After a short period of research, I decided that Qt5 was the most suitable graphical framework for me to implement my first GUI program, as I had mostly developed in C++ during my studies.\n\nI used a lot of C++ STL and pointer manipulation to optimize performance, and used the Qt designer to design the interface and bind interactive components to logic functions. During development, I also used system level libraries to enable my application to register in the registry and autostart at boot."
+			"about": "これはQt5で作成したシンプルなGUIカレンダープログラムです。",
+			"detail": "在学中にテキストベースのプログラムをたくさん練習し開発し、GUIプログラムに興味を持ち、一般的なGUIアプリケーションの実現原理を理解したいと思うようになりました。 短いリサーチを経た後、在学中は主にC++で開発していたため、Qt5フレームワークを使って初めてのGUIプログラムを開発することにしました。\n\nパフォーマンスを最適化するためにC++のSTLとポインタ処理を多用し、Qt Designerを使ってインターフェースを設計し、インタラクティブなコンポーネントをロジカルファンクションにバインドしました。 開発の間、私はシステムレベルのライブラリも使って、アプリケーションがレジストリファイルに登録され、ブート時に自動的に起動するようにしました。"
 		}
 	},
 	"links": {
