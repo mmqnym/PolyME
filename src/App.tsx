@@ -67,6 +67,7 @@ function App() {
 							<Route path="/experience" element={<Experience />} />
 							<Route path="/portfolio" element={<Portfolio />} />
 							<Route path="/links" element={<Links />} />
+							<Route path="*" element={<Home />} />
 						</Routes>
 					</LazyLoader>
 				</BrowserRouter>
