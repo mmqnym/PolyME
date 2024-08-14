@@ -7,6 +7,7 @@ import LazyLoader from "./general/components/lazyLoader/LazyLoader";
 import LoadingPage from "./pages/loading/LoadingPage";
 import { useTranslation } from "react-i18next";
 import { GlobalContext } from "./context/globalContext";
+import { Helmet } from "react-helmet";
 
 const Home = lazy(() => import("./pages/home/Home"));
 const Stack = lazy(() => import("./pages/stack/Stack"));
@@ -60,6 +61,9 @@ function App() {
 			<NavigatorContext.Provider value={navContextValue}>
 				<BrowserRouter>
 					<LazyLoader minDelay={500} fallback={<LoadingPage needTime={200} />}>
+						<Helmet>
+							<html lang={i18n.language} />
+						</Helmet>
 						<Navigator />
 						<Routes>
 							<Route index element={<Home />} />
