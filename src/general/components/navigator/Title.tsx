@@ -25,9 +25,9 @@ function Title() {
 			<SuspenseImage
 				src={logo}
 				alt="logo"
-				className="sm:w-12 h-auto w-12 xl:w-12 mr-0.5 2k:w-12"
+				className="sm:w-10 h-auto w-12 xl:w-12 mr-0.5 2k:w-12"
 			/>
-			<p className="text-5xl text-gray-500 font-iceland xl:text-5xl dark:text-gray-200">
+			<p className="text-4xl text-gray-500 sm:text-4xl font-iceland xl:text-5xl dark:text-gray-200">
 				PolyME
 			</p>
 		</NavLink>

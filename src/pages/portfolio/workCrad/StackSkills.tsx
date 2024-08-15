@@ -11,7 +11,7 @@ function StackSkills() {
 	}
 
 	return (
-		<div className="flex flex-row flex-wrap gap-5 px-6 overflow-auto xl:gap-3 2k:gap-5 scrollbar-thin scrollbar-track-transparent scrollbar-track-rounded-full scrollbar-thumb-rounded-full scrollbar-thumb-amber-900/50 dark:scrollbar-thumb-purple-400/30">
+		<div className="flex flex-row flex-wrap gap-5 px-6 xl:gap-3 2k:gap-5">
 			{workCardContext.workCardData.stack.skills.map((item) => (
 				<div className="flex flex-row items-center gap-2" key={item}>
 					{/* point */}
