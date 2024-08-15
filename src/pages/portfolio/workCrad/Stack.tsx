@@ -21,7 +21,7 @@ function Stack() {
 				{t("portfolio.stack")}
 			</p>
 			<div
-				className={`${globalContext.font} flex flex-col w-full gap-6 mt-4 overflow-auto text-lg h-3/5`}
+				className={`${globalContext.font} flex flex-col w-full gap-6 mt-4 overflow-auto text-lg h-3/5 scrollbar-thin scrollbar-track-transparent scrollbar-track-rounded-full scrollbar-thumb-rounded-full scrollbar-thumb-amber-900/50 dark:scrollbar-thumb-purple-400/30`}
 			>
 				<StackLanguages />
 				<StackSkills />
