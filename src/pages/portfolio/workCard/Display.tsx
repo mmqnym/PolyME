@@ -45,7 +45,7 @@ function Display() {
 	};
 
 	return (
-		<div className="w-full xl:h-full h-[600px] xl:col-span-4 xl:col-start-1 xl:row-start-2 bg-orange-100 border border-orange-900/30 dark:border-gray-700 row-span-11 rounded-2xl dark:bg-gray-700/30">
+		<div className="w-full bg-orange-100 border h-[600px] 2k:h-[800px] border-orange-900/30 dark:border-gray-700 rounded-2xl dark:bg-gray-700/30">
 			<Carousel
 				slide={true}
 				slideInterval={5000}

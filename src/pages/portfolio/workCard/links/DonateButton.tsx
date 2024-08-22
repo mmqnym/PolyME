@@ -30,10 +30,10 @@ function DonateButton({ src, alt, url }: DonateButtonProps) {
 	return (
 		<button
 			type="button"
-			className={`${workCardLinksContext.switchLinks === LinkGroup.DONATION ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none rounded-full ${workCardContext.isSwitchingCard ? "animate-pulse bg-yellow-900/5 dark:bg-gray-600/30" : "bg-yellow-900/10 dark:bg-gray-600/70"} p-1.5 transition-all duration-300 xl:hover:scale-90 xl:hover:bg-gray-300 xl:hover:bg-yellow-900/30 xl:dark:hover:bg-gray-300`}
+			className={`${workCardLinksContext.switchLinks === LinkGroup.DONATION ? "" : "hidden"} h-3/4 w-auto p-[2%] sm:p-[0.5%] select-none rounded-full ${workCardContext.isSwitchingCard ? "animate-pulse bg-yellow-900/5 dark:bg-gray-600/30" : "bg-yellow-900/10 dark:bg-gray-600/70"} transition-all duration-300 xl:hover:scale-90 xl:hover:bg-gray-300 xl:hover:bg-yellow-900/30 xl:dark:hover:bg-gray-300`}
 		>
 			<a href={url} target="_blank" rel="noreferrer noopener">
-				<SuspenseImage src={src} alt={alt} />
+				<SuspenseImage src={src} alt={alt} className="w-full h-full" />
 			</a>
 		</button>
 	);

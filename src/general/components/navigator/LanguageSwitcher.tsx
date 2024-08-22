@@ -49,7 +49,7 @@ function LanguageSwitcher() {
 
 	return (
 		<div
-			className="relative cursor-pointer"
+			className="relative cursor-pointer select-none"
 			onMouseEnter={handleDropDownEntered}
 			onMouseLeave={handleDropDownLeaved}
 		>

@@ -41,7 +41,7 @@ function Chooser({ title, icon, alt, setCurrentHoveredProject }: chooserProps) {
 			<SuspenseImage
 				src={icon}
 				alt={alt}
-				className={`p-1 sm:p-3 xl:p-2 2k:p-3 transition-all duration-300 ${workCardContext.currentChosenCard === title ? "" : "xl:group-hover:p-3 2k:group-hover:p-4:"}`}
+				className={`p-1 sm:p-3 xl:p-2 2k:p-3 transition-all duration-300 ${workCardContext.currentChosenCard === title ? "" : "xl:group-hover:p-3"}`}
 			/>
 		</button>
 	);

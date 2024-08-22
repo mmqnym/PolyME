@@ -31,9 +31,10 @@ function ControlButtonGroup() {
 			<button
 				type="button"
 				onClick={() => workCardLinksContext.setSwitchLinks(LinkGroup.DONATION)}
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL || workCardLinksContext.switchLinks === LinkGroup.DONATION ? "hidden" : ""} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none rounded-full ${workCardContext.isSwitchingCard ? "animate-pulse bg-yellow-900/5 dark:bg-gray-600/30" : "bg-yellow-900/10 dark:bg-gray-600/70"} p-2.5 xl:p-1.5 2k:p-2.5  transition-all duration-300 xl:hover:scale-90 xl:hover:bg-yellow-900/30 xl:dark:hover:bg-gray-300`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL || workCardLinksContext.switchLinks === LinkGroup.DONATION ? "hidden" : ""} h-3/4 w-auto p-[2%] sm:p-[0.5%] select-none rounded-full ${workCardContext.isSwitchingCard ? "animate-pulse bg-yellow-900/5 dark:bg-gray-600/30" : "bg-yellow-900/10 dark:bg-gray-600/70"} transition-all duration-300 xl:hover:scale-90 xl:hover:bg-yellow-900/30 xl:dark:hover:bg-gray-300`}
 			>
 				<SuspenseImage
+					className="w-full h-full"
 					src={donateIcon}
 					alt={`${workCardContext.workCardData.title}-donation`}
 				/>
@@ -42,9 +43,10 @@ function ControlButtonGroup() {
 			<button
 				type="button"
 				onClick={() => workCardLinksContext.setSwitchLinks(LinkGroup.SOCIAL)}
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL || workCardLinksContext.switchLinks === LinkGroup.DONATION ? "hidden" : ""} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none rounded-full ${workCardContext.isSwitchingCard ? "animate-pulse bg-yellow-900/5 dark:bg-gray-600/30" : "bg-yellow-900/10 dark:bg-gray-600/70"} p-2.5 xl:p-1.5 2k:p-2.5  transition-all duration-300 xl:hover:scale-90 xl:hover:bg-yellow-900/30 xl:dark:hover:bg-gray-300`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL || workCardLinksContext.switchLinks === LinkGroup.DONATION ? "hidden" : ""} h-3/4 w-auto p-[2%] sm:p-[0.5%] select-none rounded-full ${workCardContext.isSwitchingCard ? "animate-pulse bg-yellow-900/5 dark:bg-gray-600/30" : "bg-yellow-900/10 dark:bg-gray-600/70"} transition-all duration-300 xl:hover:scale-90 xl:hover:bg-yellow-900/30 xl:dark:hover:bg-gray-300`}
 			>
 				<SuspenseImage
+					className="w-full h-full"
 					src={shareIcon}
 					alt={`${workCardContext.workCardData.title}-share}`}
 				/>
@@ -53,9 +55,10 @@ function ControlButtonGroup() {
 			<button
 				type="button"
 				onClick={() => workCardLinksContext.setSwitchLinks(LinkGroup.REFERENCE)}
-				className={`${workCardLinksContext.switchLinks !== LinkGroup.REFERENCE ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none rounded-full ${workCardContext.isSwitchingCard ? "animate-pulse bg-yellow-900/5 dark:bg-gray-600/30" : "bg-yellow-900/10 dark:bg-gray-600/70"} p-2.5 xl:p-1.5 2k:p-2.5  transition-all duration-300 xl:hover:scale-90 xl:hover:bg-yellow-900/30 xl:dark:hover:bg-gray-300`}
+				className={`${workCardLinksContext.switchLinks !== LinkGroup.REFERENCE ? "" : "hidden"} h-3/4 w-auto p-[2%] sm:p-[0.5%] select-none rounded-full ${workCardContext.isSwitchingCard ? "animate-pulse bg-yellow-900/5 dark:bg-gray-600/30" : "bg-yellow-900/10 dark:bg-gray-600/70"} transition-all duration-300 xl:hover:scale-90 xl:hover:bg-yellow-900/30 xl:dark:hover:bg-gray-300`}
 			>
 				<SuspenseImage
+					className="w-full h-full"
 					src={backIcon}
 					alt={`${workCardContext.workCardData.title}-share}`}
 				/>

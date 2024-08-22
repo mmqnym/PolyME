@@ -1,6 +1,6 @@
 import Container from "./Container";
 import WorkCardDock from "./workCardDock/WorkCardDock";
-import WorkCard from "./workCrad/WorkCard";
+import WorkCard from "./workCard/WorkCard";
 
 import WorkCardConsumer from "./workCardConsumer/WorkCardConsumer";
 import Hinter from "./Hinter";

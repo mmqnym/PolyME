@@ -20,10 +20,8 @@ function Detail() {
 	}
 
 	return (
-		<div className="w-full col-span-2 col-start-5 row-span-5 bg-orange-100 border h-80 xl:h-full border-orange-900/30 dark:border-gray-700 row-start-8 rounded-2xl dark:bg-gray-700/30">
-			<p
-				className={`px-4 py-1 m-2 mt-2 ml-2 text-base tracking-wide text-gray-700 bg-orange-200 select-none 2k:px-4 2k:py-1 2k:text-xl dark:text-gray-200 h-fit w-fit rounded-xl dark:bg-purple-400/50 ${globalContext.font}`}
-			>
+		<div className="w-full h-64 bg-orange-100 border 2k:h-80 border-orange-900/30 dark:border-gray-700 rounded-2xl dark:bg-gray-700/30">
+			<p className="px-[1%] py-[0.1%] w-fit mt-[2%] ml-[2%] sm:mt-[0.8%] sm:ml-[0.8%] text-[1.8vh] rounded-xl dark:text-gray-200 tracking-wide text-gray-700 bg-orange-200 select-none dark:bg-purple-400/50">
 				{t("portfolio.detail")}
 			</p>
 			<p

@@ -47,17 +47,18 @@ function SocialButtonGroup() {
 	return (
 		<>
 			<TelegramShareButton
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-3/4 w-auto p-[2%] sm:p-[0.5%] select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
 				title={`PolyME | project - ${workCardContext.workCardData.title}`}
 				url={window.location.href}
 			>
 				<SuspenseImage
 					src={telegramIcon}
 					alt={`${workCardContext.workCardData.title}-share-telegram`}
+					className="w-full h-full"
 				/>
 			</TelegramShareButton>
 			<TwitterShareButton
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-3/4 w-auto p-[2%] sm:p-[0.5%] select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
 				title={`PolyME | project - ${workCardContext.workCardData.title}`}
 				url={window.location.href}
 				hashtags={["0xmmq", "project"]}
@@ -66,20 +67,22 @@ function SocialButtonGroup() {
 				<SuspenseImage
 					src={xIcon}
 					alt={`${workCardContext.workCardData.title}-share-x`}
+					className="w-full h-full"
 				/>
 			</TwitterShareButton>
 			<LineShareButton
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-3/4 w-auto p-[2%] sm:p-[0.5%] select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
 				title={`PolyME | project - ${workCardContext.workCardData.title}`}
 				url={window.location.href}
 			>
 				<SuspenseImage
 					src={lineIcon}
 					alt={`${workCardContext.workCardData.title}-share-line`}
+					className="w-full h-full"
 				/>
 			</LineShareButton>
 			<LinkedinShareButton
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-3/4 w-auto p-[2%] sm:p-[0.5%] select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
 				title={`PolyME | project - ${workCardContext.workCardData.title}`}
 				summary="Hi! Here's the link to 0xmmq's project. Check it out!"
 				source="PolyME"
@@ -88,10 +91,11 @@ function SocialButtonGroup() {
 				<SuspenseImage
 					src={linkedinIcon}
 					alt={`${workCardContext.workCardData.title}-share-linkedin`}
+					className="w-full h-full"
 				/>
 			</LinkedinShareButton>
 			<PinterestShareButton
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-3/4 w-auto p-[2%] sm:p-[0.5%] select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
 				title={`PolyME | project - ${workCardContext.workCardData.title}`}
 				description="0xmmq's project"
 				url={window.location.href}
@@ -100,40 +104,44 @@ function SocialButtonGroup() {
 				<SuspenseImage
 					src={pinterestIcon}
 					alt={`${workCardContext.workCardData.title}-share-pinterest`}
+					className="w-full h-full"
 				/>
 			</PinterestShareButton>
 			<FacebookShareButton
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-3/4 w-auto p-[2%] sm:p-[0.5%] select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
 				url={window.location.href}
 				hashtag={`PolyME | project - ${workCardContext.workCardData.title}`}
 			>
 				<SuspenseImage
 					src={facebookIcon}
 					alt={`${workCardContext.workCardData.title}-share-facebook`}
+					className="w-full h-full"
 				/>
 			</FacebookShareButton>
 			<RedditShareButton
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-3/4 w-auto p-[2%] sm:p-[0.5%] select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
 				url={window.location.href}
 				title={`PolyME | project - ${workCardContext.workCardData.title}`}
 			>
 				<SuspenseImage
 					src={redditIcon}
 					alt={`${workCardContext.workCardData.title}-share-reddit`}
+					className="w-full h-full"
 				/>
 			</RedditShareButton>
 			<WhatsappShareButton
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-3/4 w-auto p-[2%] sm:p-[0.5%] select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
 				url={window.location.href}
 				title={`PolyME | project - ${workCardContext.workCardData.title}`}
 			>
 				<SuspenseImage
 					src={whatsappIcon}
 					alt={`${workCardContext.workCardData.title}-share-whatsapp`}
+					className="w-full h-full"
 				/>
 			</WhatsappShareButton>
 			<EmailShareButton
-				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} 2k:h-12 2k:w-12 xl:h-8 xl:w-8 sm:h-12 sm:w-12 h-10 w-10 select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
+				className={`${workCardLinksContext.switchLinks === LinkGroup.SOCIAL ? "" : "hidden"} h-3/4 w-auto p-[2%] sm:p-[0.5%] select-none ${workCardContext.isSwitchingCard ? "animate-pulse" : ""} transition-all duration-300 xl:hover:scale-90`}
 				url={window.location.href}
 				subject={`PolyME | project - ${workCardContext.workCardData.title}`}
 				body="Hi! Here's the link to 0xmmq's project. Check it out!"
@@ -141,6 +149,7 @@ function SocialButtonGroup() {
 				<SuspenseImage
 					src={mailIcon}
 					alt={`${workCardContext.workCardData.title}-share-mail`}
+					className="w-full h-full"
 				/>
 			</EmailShareButton>
 		</>
