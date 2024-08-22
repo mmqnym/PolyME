@@ -19,7 +19,6 @@ function About() {
 				{t("portfolio.about")}
 			</p>
 			<Description />
-			{/* <div className="h-0.5 w-full border-t border-orange-900/30 dark:border-gray-700" /> */}
 			<Links />
 		</div>
 	);
