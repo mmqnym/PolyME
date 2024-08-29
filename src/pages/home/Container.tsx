@@ -23,7 +23,7 @@ function Container({ children }: { children: React.ReactNode }) {
 				<title>PolyME</title>
 				<meta
 					name="description"
-					content="PolyME is a 0xmmq's personal website, used to show information about experience, skills, portfolio, etc. Welcome to visit and contact me."
+					content="PolyME is the 0xmmq's personal website, used to show information about experience, skills, portfolio, etc. Welcome to visit and contact me."
 				/>
 				<meta property="og:title" content="PolyME" />
 				<meta property="og:url" content="https://mmq.dev/" />
@@ -31,7 +31,7 @@ function Container({ children }: { children: React.ReactNode }) {
 				<meta property="og:image:alt" content="PolyME-Home" />
 				<meta
 					property="og:description"
-					content="PolyME is a 0xmmq's personal website, used to show information about experience, skills, portfolio, etc. Welcome to visit and contact me."
+					content="PolyME is the 0xmmq's personal website, used to show information about experience, skills, portfolio, etc. Welcome to visit and contact me."
 				/>
 			</Helmet>
 			{children}
