@@ -3,7 +3,7 @@ import TimeLine from "./timeline/TimeLine";
 
 import IZANALogo from "../../general/assets/organizations/IzanaIndustries.webp";
 import KaijuOfCronosLogo from "../../general/assets/organizations/KaijuOfCronos.webp";
-import TMMLogo from "../../general/assets/organizations/TMM.webp";
+import DragonSoftLogo from "../../general/assets/organizations/dragonsoft.webp";
 import AXIS3DLogo from "../../general/assets/organizations/axis3d.webp";
 import N3LabsLogo from "../../general/assets/organizations/n3labs.webp";
 import { useTranslation } from "react-i18next";
@@ -13,13 +13,22 @@ function Experience() {
 
 	const timelineItems = [
 		{
-			title: t("experience.tmm.title"),
-			organization: t("experience.tmm.organization"),
-			location: t("experience.tmm.location"),
-			logo: TMMLogo,
-			time: t("experience.tmm.time"),
+			title: t("experience.dragonsoft.title"),
+			organization: t("experience.dragonsoft.organization"),
+			location: t("experience.dragonsoft.location"),
+			logo: DragonSoftLogo,
+			time: t("experience.dragonsoft.time"),
 			isCurrent: true,
-			content: t("experience.tmm.content"),
+			content: t("experience.dragonsoft.content"),
+		},
+		{
+			title: t("experience.axis3d-1.title"),
+			organization: t("experience.axis3d-1.organization"),
+			location: t("experience.axis3d-1.location"),
+			logo: AXIS3DLogo,
+			time: t("experience.axis3d-1.time"),
+			isCurrent: true,
+			content: t("experience.axis3d-1.content"),
 		},
 		{
 			title: t("experience.axis3d.title"),
@@ -27,7 +36,7 @@ function Experience() {
 			location: t("experience.axis3d.location"),
 			logo: AXIS3DLogo,
 			time: t("experience.axis3d.time"),
-			isCurrent: true,
+			isCurrent: false,
 			content: t("experience.axis3d.content"),
 		},
 		{
