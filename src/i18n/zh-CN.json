@@ -28,40 +28,47 @@
 		"Design": "设计"
 	},
 	"experience": {
-		"tmm": {
-			"title": "研究员",
-			"organization": "TMM Alpha·兼职",
-			"location": "台湾·远程",
-			"time": "2024.06 - 至今",
-			"content": "经历:\n1. 探索并研究 TON 区块链上的新项目，为社区提供天使轮和 VC 轮等早期投资机会。\n2. 协助运营社区。"
+		"dragonsoft": {
+			"title": "后端工程师",
+			"organization": "中华龙网股份有限公司・全职",
+			"location": "板桥区, 新北, 台湾",
+			"time": "2024.09 - 至今",
+			"content": "主要使用语言: Python, TypeScript, Golang\n技术栈: \n经历:\n1. 维护与优化产品所使用的数据库产出脚本。"
+		},
+		"axis3d-1": {
+			"title": "技术顾问",
+			"organization": "爱迪斯科技股份有限公司·兼职",
+			"location": "内湖区, 台北, 台湾",
+			"time": "2024.09 - 至今",
+			"content": "主要使用语言: Python, TypeScript, Golang, Solidity\n技术栈: FFMpeg, OpenCV, FastAPI, Gin, Tauri, React, Tailwind CSS, GCP\n经历:\n1. 协助维护产品与开发新功能。\n2. 提供技术知识服务。"
 		},
 		"axis3d": {
 			"title": "后端工程师",
 			"organization": "爱迪斯科技股份有限公司·全职",
 			"location": "内湖区, 台北, 台湾",
-			"time": "2023.05 - 至今",
-			"content": "技术栈: FFMpeg, OpenCV, FastAPI, Gin, Tauri, React, Tailwind CSS, Solidity, GCP\n经历:\n1. 开发与持续维护一项基于 AI 的相关多媒体产品，该产品在取得专利后，已在半年内为公司获利至少 400 万新台币。该产品同时也被运用在公司至少 5 个新案子上。\n2. 支持编写多个项目的后端系统以及 AI 相关应用代码。\n3. 规划与开发区块链游戏项目之后端系统与相关 EVM 合约，同时串接 Discord 以及 X Oauth 作为防治女巫攻击手段。\n4. 为公司开发与架设产品密钥验证服务器在 GCP 上，每售出一套产品，便能省去约新台币 1000 元的硬件密钥成本。\n5. 协助国家灾防中心的项目设置 GCB（GPO），为公司节省 60 万元。\n6. 2024 台南灯会全美戏院 AI 换脸开发。\n"
+			"time": "2023.05 - 2024.09·1 年 5 个月",
+			"content": "主要使用语言: Python, TypeScript, Golang, Solidity\n技术栈: FFMpeg, OpenCV, FastAPI, Gin, Tauri, React, Tailwind CSS, Solidity, GCP\n经历:\n1. 开发与持续维护一项基于 AI 的相关多媒体产品，该产品在取得专利后，已在半年内为公司获利至少 400 万新台币。该产品同时也被运用在公司至少 5 个新案子上。\n2. 支持编写多个项目的后端系统以及 AI 相关应用代码。\n3. 规划与开发区块链游戏项目之后端系统与相关 EVM 合约，同时串接 Discord 以及 X Oauth 作为防治女巫攻击手段。\n4. 为公司开发与架设产品密钥验证服务器在 GCP 上，每售出一套产品，便能省去约新台币 1000 元的硬件密钥成本。\n5. 协助国家灾防中心的项目设置 GCB（GPO），为公司节省 60 万元。\n6. 2024 台南灯会全美戏院 AI 换脸开发。\n"
 		},
 		"n3labs": {
 			"title": "社区中文管理员",
 			"organization": "N3 Labs·兼职",
 			"location": "千代田区, 东京, 日本·远程",
 			"time": "2022.10 - 2023.02·5 个月",
-			"content": "技术栈:\n1. 协助团队规划与设计线上活动。\n2. 设计活动相关艺术创作。\n3. 提供 Web3 信息安全建议。"
+			"content": "主要使用语言: \n技术栈:\n经历:\n1. 协助团队规划与设计线上活动。\n2. 设计活动相关艺术创作。\n3. 提供 Web3 信息安全建议。"
 		},
 		"izana": {
 			"title": "中文顾问",
 			"organization": "IZANA INDUSTRIES Ltd·兼职",
 			"location": "英属维京群岛·远程",
 			"time": "2022.09 - 2023.02·6 个月",
-			"content": "技术栈: React\n经历:\n1. 协助日本团队建置英文及中文版官方网页，使超过 3 万非日语使用者能够获取最新的信息。\n2. 提供 Web3 信息安全建议。\n3. 协助漫画翻译成英文及中文，同时英文版在当地有出版成册。"
+			"content": "主要使用语言: JavaScript\n技术栈: React\n经历:\n1. 协助日本团队建置英文及中文版官方网页，使超过 3 万非日语使用者能够获取最新的信息。\n2. 提供 Web3 信息安全建议。\n3. 协助漫画翻译成英文及中文，同时英文版在当地有出版成册。"
 		},
 		"kaiju-of-cronos": {
 			"title": "初级开发人员",
 			"organization": "Kaiju of Cronos·兼职",
 			"location": "美国·远程",
 			"time": "2022.07 - 2023.01·7 个月",
-			"content": "技术栈: Express, React, DiscordJS, BootStrap\n经历:\n1. 协助团队开发成员验证系统，供超过 2000 人使用，为团队省去持续的机器人支出及管理成本。"
+			"content": "主要使用语言: JavaScript\n技术栈: Express, React, DiscordJS, BootStrap\n经历:\n1. 协助团队开发成员验证系统，供超过 2000 人使用，为团队省去持续的机器人支出及管理成本。"
 		}
 	},
 	"portfolio": {
