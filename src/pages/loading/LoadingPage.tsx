@@ -1,63 +1,57 @@
 import { useEffect, useState } from "react";
 import logo from "../../../src/general/assets/logo.webp";
 import { Helmet } from "react-helmet";
+import { useTranslation } from "react-i18next";
 
 interface Props {
-	needTime: number;
+  needTime: number;
 }
 
 function LoadingPage({ needTime }: Props) {
-	const [progress, setProgress] = useState(0);
+  const { t } = useTranslation();
+  const [progress, setProgress] = useState(0);
 
-	// biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
-	useEffect(() => {
-		const intervalTime = 100 / needTime;
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
+  useEffect(() => {
+    const intervalTime = 100 / needTime;
 
-		const timer = setInterval(() => {
-			setProgress((prevProgress) => {
-				if (prevProgress >= 100) {
-					clearInterval(timer);
-					return 100;
-				}
-				return prevProgress + 1;
-			});
-		}, intervalTime);
+    const timer = setInterval(() => {
+      setProgress((prevProgress) => {
+        if (prevProgress >= 100) {
+          clearInterval(timer);
+          return 100;
+        }
+        return prevProgress + 1;
+      });
+    }, intervalTime);
 
-		return () => clearInterval(timer);
-	}, []);
+    return () => clearInterval(timer);
+  }, []);
 
-	return (
-		<>
-			<Helmet>
-				<title>Loading - PolyME</title>
-				<meta
-					name="description"
-					content="This is the loading page of 0xmmq's website."
-				/>
-			</Helmet>
-			<div className="flex flex-col items-center justify-center w-full h-screen bg-orange-50 dark:bg-black">
-				<div className="flex w-1/3 flex-col items-center justify-center sm:w-1/5 xl:w-[7%]">
-					<img
-						src={logo}
-						alt="logo"
-						className="w-4/5"
-						style={{ opacity: progress / 100 }}
-					/>
+  return (
+    <>
+      <Helmet>
+        <title>{t("navigator.Loading")} - PolyME</title>
+        <meta name="description" content="This is the loading page of 0xmmq's website." />
+      </Helmet>
+      <div className="flex flex-col items-center justify-center w-full h-screen bg-orange-50 dark:bg-black">
+        <div className="flex w-1/3 flex-col items-center justify-center sm:w-1/5 xl:w-[7%]">
+          <img src={logo} alt="logo" className="w-4/5" style={{ opacity: progress / 100 }} />
 
-					<div className="w-full h-2 mt-6 rounded-full bg-gray-700/30">
-						<div
-							className="h-full transition-all duration-300 ease-out rounded-full bg-gradient-to-r from-orange-500 via-amber-700 to-amber-900 dark:from-purple-300 dark:via-violet-500 dark:to-violet-600"
-							style={{ width: `${progress}%` }}
-						/>
-					</div>
+          <div className="w-full h-2 mt-6 rounded-full bg-gray-700/30">
+            <div
+              className="h-full transition-all duration-300 ease-out rounded-full bg-gradient-to-r from-orange-500 via-amber-700 to-amber-900 dark:from-purple-300 dark:via-violet-500 dark:to-violet-600"
+              style={{ width: `${progress}%` }}
+            />
+          </div>
 
-					<p className="w-full mt-5 text-3xl tracking-wide text-center text-gray-700 font-ubuntu dark:text-gray-300">
-						Loading...
-					</p>
-				</div>
-			</div>
-		</>
-	);
+          <p className="w-full mt-5 text-3xl tracking-wide text-center text-gray-700 font-ubuntu dark:text-gray-300">
+            Loading...
+          </p>
+        </div>
+      </div>
+    </>
+  );
 }
 
 export default LoadingPage;
