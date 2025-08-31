@@ -68,43 +68,46 @@ function LanguageSwitcher() {
     >
       <LanguageLogo className="w-8 transition-colors duration-300 fill-gray-500 hover:fill-amber-600 dark:fill-white/70 hover:dark:fill-purple-200" />
       {visible && (
-        <div
-          className={`fixed top-16 right-16 flex h-fit w-36 flex-col overflow-hidden rounded-lg bg-zinc-700/95 backdrop-blur-xl [animation-duration:0.5s] dark:bg-zinc-300/95 ${
-            fadeOut ? "animate-fade-back" : "animate-fade"
-          }`}
-        >
-          <button
-            type="button"
-            className="px-4 py-2 tracking-wide text-gray-100 transition-all duration-100 cursor-pointer font-ubuntu hover:bg-zinc-500/70 dark:text-gray-900 dark:hover:bg-zinc-400/90"
-            onClick={() => handleItemClicked("en")}
+        <>
+          <div className="fixed flex h-2 bg-transparent w-36 top-12 right-16"></div>
+          <div
+            className={`fixed top-14 right-16 flex h-fit w-36 flex-col overflow-hidden rounded-lg bg-zinc-700/95 backdrop-blur-xl [animation-duration:0.5s] dark:bg-zinc-300/95 ${
+              fadeOut ? "animate-fade-back" : "animate-fade"
+            }`}
           >
-            English
-          </button>
-          <div className="h-0.5 w-full bg-gray-200/50 dark:bg-gray-700" />
-          <button
-            type="button"
-            className="px-4 py-2 tracking-wide text-gray-100 transition-all duration-100 cursor-pointer font-ubuntu hover:bg-zinc-500/70 dark:text-gray-900 dark:hover:bg-zinc-400/90"
-            onClick={() => handleItemClicked("zh-TW")}
-          >
-            繁體中文
-          </button>
-          <div className="h-0.5 w-full bg-gray-200/50 dark:bg-gray-700" />
-          <button
-            type="button"
-            className="px-4 py-2 tracking-wide text-gray-100 transition-all duration-100 cursor-pointer font-ubuntu hover:bg-zinc-500/70 dark:text-gray-900 dark:hover:bg-zinc-400/90"
-            onClick={() => handleItemClicked("zh-CN")}
-          >
-            简体中文
-          </button>
-          <div className="h-0.5 w-full bg-gray-200/50 dark:bg-gray-700" />
-          <button
-            type="button"
-            className="px-4 py-2 tracking-wide text-gray-100 transition-all duration-100 cursor-pointer font-ubuntu hover:bg-zinc-500/70 dark:text-gray-900 dark:hover:bg-zinc-400/90"
-            onClick={() => handleItemClicked("ja-JP")}
-          >
-            日本語
-          </button>
-        </div>
+            <button
+              type="button"
+              className="px-4 py-2 tracking-wide text-gray-100 transition-all duration-100 cursor-pointer font-ubuntu hover:bg-zinc-500/70 dark:text-gray-900 dark:hover:bg-zinc-400/90"
+              onClick={() => handleItemClicked("en")}
+            >
+              English
+            </button>
+            <div className="h-0.5 w-full bg-gray-200/50 dark:bg-gray-700" />
+            <button
+              type="button"
+              className="px-4 py-2 tracking-wide text-gray-100 transition-all duration-100 cursor-pointer font-ubuntu hover:bg-zinc-500/70 dark:text-gray-900 dark:hover:bg-zinc-400/90"
+              onClick={() => handleItemClicked("zh-TW")}
+            >
+              繁體中文
+            </button>
+            <div className="h-0.5 w-full bg-gray-200/50 dark:bg-gray-700" />
+            <button
+              type="button"
+              className="px-4 py-2 tracking-wide text-gray-100 transition-all duration-100 cursor-pointer font-ubuntu hover:bg-zinc-500/70 dark:text-gray-900 dark:hover:bg-zinc-400/90"
+              onClick={() => handleItemClicked("zh-CN")}
+            >
+              简体中文
+            </button>
+            <div className="h-0.5 w-full bg-gray-200/50 dark:bg-gray-700" />
+            <button
+              type="button"
+              className="px-4 py-2 tracking-wide text-gray-100 transition-all duration-100 cursor-pointer font-ubuntu hover:bg-zinc-500/70 dark:text-gray-900 dark:hover:bg-zinc-400/90"
+              onClick={() => handleItemClicked("ja-JP")}
+            >
+              日本語
+            </button>
+          </div>
+        </>
       )}
     </div>
   );
