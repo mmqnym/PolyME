@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://mmq.dev/sitemap.xml
+
+# Host
+Host: https://mmq.dev

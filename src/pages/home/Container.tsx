@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { NavigatorContext } from "../../context/navigatorContext";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
+import StructuredData from "../../components/StructuredData";
 
 function Container({ children }: { children: React.ReactNode }) {
   const navigatorContext = useContext(NavigatorContext);
@@ -36,6 +37,8 @@ function Container({ children }: { children: React.ReactNode }) {
           content="PolyME is the 0xmmq's personal website, used to show information about experience, skills, portfolio, etc. Welcome to visit and contact me."
         />
       </Helmet>
+      <StructuredData type="person" />
+      <StructuredData type="website" />
       {children}
     </div>
   );

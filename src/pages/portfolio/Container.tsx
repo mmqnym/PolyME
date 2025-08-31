@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { NavigatorContext } from "../../context/navigatorContext";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
+import StructuredData from "../../components/StructuredData";
 
 function Container({ children }: { children: React.ReactNode }) {
   const navigatorContext = useContext(NavigatorContext);
@@ -36,6 +37,7 @@ function Container({ children }: { children: React.ReactNode }) {
           content="This page shows projects that are key to growing 0xmmq's development skills."
         />
       </Helmet>
+      <StructuredData type="portfolio" />
       {children}
     </div>
   );
