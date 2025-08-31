@@ -12,20 +12,22 @@ import quickCertsData from "./workCardData/quickcerts";
 import recipeMasterData from "./workCardData/recipeMaster";
 import travelLineBotData from "./workCardData/travelLineBot";
 import vishybridData from "./workCardData/vishybrid";
+import cpe23ConversionToolData from "./workCardData/cpe23ConversionTool";
 
 type WorkCardDataMap = Record<string, WorkCardProps>;
 
 export const workCardDataMap: WorkCardDataMap = {
-	PolyME: polymeData,
-	QuickCerts: quickCertsData,
-	JumpCross: jumpcrossData,
-	VisHybrid: vishybridData,
-	PwdPort: pwdPortData,
-	AutoInteracter: autoInteracterData,
-	"Discord Member Verification System": discordMemberVerificationSystemData,
-	"NFT Market Sniper": nftMarketSniperData,
-	GoInk: goinkData,
-	"Travel Line Bot": travelLineBotData,
-	RecipeMaster: recipeMasterData,
-	MyMemo: mymemoData,
+  PolyME: polymeData,
+  "CPE23 Conversion Tool": cpe23ConversionToolData,
+  QuickCerts: quickCertsData,
+  JumpCross: jumpcrossData,
+  VisHybrid: vishybridData,
+  PwdPort: pwdPortData,
+  AutoInteracter: autoInteracterData,
+  "Discord Member Verification System": discordMemberVerificationSystemData,
+  "NFT Market Sniper": nftMarketSniperData,
+  GoInk: goinkData,
+  "Travel Line Bot": travelLineBotData,
+  RecipeMaster: recipeMasterData,
+  MyMemo: mymemoData,
 };
