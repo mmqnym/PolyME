@@ -4,7 +4,8 @@
 		"Stack": "Stack",
 		"Experience": "Experience",
 		"Portfolio": "Portfolio",
-		"Links": "Links"
+		"Links": "Links",
+		"Loading": "Loading"
 	},
 	"profile": {
 		"greeting": "Hello! I am",

@@ -4,7 +4,8 @@
 		"Stack": "技术栈",
 		"Experience": "经历",
 		"Portfolio": "作品集",
-		"Links": "链接"
+		"Links": "链接",
+		"Loading": "加载中"
 	},
 	"profile": {
 		"greeting": "嗨！我是",
