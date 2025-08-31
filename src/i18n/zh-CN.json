@@ -29,17 +29,17 @@
 	},
 	"experience": {
 		"dragonsoft": {
-			"title": "后端工程师",
+			"title": "研发工程师",
 			"organization": "中华龙网股份有限公司・全职",
 			"location": "板桥区, 新北, 台湾",
 			"time": "2024.09 - 至今",
-			"content": "主要使用语言: Python, TypeScript, Golang\n技术栈: \n经历:\n1. 维护与优化产品所使用的数据库产出脚本。"
+			"content": "主要使用语言: Python, TypeScript, Golang\n技术栈: Gin, Cobra, React, Tailwind CSS, AWS\n经历:\n1. 对漏洞、合规数据库构建的相关工具进行程序语言迁移、重构与后续维护，使代码架构更易维护。\n2. 重新设计公司 CPE2.3 转换工具算法，使效率提升 20 倍，并有效提高可扩展性和可维护性。\n3. 公司产品新增功能与维护。\n4. 参与 CyCraft Technology(奧義智慧・台湾) 合作项目 - SEMI E187 产品开发。\n5. 开发并上架公司产品更新平台的前后端，将每次更新使用的下载流量减少约 90%，时间由 20 分钟缩短至 5 秒内。\n6. 开发公司 CLI 工具供产品端点使用，提供更新、执行客户端命令等功能。"
 		},
 		"axis3d-1": {
 			"title": "技术顾问",
 			"organization": "爱迪斯科技股份有限公司·兼职",
 			"location": "内湖区, 台北, 台湾",
-			"time": "2024.09 - 至今",
+			"time": "2024.09 - 2025.09·1 年",
 			"content": "主要使用语言: Python, TypeScript, Golang, Solidity\n技术栈: FFMpeg, OpenCV, FastAPI, Gin, Tauri, React, Tailwind CSS, GCP\n经历:\n1. 协助维护产品与开发新功能。\n2. 提供技术知识服务。"
 		},
 		"axis3d": {

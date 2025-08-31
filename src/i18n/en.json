@@ -29,17 +29,17 @@
 	},
 	"experience": {
 		"dragonsoft": {
-			"title": "Backend Engineer",
+			"title": "R&D Engineer",
 			"organization": "DragonSoft Security Associates, Inc.・Full time",
 			"location": "Banqiao, New Taipei, Taiwan",
 			"time": "2024.09 - Present",
-			"content": "Mainly use: Python, TypeScript, Golang\nStack: \nExperience:\n1. Maintain and optimize database output scripts to ensure the product operates correctly."
+			"content": "Mainly use: Python, TypeScript, Golang\nStack: Gin, Cobra, React, Tailwind CSS, AWS\nExperience:\n1. Migrate, refactor, and maintain tools related to vulnerability and compliance database construction, making the code architecture more maintainable.\n2. Refactoring the company's CPE2.3 conversion tool algorithm resulted in a 20x efficiency improvement while significantly enhancing scalability and maintainability.\n3. Addition of new features and maintenance for company products.\n4. Collaborated with CyCraft Technology(Taiwan) to develop SEMI E187 product(ICS Security Protection).\n5. Developed the frontend and backend for the company's product update platform, reducing download traffic per update by approximately 90% and cutting update time from 20 minutes to under 5 seconds.\n6. Develop a company CLI tool for product endpoints, providing features such as updates and executing client commands."
 		},
 		"axis3d-1": {
 			"title": "Technical consultant",
 			"organization": "Axis3D Technology Co., LTD・Part time",
 			"location": "Neihu, Taipei, Taiwan",
-			"time": "2024.09 - Present",
+			"time": "2024.09 - 2025.09・12 months",
 			"content": "Mainly use: Python, TypeScript, Golang, Solidity\nStack: FFMpeg, OpenCV, FastAPI, Gin, Tauri, React, Tailwind CSS, GCP\nExperience:\n1. Assist in maintaining products and developing new features.\n2. Provide technical knowledge services."
 		},
 		"axis3d": {

@@ -29,17 +29,17 @@
 	},
 	"experience": {
 		"dragonsoft": {
-			"title": "バックエンドエンジニア",
-			"organization": "DragonSoft Security Associates, Inc.・Full time",
+			"title": "研究開発エンジニア",
+			"organization": "DragonSoft Security Associates, Inc.・フルタイム",
 			"location": "板橋区, 新北市, 台湾",
 			"time": "2024.09 - 現在",
-			"content": "プログラミング言語：Python, TypeScript, Golang\n技術スタック: \n経歴:\n1. データベースの出力スクリプトを維持および最適化し、プロダクトが正しく動作するようにする。"
+			"content": "プログラミング言語：Python, TypeScript, Golang\n技術スタック: Gin, Cobra, React, Tailwind CSS, AWS\n経歴:\n1. 脆弱性およびコンプライアンスデータベース構築に関連するツールのプログラム言語変更、リファクタリング、およびその後のメンテナンスを実施し、コードアーキテクチャのメンテナンスをより簡単にします。\n2. 会社のCPE2.3変換ツールアルゴリズムを再設計し、効率を20倍向上させるとともに、スケール性とメンテナンス性を効果的に改善した。\n3. 会社製品の機能追加とメンテナンス。\n4. カブシキガイシャサイクラフト(奧義智慧・台湾)と共同でSEMI E187（ICS Security Protection）製品を開発。\n5. 会社の製品更新プラットフォームの前後端を開発・リリースし、更新ごとのダウンロードトラフィックを約90%削減、時間を20分から5秒以内に短縮した。\n6. 会社のCLIツールを開発し、製品エンドポイント向けに提供しています。更新やクライアントコマンドの実行などの機能を備えています。"
 		},
 		"axis3d-1": {
 			"title": "テクニカルコンサルタント",
 			"organization": "Axis3D Technology Co., LTD・パートタイム",
 			"location": "内湖区, 台北市, 台湾",
-			"time": "2023.09 - 現在",
+			"time": "2023.09 - 2025.09・1 年",
 			"content": "プログラミング言語：Python, TypeScript, Golang, Solidity\n技術スタック: FFMpeg, OpenCV, FastAPI, Gin, Tauri, React, Tailwind CSS, GCP\n経歴:\n1. プロダクトのメンテナンスと新機能の開発を支援。\n2. 技術知識サービスを提供する。"
 		},
 		"axis3d": {
@@ -54,7 +54,7 @@
 			"organization": "N3 Labs・パートタイム",
 			"location": "千代田区, 東京都, 日本・リモート",
 			"time": "2022.10 - 2023.02・5ヶ月間",
-			"content": "プログラミング言語：\n経歴：\n技術スタック：\n1. チームのオンラインイベントの企画・デザインをサポート。\n2. イベント用のアート関連作品をデザイン。\n3. Web3セキュリティに関する推奨事項を提供。"
+			"content": "プログラミング言語：\n技術スタック：\n経歴：\n1. チームのオンラインイベントの企画・デザインをサポート。\n2. イベント用のアート関連作品をデザイン。\n3. Web3セキュリティに関する推奨事項を提供。"
 		},
 		"izana": {
 			"title": "中国語コンサルタント",

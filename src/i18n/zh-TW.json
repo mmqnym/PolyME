@@ -29,17 +29,17 @@
 	},
 	"experience": {
 		"dragonsoft": {
-			"title": "後端工程師",
+			"title": "研發工程師",
 			"organization": "中華龍網股份有限公司・全職",
 			"location": "板橋區, 新北, 台灣",
 			"time": "2024.09 - 現在",
-			"content": "主要使用語言: Python, TypeScript, Golang\n技術棧: \n經歷:\n1. 維護與優化資料庫的產出腳本，用於讓產品正確運作。"
+			"content": "主要使用語言: Python, TypeScript, Golang\n技術棧: Gin, Cobra, React, Tailwind CSS, AWS\n經歷:\n1. 對漏洞、合規資料庫構建的相關工具進行程式語言遷移、重構與後續維護，使程式碼架構更易維護。\n2. 重新設計公司 CPE2.3 轉換工具演算法，使效率提升 20 倍，並有效提高可擴充性與可維護性。\n3. 公司產品新增功能與維護。\n4. 參與奧義智慧合作案 - SEMI E187 產品開發。\n5. 開發與上架公司產品更新平台前後端，將每次更新使用的下載流量減少約 90%、時間由 20 分鐘縮短至 5 秒內。\n6. 開發公司 CLI 工具供產品端點使用，提供更新、執行客戶端命令等功能。"
 		},
 		"axis3d-1": {
 			"title": "技術顧問",
 			"organization": "愛迪斯科技股份有限公司・兼職",
 			"location": "內湖區, 台北, 台灣",
-			"time": "2024.09 - 現在",
+			"time": "2024.09 - 2025.09・1 年",
 			"content": "主要使用語言: Python, TypeScript, Golang, Solidity\n技術棧: FFMpeg, OpenCV, FastAPI, Gin, Tauri, React, Tailwind CSS, GCP\n經歷:\n1. 協助維護產品與開發新功能。\n2. 提供技術知識服務。"
 		},
 		"axis3d": {
