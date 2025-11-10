@@ -19,7 +19,7 @@ function StructuredData({ type }: StructuredDataProps) {
           jobTitle: "InfoSec Software Engineer",
           worksFor: {
             "@type": "Organization",
-            name: "DragonSoft Security Associates, Inc.",
+            name: "TeamT5, Inc.",
           },
           knowsAbout: ["Go", "React", "TypeScript", "Node.js", "Python", "InfoSec", "Cybersecurity", "CPE", "CVE"],
           description:
@@ -44,6 +44,7 @@ function StructuredData({ type }: StructuredDataProps) {
           "@context": "https://schema.org",
           "@type": "WebSite",
           name: "PolyME",
+          image: "https://mmq.dev/main.png",
           description:
             "PolyME is the 0xmmq's personal website, used to show information about experience, skills, portfolio, etc.",
           url: "https://mmq.dev",

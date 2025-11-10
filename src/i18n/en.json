@@ -13,9 +13,9 @@
 		"real-name": "Wei Tzu Hsiang",
 		"job-title": "Infosec Software Engineer",
 		"job-title-alt": "Software Engineer",
-		"description-1": "I am a software engineer passionate about development and technical research. Previously focused on blockchain-related technologies, currently serving as a research and development engineer in information security, continuously advancing into inforsec software and secure software development.",
-		"description-2": "My passion lies in information technology. My daily interests include regularly tracking and learning about various new technologies and information security knowledge. I often write technical articles and study notes, while also taking certification exams to ensure my skills keep up with trends.",
-		"description-3": "I have developed numerous independent and open-source projects and collaborated with teams both domestically and internationally. Currently, I spend most of my time on development and research in the field of information security. For any project inquiries or business collaboration opportunities, please feel free to contact me.",
+		"description-1": "Hi! I'm mq, a R&D engineer in the cybersecurity field. I possess extensive experience in blockchain-related technologies and cybersecurity knowledge, having developed several DApps and also discovered vulnerabilities in DApps. Currently specializing in software development within cybersecurity and vulnerability discovery, my scope covers compliance management, vulnerability scanning, threat intelligence gathering, vulnerability research, and more. My goal is to continuously deepen my expertise in cybersecurity and become an irreplaceable software security development expert in the AI era.",
+		"description-2": "I have previously engaged in the planning, development, and contribution to numerous independent and open-source projects. I possess commercial collaboration experience with teams both domestically and internationally, including Japan and the US, and am well-versed in various partnership models. My overall experience covers product planning, software development, DApp development, investment research analysis, investment technical analysis, and cybersecurity consultancy.",
+		"description-3": "For any questions regarding my projects or to discuss commercial collaborations, feel free to click the button below to contact me.",
 		"readmore-btn": "Read More",
 		"contact-btn": "Contact"
 	},
@@ -29,12 +29,19 @@
 		"Design": "Design"
 	},
 	"experience": {
+		"teamt5": {
+			"title": "Backend Engineer",
+			"organization": "TeamT5 Inc.・Full time",
+			"location": "Songshan, Taipei, Taiwan",
+			"time": "2025.12 - Present",
+			"content": ""
+		},
 		"dragonsoft": {
 			"title": "R&D Engineer",
 			"organization": "DragonSoft Security Associates, Inc.・Full time",
 			"location": "Banqiao, New Taipei, Taiwan",
-			"time": "2024.09 - Present",
-			"content": "Mainly use: Python, TypeScript, Golang\nStack: Gin, Cobra, React, Tailwind CSS, AWS\nExperience:\n1. Migrate, refactor, and maintain tools related to vulnerability and compliance database construction, making the code architecture more maintainable.\n2. Refactoring the company's CPE2.3 conversion tool algorithm resulted in a 20x efficiency improvement while significantly enhancing scalability and maintainability.\n3. Addition of new features and maintenance for company products.\n4. Collaborated with CyCraft Technology(Taiwan) to develop SEMI E187 product(ICS Security Protection).\n5. Developed the frontend and backend for the company's product update platform, reducing download traffic per update by approximately 90% and cutting update time from 20 minutes to under 5 seconds.\n6. Develop a company CLI tool for product endpoints, providing features such as updates and executing client commands."
+			"time": "2024.09 - 2025.11・14 months",
+			"content": "Mainly use: Python, TypeScript, Golang\nStack: Gin, Cobra, React, Tailwind CSS, AWS\nExperience:\n1. Migrate, refactor, and maintain tools related to vulnerability and compliance database construction, making the code architecture more maintainable.\n2. Refactoring the company's CPE2.3 conversion tool algorithm resulted in a 20x efficiency improvement while significantly enhancing scalability and maintainability.\n3. Develop new features and maintain company products, primarily responsible for services related to Vans (Vulnerability Analysis and Notice System).\n4. Collaborated with CyCraft Technology(Taiwan) to the SEMI E187 product (ICS Security Protection), primarily responsible for the vulnerability scanning functionality.\n5. Developed the frontend and backend for the company's product update platform, reducing download traffic per update by approximately 90% and cutting update time from 20 minutes to under 5 seconds.\n6. Developed a CLI tool for client-side use, significantly simplifying client update and proxy generation workflows."
 		},
 		"axis3d-1": {
 			"title": "Technical consultant",

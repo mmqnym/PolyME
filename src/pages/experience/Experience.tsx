@@ -3,6 +3,7 @@ import TimeLine from "./timeline/TimeLine";
 
 import IZANALogo from "../../general/assets/organizations/IzanaIndustries.webp";
 import KaijuOfCronosLogo from "../../general/assets/organizations/KaijuOfCronos.webp";
+import TeamT5Logo from "../../general/assets/organizations/teamt5.webp";
 import DragonSoftLogo from "../../general/assets/organizations/dragonsoft.webp";
 import AXIS3DLogo from "../../general/assets/organizations/axis3d.webp";
 import N3LabsLogo from "../../general/assets/organizations/n3labs.webp";
@@ -13,12 +14,21 @@ function Experience() {
 
   const timelineItems = [
     {
+      title: t("experience.teamt5.title"),
+      organization: t("experience.teamt5.organization"),
+      location: t("experience.teamt5.location"),
+      logo: TeamT5Logo,
+      time: t("experience.teamt5.time"),
+      isCurrent: true,
+      content: t("experience.teamt5.content"),
+    },
+    {
       title: t("experience.dragonsoft.title"),
       organization: t("experience.dragonsoft.organization"),
       location: t("experience.dragonsoft.location"),
       logo: DragonSoftLogo,
       time: t("experience.dragonsoft.time"),
-      isCurrent: true,
+      isCurrent: false,
       content: t("experience.dragonsoft.content"),
     },
     {
