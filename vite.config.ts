@@ -13,6 +13,16 @@ const PWAConfig: Partial<VitePWAOptions> = {
     maximumFileSizeToCacheInBytes: 15 * 1024 * 1024, // 15MB
     runtimeCaching: [
       {
+        urlPattern: /^https:\/\/www\.googletagmanager\.com\/.*/,
+        handler: "StaleWhileRevalidate",
+        options: {
+          cacheName: "google-tag-manager",
+          cacheableResponse: {
+            statuses: [0, 200],
+          },
+        },
+      },
+      {
         urlPattern: ({ url }) => {
           return url.pathname.startsWith("/");
         },
